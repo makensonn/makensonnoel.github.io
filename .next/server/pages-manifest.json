@@ -1,0 +1,17 @@
+{
+  "/_document": "pages/_document.js",
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/": "pages/index.html",
+  "/academic": "pages/academic.html",
+  "/cpp": "pages/cpp.html",
+  "/java": "pages/java.html",
+  "/netflix": "pages/netflix.html",
+  "/property": "pages/property.html",
+  "/twitch": "pages/twitch.html",
+  "/python": "pages/python.html",
+  "/mobile": "pages/mobile.html",
+  "/resume": "pages/resume.html",
+  "/web": "pages/web.html",
+  "/404": "pages/404.html"
+}
