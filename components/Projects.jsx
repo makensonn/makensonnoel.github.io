@@ -29,31 +29,31 @@ const Projects = () => {
             title='Web Development'
             backgroundImg={webImg}
             projectUrl='/web'
-            tech='Websites including To-do-list, cof, cogopt.org, and more.'
+            tech='Websites including To-do-list and more.'
           />
           <ProjectItem
             title='C++ Development'
             backgroundImg={cppImg}
             projectUrl='/cpp'
-            tech='C++ procjects including Arduino Smart Home, ageCalc, RPS, and more.'
+            tech='C++ procjects including Rock, Paper, Scissors, and more.'
           />
           <ProjectItem
             title='Python Development'
             backgroundImg={pythonImg}
             projectUrl='/python'
-            tech='Python projects including Budget tool, 456, Haitian Flag, and more.'
+            tech='Python projects including Budget tool and more.'
           />
           <ProjectItem
             title='Java Development'
             backgroundImg={javaImg}
             projectUrl='/java'
-            tech='Java projects including Hotel Occupancy, Miles per gallon, Multiplication Table, and more.'
+            tech='Java projects including Hotel Occupancy and more.'
           />
           <ProjectItem
             title='Mobile Development'
             backgroundImg={mobileImg}
             projectUrl='/mobile'
-            tech='Mobile Apps including React Fappy Bird, and more.'
+            tech='Mobile Apps including React Fappy Bird and more.'
           />
           <ProjectItems
             title='Academic Development'

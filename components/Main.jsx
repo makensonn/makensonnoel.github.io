@@ -16,7 +16,6 @@ const Main = () => {
           <h1 className='py-4 text-gray-700'>
             <span className='text-[#0a192f]'> Makenson Noel</span>
           </h1>
-          <h1 className='py-2 text-zinc-600'>I'm a Software Engineer</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
           I developed this website using Firebase, Express.js, React.js, Next.js, Node.js and Tailwind CSS.
           </p>
