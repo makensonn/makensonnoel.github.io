@@ -12,13 +12,13 @@ const About = () => {
         <div className='col-span-2'>
           <p className={titleStyle}><br></br><br></br>About</p>
           <p className='py-2 text-gray-600'>
-          I'm a first genreation STEM college graduate. I atteneded Florida Atlantic University, 
+          I'm a first genreation STEM college graduate. I attended Florida Atlantic University, 
           where I obtained a Bachelor of Science in Computer Science degree.
           I enjoy writing code and have been developing software for 
           several years with multiple contributions to open source code on GitHub. I've taken on 
           leadership roles and developed an award winning app in a hackathon at Broward College. 
-          I am proficient in C++, Python, Java, JavaScript, HTML, CSS and adaptive with 
-          learning programming languages, frameworks, tech stacks and new technologies. 
+          I am proficient in C++, Python, Java, JavaScript, HTML, CSS, and adaptive with 
+          learning programming languages, frameworks, tech stacks, and new technologies. 
           I enjoy the software development process, finding solutions to challenging 
           problems, and collaborating with teams to improve software applications.
           </p>
