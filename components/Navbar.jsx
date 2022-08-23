@@ -134,7 +134,7 @@ const Navbar = () => {
             </div>
             <div className='border-b border-gray-300 my-4'>
               <p className='w-[85%] md:w-[90%] py-4'>
-                I developed this website using Firebase, Express.js, React.js, Next.js, Node.js and Tailwind CSS.
+                I developed this website using THE FERN Stack.
               </p>
             </div>
           </div>
