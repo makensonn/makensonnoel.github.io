@@ -20,7 +20,7 @@ const Web = () => {
     <div id='web' className='w-full'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
         <p className = {titleStyle}><br></br><br></br>Web Development Projects</p>
-        <p className='py-6'>// View projects</p>
+        <p className='py-6'>View projects</p>
 
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItems

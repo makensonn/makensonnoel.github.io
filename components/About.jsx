@@ -14,7 +14,7 @@ const About = () => {
           <p className='py-2 text-gray-600'>
           I'm a first genreation STEM college graduate. I obtained a Bachelor of Science in Computer Science 
           from Florida Atlantic University. I enjoy writing code and have been developing software for 
-          several years with multiple contributions to open source code on GitHub. I’ve taken on 
+          several years with multiple contributions to open source code on GitHub. I've taken on 
           leadership roles and developed an award winning app in a hackathon at Broward College. 
           I am proficient in C++, Python, Java, JavaScript, HTML, CSS and adaptive with 
           learning programming languages, frameworks, tech stacks and new technologies. 

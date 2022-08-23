@@ -1,5 +1,6 @@
 {
-  "name": "portfolio-nextjs",
+  "homepage": "https://makenson.com/",
+  "name": "makenson.github.io",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -17,11 +18,11 @@
     "gh-pages": "^4.0.0",
     "gitignore": "^0.7.0",
     "next": "^12.2.5",
+    "node": "^16.17.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
-    "sharp": "^0.30.7",
-    "tailwind": "^4.0.0"
+    "sharp": "^0.30.7"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
