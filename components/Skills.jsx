@@ -25,7 +25,7 @@ const Skills = () => {
     <div id='skills' className='w-full lg:h-screen p-2'>
       <div className={just}>
         <p className={titleStyle}><br></br><br></br>Skills</p>
-        <p className='py-4'>These are the langauges I've worked with<br></br></p>
+        <p className='py-4'><br></br></p>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
 
         <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>

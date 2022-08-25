@@ -6,8 +6,8 @@
   "/cpp": "pages/cpp.html",
   "/": "pages/index.html",
   "/_error": "pages/_error.js",
-  "/web": "pages/web.html",
   "/mobile": "pages/mobile.html",
   "/python": "pages/python.html",
+  "/web": "pages/web.html",
   "/404": "pages/404.html"
 }

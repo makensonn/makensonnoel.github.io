@@ -29,13 +29,13 @@ const Projects = () => {
             title='Web Development'
             backgroundImg={webImg}
             projectUrl='/web'
-            tech='Websites including To-do-list and more.'
+            tech='Websites'
           />
           <ProjectItem
             title='Mobile Development'
             backgroundImg={mobileImg}
             projectUrl='/mobile'
-            tech='Mobile Apps including React Fappy Bird and more.'
+            tech='Mobile Apps'
           />
          { /*<ProjectItem
             title='C++ Development'
@@ -53,7 +53,7 @@ const Projects = () => {
             title='Java Development'
             backgroundImg={javaImg}
             projectUrl='/java'
-            tech='Java projects including Hotel Occupancy and more.'
+            tech='Backend Java Apps'
           />
           <ProjectItems
             title='Academic Development'
