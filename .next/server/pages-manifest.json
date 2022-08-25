@@ -1,13 +1,13 @@
 {
+  "/academic": "pages/academic.html",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/_error": "pages/_error.js",
-  "/": "pages/index.html",
-  "/mobile": "pages/mobile.html",
   "/java": "pages/java.html",
   "/cpp": "pages/cpp.html",
-  "/academic": "pages/academic.html",
-  "/python": "pages/python.html",
+  "/": "pages/index.html",
+  "/_error": "pages/_error.js",
   "/web": "pages/web.html",
+  "/mobile": "pages/mobile.html",
+  "/python": "pages/python.html",
   "/404": "pages/404.html"
 }
