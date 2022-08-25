@@ -49,24 +49,7 @@ const Navbar = ()=>{
     const { 0: shadow , 1: setShadow  } = (0,external_react_.useState)(false);
     const { 0: navBg , 1: setNavBg  } = (0,external_react_.useState)("#ecf0f3");
     const { 0: linkColor , 1: setLinkColor  } = (0,external_react_.useState)("#1f2937");
-    // const [position, setPosition] = useState('fixed')
-    // const router = useRouter();
-    // useEffect(() => {
-    //   if (
-    //     router.asPath === '/property' ||
-    //     router.asPath === '/crypto' ||
-    //     router.asPath === '/netflix' ||
-    //     router.asPath === '/twitch'
-    //   ) {
-    //     setNavBg('transparent');
-    //     setLinkColor('#ecf0f3');
-    //   } else {
-    //     setNavBg('#ecf0f3');
-    //     setLinkColor('#1f2937');
-    //   }
-    // }, [router]);
-    const navBarStyle = "fixed z-10 w-full h-[64px] flex justify-between items-center px-4 bg-[#0a192f] text-white-300";
-    const oldNaveStyle = "flex justify-between items-center w-full h-full px-2 2xl:px-16";
+    const navBarStyle = "flex justify-between items-center w-full h-full px-2 2xl:px-16";
     const handleNav = ()=>{
         setNav(!nav);
     };
@@ -87,7 +70,7 @@ const Navbar = ()=>{
         className: shadow ? "fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300" : "fixed w-full h-20 z-[100]",
         children: [
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: oldNaveStyle,
+                className: navBarStyle,
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                         href: "/",
@@ -192,7 +175,7 @@ const Navbar = ()=>{
                                     className: "border-b border-gray-300 my-4",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                         className: "w-[85%] md:w-[90%] py-4",
-                                        children: "Let's build something legendary together"
+                                        children: "I developed this website using the FERN Stack."
                                     })
                                 })
                             ]
@@ -236,14 +219,6 @@ const Navbar = ()=>{
                                             })
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                            href: "/resume",
-                                            children: /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                onClick: ()=>setNav(false),
-                                                className: "py-4 text-sm",
-                                                children: "Resume"
-                                            })
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                             href: "/#contact",
                                             children: /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                                 onClick: ()=>setNav(false),
@@ -257,7 +232,7 @@ const Navbar = ()=>{
                                     className: "pt-40",
                                     children: [
                                         /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                            className: "uppercase tracking-widest text-[#5651e5]",
+                                            className: "uppercase tracking-widest text-[#0a192f]",
                                             children: "Let's Connect"
                                         }),
                                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -289,8 +264,9 @@ const Navbar = ()=>{
                                                         children: /*#__PURE__*/ jsx_runtime_.jsx(ai_.AiOutlineMail, {})
                                                     })
                                                 }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                                    href: "/resume",
+                                                /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                                    href: "https://drive.google.com/drive/folders/1RjitJ1TRsskAJgX2kx5aIXJ1nanW0Rj5?usp=sharing",
+                                                    target: "_blank",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                         onClick: ()=>setNav(!nav),
                                                         className: "rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300",
