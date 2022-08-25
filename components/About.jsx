@@ -17,7 +17,7 @@ const About = () => {
           I enjoy writing code and have been developing software for 
           several years with multiple contributions to open source code on GitHub. I've taken on 
           leadership roles and developed an award winning app in a hackathon at Broward College. 
-          I am proficient in C++, Python, Java, JavaScript, HTML, CSS, and adaptive with 
+          I am proficient in Java, JavaScript, HTML, CSS, and adaptive with 
           learning programming languages, frameworks, tech stacks, and new technologies. 
           I enjoy the software development process, finding solutions to challenging 
           problems, and collaborating with teams to improve software applications.
