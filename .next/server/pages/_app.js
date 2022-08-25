@@ -117,7 +117,7 @@ const Navbar = ()=>{
                                         className: "ml-10 text-sm uppercase hover:border-b",
                                         children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                             href: "/#projects",
-                                            children: "Projects"
+                                            children: "Experience"
                                         })
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("li", {
@@ -215,7 +215,7 @@ const Navbar = ()=>{
                                             children: /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                                 onClick: ()=>setNav(false),
                                                 className: "py-4 text-sm",
-                                                children: "Projects"
+                                                children: "Experience"
                                             })
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
