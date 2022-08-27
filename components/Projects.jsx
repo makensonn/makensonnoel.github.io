@@ -8,6 +8,8 @@ import pythonImg from '../public/assets/projects/python.png';
 import javaImg from '../public/assets/projects/java.png';
 import mobileImg from '../public/assets/projects/mobile.png';
 import academicImg from '../public/assets/projects/academic.png';
+import nodeImg from '../public/assets/projects/node.png';
+
 
 import ProjectItem from './ProjectItem';
 import ProjectItems from '../components/ProjectItems';
@@ -50,10 +52,10 @@ const Projects = () => {
             tech='Python projects including Budget tool and more.'
   /> */}
           <ProjectItem
-            title='Java Development'
-            backgroundImg={javaImg}
-            projectUrl='/java'
-            tech='Backend Java Apps'
+            title='JavaScript'
+            backgroundImg={nodeImg}
+            projectUrl='/javascript'
+            tech='Backend Development'
           />
           <ProjectItems
             title='Academic Development'
