@@ -3,10 +3,10 @@ import Link from 'next/link';
 import React from 'react';
 import { HiOutlineChevronDoubleLeft } from 'react-icons/hi';
 
-import averageImg from '../public/assets/projects/java/average.png';
-import entreeImg from '../public/assets/projects/java/entree.png';
-import hotelImg from '../public/assets/projects/java/hotel.png';
-import milesImg from '../public/assets/projects/java/miles.png';
+import diceImg from '../public/assets/projects/node/dice.png';
+import mathImg from '../public/assets/projects/node/math.png';
+import hotelImg from '../public/assets/projects/node/hotel.png';
+import rpsImg from '../public/assets/projects/node/rps.png';
 
 import ProjectItems from '../components/ProjectItems';
 
@@ -24,16 +24,16 @@ const Javascript = () => {
 
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItems
-            title='Averages'
-            backgroundImg={averageImg}
-            projectUrl='https://replit.com/@MakensonNoel/Averages-Nodejs#index.js'
+            title='Math Game'
+            backgroundImg={mathImg}
+            projectUrl='https://replit.com/@MakensonNoel/mathGame#index.js'
             tech='JavaScript'
           />
 
           <ProjectItems
-              title='Entree Price'
-              backgroundImg={entreeImg}
-              projectUrl='https://replit.com/@MakensonNoel/Entree-Nodejs#index.js'
+              title='RPS Game'
+              backgroundImg={rpsImg}
+              projectUrl='https://replit.com/@MakensonNoel/rpsGame#index.js'
               tech='JavaScript'
           />
 
@@ -45,8 +45,8 @@ const Javascript = () => {
           />
 
           <ProjectItems
-              title='456 Dice'
-              backgroundImg={milesImg}
+              title='456 Dice Game'
+              backgroundImg={diceImg}
               projectUrl='https://replit.com/@MakensonNoel/456-Nodejs#index.js'
               tech='JavaScript'
           />
