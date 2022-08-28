@@ -1,14 +1,14 @@
 {
   "/_document": "pages/_document.js",
-  "/_app": "pages/_app.js",
-  "/academic": "pages/academic.html",
   "/_error": "pages/_error.js",
-  "/java": "pages/java.html",
-  "/": "pages/index.html",
   "/cpp": "pages/cpp.html",
-  "/mobile": "pages/mobile.html",
-  "/web": "pages/web.html",
-  "/python": "pages/python.html",
+  "/academic": "pages/academic.html",
+  "/": "pages/index.html",
+  "/java": "pages/java.html",
   "/javascript": "pages/javascript.html",
+  "/mobile": "pages/mobile.html",
+  "/python": "pages/python.html",
+  "/web": "pages/web.html",
+  "/_app": "pages/_app.js",
   "/404": "pages/404.html"
 }

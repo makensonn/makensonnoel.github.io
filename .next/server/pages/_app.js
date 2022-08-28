@@ -174,8 +174,7 @@ const Navbar = ()=>{
                                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                     className: "border-b border-gray-300 my-4",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                        className: "w-[85%] md:w-[90%] py-4",
-                                        children: "I developed this website using the FERN Stack."
+                                        className: "w-[100%] md:w-[100%] py-4"
                                     })
                                 })
                             ]
