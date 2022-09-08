@@ -1,14 +1,8 @@
 {
-  "/_document": "pages/_document.js",
-  "/_error": "pages/_error.js",
-  "/cpp": "pages/cpp.html",
-  "/academic": "pages/academic.html",
-  "/": "pages/index.html",
-  "/java": "pages/java.html",
-  "/javascript": "pages/javascript.html",
-  "/mobile": "pages/mobile.html",
-  "/python": "pages/python.html",
-  "/web": "pages/web.html",
   "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.html",
+  "/more": "pages/more.html",
   "/404": "pages/404.html"
 }

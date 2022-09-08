@@ -2,13 +2,23 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-import webImg from '../public/assets/projects/web.png';
-import cppImg from '../public/assets/projects/cpp.png';
-import pythonImg from '../public/assets/projects/python.png';
-import javaImg from '../public/assets/projects/java.png';
-import mobileImg from '../public/assets/projects/mobile.png';
-import academicImg from '../public/assets/projects/academic.png';
-import nodeImg from '../public/assets/projects/node.png';
+import covidImg from '../public/assets/projects/covid-19 tracker.png';
+import motionImg from '../public/assets/projects/motion detector.png';
+import studentImg from '../public/assets/projects/student registration.png';
+import materialImg from '../public/assets/projects/material handling robot.png';
+import pythonImg from '../public/assets/projects/python paradise.png';
+import todoImg from '../public/assets/projects/todo.png';
+import floatImg from '../public/assets/projects/float.png';
+import cogoptImg from '../public/assets/projects/cogopt.png';
+
+const covidLink = 'https://www.youtube.com/watch?v=CgPdWWw_qiU&t';
+const motionLink ='https://www.youtube.com/watch?v=1iIxOdu2hoY';
+const studentLink ='https://www.youtube.com/watch?v=ry1i-D-EfFI';
+const materialLink ='https://www.youtube.com/watch?v=CdM2Otm6FBI';
+const pythonLink ='https://www.youtube.com/watch?v=Xo44kXOb8-4';
+const todoLink = 'https://www.youtube.com/watch?v=nmbmXLqOjv8&t';
+const floatLink = 'https://www.youtube.com/shorts/JQ4K1mymz-M';
+const cogoptLink = 'https://cogopt.org/';
 
 
 import ProjectItem from './ProjectItem';
@@ -27,43 +37,60 @@ const Projects = () => {
         <p className='py-6'></p>
 
         <div className='grid md:grid-cols-2 gap-8'>
-          <ProjectItem
-            title='Web Development'
-            backgroundImg={webImg}
-            projectUrl='/web'
-            tech='Websites'
-          />
-          <ProjectItem
-            title='Mobile Development'
-            backgroundImg={mobileImg}
-            projectUrl='/mobile'
-            tech='Mobile Apps'
-          />
-         { /*<ProjectItem
-            title='C++ Development'
-            backgroundImg={cppImg}
-            projectUrl='/cpp'
-            tech='C++ procjects including Rock, Paper, Scissors, and more.'
-          />
-          <ProjectItem
-            title='Python Development'
-            backgroundImg={pythonImg}
-            projectUrl='/python'
-            tech='Python projects including Budget tool and more.'
-  /> */}
-          <ProjectItem
-            title='JavaScript'
-            backgroundImg={nodeImg}
-            projectUrl='/javascript'
-            tech='Backend Development'
+         <ProjectItems
+            title='Float'
+            backgroundImg={floatImg}
+            projectUrl={floatLink}
+            tech='Mobile Application'
+          /> 
+          <ProjectItems
+            title='cogopt.org'
+            backgroundImg={cogoptImg}
+            projectUrl={cogoptLink}
+            tech='Website'
           />
           <ProjectItems
-            title='Academic Development'
-            backgroundImg={academicImg}
-            projectUrl='https://www.youtube.com/channel/UCqXnQJAjBqTwqAE2MRky3Fw'
-            tech='Undergraduate projects'
+            title='Material Handling Robot'
+            backgroundImg={materialImg}
+            projectUrl={materialLink}
+            tech='Robot'
+          />
+          <ProjectItems
+            title='Motion Detector'
+            backgroundImg={motionImg}
+            projectUrl={motionLink}
+            tech='Embedded System'
+          />
+          <ProjectItems
+            title='Student Registration'
+            backgroundImg={studentImg}
+            projectUrl={studentLink}
+            tech='Database'
+          />
+          <ProjectItems
+            title='Covid-19 Tracker'
+            backgroundImg={covidImg}
+            projectUrl={covidLink}
+            tech='Mobile Application'
+          />
+          <ProjectItems
+            title='Python Paradise'
+            backgroundImg={pythonImg}
+            projectUrl={pythonLink}
+            tech='Website'
+          />
+          <ProjectItems
+            title='To-do list'
+            backgroundImg={todoImg}
+            projectUrl={todoLink}
+            tech='Website'
           />
 
+          <Link href='/more'>
+            <p className='py-2 text-gray-600 underline cursor-pointer'>
+              View more expereince.
+            </p>
+          </Link>
         </div>
       </div>
     </div>
