@@ -17,6 +17,24 @@ const cofLink = 'https://makenson.com/cof/';
 const artLink = 'https://makenson.com/art/';
 const weightLink = 'https://makenson.com/gym/';
 
+import covidImg from '../public/assets/projects/covid-19 tracker.png';
+import motionImg from '../public/assets/projects/motion detector.png';
+import studentImg from '../public/assets/projects/student registration.png';
+import materialImg from '../public/assets/projects/material handling robot.png';
+import pythonImg from '../public/assets/projects/python paradise.png';
+import todoImg from '../public/assets/projects/todo.png';
+import floatImg from '../public/assets/projects/float.png';
+import cogoptImg from '../public/assets/projects/cogopt.png';
+
+const covidLink = 'https://www.youtube.com/watch?v=CgPdWWw_qiU&t';
+const motionLink ='https://www.youtube.com/watch?v=1iIxOdu2hoY';
+const studentLink ='https://www.youtube.com/watch?v=ry1i-D-EfFI';
+const materialLink ='https://www.youtube.com/watch?v=CdM2Otm6FBI';
+const pythonLink ='https://www.youtube.com/watch?v=Xo44kXOb8-4';
+const todoLink = 'https://www.youtube.com/watch?v=nmbmXLqOjv8&t';
+const floatLink = 'https://www.youtube.com/shorts/JQ4K1mymz-M';
+const cogoptLink = 'https://cogopt.org/';
+
 import ProjectItems from '../components/ProjectItems';
 
 
@@ -28,31 +46,10 @@ const Javascript = () => {
   return (
     <div className='w-full'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
-        <p className = {titleStyle}><br></br><br></br>Experience</p>
+        <p className = {titleStyle}><br></br><br></br>Projects</p>
         <p className='py-6'></p>
 
         <div className='grid md:grid-cols-2 gap-8'>
-          <ProjectItems
-            title='Math Game'
-            backgroundImg={mathImg}
-            projectUrl={mathLink}
-            tech='Node.js'
-          />
-
-          <ProjectItems
-              title='RPS Game'
-              backgroundImg={rpsImg}
-              projectUrl={rpsLink}
-              tech='Node.js'
-          />
-
-          <ProjectItems
-              title='456 Dice Game'
-              backgroundImg={diceImg}
-              projectUrl={diceLink}
-              tech='Node.js'
-          />
-
           <ProjectItems
               title='Photo Art Gallery'
               backgroundImg={artImg}
@@ -73,6 +70,50 @@ const Javascript = () => {
               projectUrl={weightLink}
               tech='Website'
           />
+
+          <ProjectItems
+            title='cogopt.org'
+            backgroundImg={cogoptImg}
+            projectUrl={cogoptLink}
+            tech='Website'
+          />
+          <ProjectItems
+            title='Material Handling Robot'
+            backgroundImg={materialImg}
+            projectUrl={materialLink}
+            tech='Robot'
+          />
+          <ProjectItems
+            title='Motion Detector'
+            backgroundImg={motionImg}
+            projectUrl={motionLink}
+            tech='Embedded System'
+          />
+          <ProjectItems
+            title='Student Registration'
+            backgroundImg={studentImg}
+            projectUrl={studentLink}
+            tech='Database'
+          />
+          <ProjectItems
+            title='Covid-19 Tracker'
+            backgroundImg={covidImg}
+            projectUrl={covidLink}
+            tech='Mobile Application'
+          />
+          <ProjectItems
+            title='Python Paradise'
+            backgroundImg={pythonImg}
+            projectUrl={pythonLink}
+            tech='Website'
+          />
+          <ProjectItems
+            title='To-do list'
+            backgroundImg={todoImg}
+            projectUrl={todoLink}
+            tech='Website'
+          />
+
 
         </div>
 
