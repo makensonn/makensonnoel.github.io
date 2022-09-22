@@ -3,20 +3,13 @@ import Link from 'next/link';
 import React from 'react';
 import { HiOutlineChevronDoubleLeft } from 'react-icons/hi';
 
+//Image
 import diceImg from '../public/assets/projects/dice.png';
 import mathImg from '../public/assets/projects/math.png';
 import rpsImg from '../public/assets/projects/rps.png';
 import cofImg from '../public/assets/projects/cof.png';
 import artImg from '../public/assets/projects/art.png';
 import weightImg from '../public/assets/projects/weight training.png';
-
-const mathLink = 'https://replit.com/@MakensonNoel/mathGame#index.js';
-const rpsLink = 'https://replit.com/@MakensonNoel/rpsGame#index.js';
-const diceLink = 'https://replit.com/@MakensonNoel/456-Nodejs#index.js';
-const cofLink = 'https://makenson.com/cof/';
-const artLink = 'https://makenson.com/art/';
-const weightLink = 'https://makenson.com/gym/';
-
 import covidImg from '../public/assets/projects/covid-19 tracker.png';
 import motionImg from '../public/assets/projects/motion detector.png';
 import studentImg from '../public/assets/projects/student registration.png';
@@ -26,6 +19,13 @@ import todoImg from '../public/assets/projects/todo.png';
 import floatImg from '../public/assets/projects/float.png';
 import cogoptImg from '../public/assets/projects/cogopt.png';
 
+//Links
+const mathLink = 'https://replit.com/@MakensonNoel/mathGame#index.js';
+const rpsLink = 'https://replit.com/@MakensonNoel/rpsGame#index.js';
+const diceLink = 'https://replit.com/@MakensonNoel/456-Nodejs#index.js';
+const cofLink = 'https://makenson.com/cof/';
+const artLink = 'https://makenson.com/art/';
+const weightLink = 'https://makenson.com/gym/';
 const covidLink = 'https://www.youtube.com/watch?v=CgPdWWw_qiU&t';
 const motionLink ='https://www.youtube.com/watch?v=1iIxOdu2hoY';
 const studentLink ='https://www.youtube.com/watch?v=ry1i-D-EfFI';
@@ -35,7 +35,14 @@ const todoLink = 'https://www.youtube.com/watch?v=nmbmXLqOjv8&t';
 const floatLink = 'https://www.youtube.com/shorts/JQ4K1mymz-M';
 const cogoptLink = 'https://cogopt.org/';
 
+//Source
+const diceSource = 'https://github.com/makensonn/456-Node.js';
+const mathSource = 'https://github.com/makensonn/mathGameNodejs';
+const rpsSource = 'https://github.com/makensonn/rpsGame';
+
+
 import ProjectItems from '../components/ProjectItems';
+import ProjectItem from '../components/ProjectItem';
 
 
 const titleStyle = 'text-4xl font-bold inline border-b-4 text-[#0a192f] border-zinc-500'
@@ -71,18 +78,14 @@ const Javascript = () => {
               tech='Website'
           />
 
-          <ProjectItems
-            title='cogopt.org'
-            backgroundImg={cogoptImg}
-            projectUrl={cogoptLink}
-            tech='Website'
-          />
-          <ProjectItems
-            title='Material Handling Robot'
-            backgroundImg={materialImg}
-            projectUrl={materialLink}
-            tech='Robot'
-          />
+          <ProjectItem
+                title='Dice Game'
+                backgroundImg={diceImg}
+                projectUrl={diceLink}
+                sourceUrl={diceSource}
+                tech='Node.js'
+            />
+            
           <ProjectItems
             title='Motion Detector'
             backgroundImg={motionImg}
@@ -100,12 +103,6 @@ const Javascript = () => {
             backgroundImg={covidImg}
             projectUrl={covidLink}
             tech='Mobile Application'
-          />
-          <ProjectItems
-            title='Python Paradise'
-            backgroundImg={pythonImg}
-            projectUrl={pythonLink}
-            tech='Website'
           />
           <ProjectItems
             title='To-do list'

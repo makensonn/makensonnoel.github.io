@@ -17,7 +17,7 @@ const Main = () => {
             <span className='text-[#0a192f]'> Makenson Noel</span>
           </h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-          I developed this website using Firebase, Express.js, React.js, Next.js, Node.js and Tailwind CSS.
+          I developed this website using React.js
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
