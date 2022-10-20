@@ -28,7 +28,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className='py-2'>Makenson Noel</h2>
+                {/*<h2 className='py-2'>Makenson</h2>*/}
                 {/*<!--}<p>Software Engineer</p>-->*/}
               </div>
               <div>

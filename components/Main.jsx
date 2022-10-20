@@ -14,7 +14,7 @@ const Main = () => {
         <div>
           <p className='uppercase text-sm tracking-widest text-gray-600'><br></br><br></br> Hi my name is</p>
           <h1 className='py-4 text-gray-700'>
-            <span className='text-[#0a192f]'> Makenson Noel</span>
+            <span className='text-[#0a192f]'> Makenson</span>
           </h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
           I developed this website using React.js
