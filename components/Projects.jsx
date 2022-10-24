@@ -6,7 +6,7 @@ import React from 'react';
 import materialImg from '../public/assets/projects/material handling robot.png';
 import insightImg from '../public/assets/projects/insightt.png';
 
-//Links
+//Link
 const materialLink ='https://www.youtube.com/watch?v=CdM2Otm6FBI';
 const insightLink ='https://insitee.github.io/';
 
