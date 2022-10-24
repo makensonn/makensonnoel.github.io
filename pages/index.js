@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
     <Main />
     <About />
-    <Skills />
+   {/*<Skills /> */}
     <Projects />
     <Contact />
     </div>

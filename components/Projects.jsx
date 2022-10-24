@@ -3,22 +3,16 @@ import Link from 'next/link';
 import React from 'react';
 
 //Images
-import floatImg from '../public/assets/projects/float.png';
-import cogoptImg from '../public/assets/projects/cogopt.png';
 import materialImg from '../public/assets/projects/material handling robot.png';
-import pythonImg from '../public/assets/projects/python paradise.png';
+import insightImg from '../public/assets/projects/insightt.png';
 
 //Links
-const floatLink = 'https://www.youtube.com/shorts/JQ4K1mymz-M';
-const cogoptLink = 'https://cogopt.org/';
 const materialLink ='https://www.youtube.com/watch?v=CdM2Otm6FBI';
-const pythonLink ='https://pyradisesw.github.io/';
+const insightLink ='https://insitee.github.io/';
 
 //Sources
-const floatSource = 'https://github.com/makensonn/float';
-const mathSource = 'https://github.com/makensonn/mathGameNodejs';
 const materialSource = 'https://github.com/materialhandlingrobot';
-const pythonSource ='https://github.com/pyradisesw';
+const insightSource ='https://github.com/orgs/Insitee/repositories';
 
 
 import ProjectItem from './ProjectItem';
@@ -36,20 +30,15 @@ const Projects = () => {
         <p className='py-6'></p>
 
         <div className='grid md:grid-cols-2 gap-8'>
-         <ProjectItem
-            title='Float'
-            backgroundImg={floatImg}
-            projectUrl={floatLink}
-            sourceUrl={floatSource}
-            tech='Mobile Application'
-          /> 
 
-         <ProjectItems
-            title='Cogopt.org'
-            backgroundImg={cogoptImg}
-            projectUrl={cogoptLink}
-            tech='Website'
-          /> 
+
+          <ProjectItem
+            title='Insight'
+            backgroundImg={insightImg}
+            projectUrl={insightLink}
+            sourceUrl={insightSource}
+            tech='ASL XR Application'
+          />
 
           <ProjectItem
             title='Robot'
@@ -59,19 +48,11 @@ const Projects = () => {
             tech='Material Handling Robot'
           />
 
-          <ProjectItem
-            title='Pyradise'
-            backgroundImg={pythonImg}
-            projectUrl={pythonLink}
-            sourceUrl={pythonSource}
-            tech='Website'
-          />
-
-          <Link href='/more'>
+         {/* <Link href='/more'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
               View more
             </p>
-          </Link>
+  </Link> */}
         </div>
       </div>
     </div>

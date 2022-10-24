@@ -39,6 +39,7 @@ const cogoptLink = 'https://cogopt.org/';
 const diceSource = 'https://github.com/makensonn/456-Node.js';
 const mathSource = 'https://github.com/makensonn/mathGameNodejs';
 const rpsSource = 'https://github.com/makensonn/rpsGame';
+const floatSource = 'https://github.com/makensonn/float';
 
 
 import ProjectItems from '../components/ProjectItems';
@@ -65,6 +66,14 @@ const Javascript = () => {
           />
 
           <ProjectItems
+              title='Float'
+              backgroundImg={floatImg}
+              projectUrl={floatLink}
+              sourceUrl={floatSource}
+              tech='Mobile Application'
+            /> 
+
+          <ProjectItems
               title='Coding is Fun'
               backgroundImg={cofImg}
               projectUrl={cofLink}
@@ -78,13 +87,13 @@ const Javascript = () => {
               tech='Website'
           />
 
-          <ProjectItem
+         {/* <ProjectItem
                 title='Dice Game'
                 backgroundImg={diceImg}
                 projectUrl={diceLink}
                 sourceUrl={diceSource}
                 tech='Node.js'
-            />
+  /> */}
             
           <ProjectItems
             title='Motion Detector'

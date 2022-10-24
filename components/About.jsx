@@ -16,7 +16,7 @@ const About = () => {
           I am Haitian-American and a first generation STEM college graduate. I attended Florida Atlantic University, 
           where I obtained a Bachelor of Science in Computer Science degree.
           I enjoy writing code and have multiple contributions to open source code on GitHub.
-          I have skills using Python, C++, Java, JavaScript, HTML, CSS. I'm adaptive with 
+          I have skills using Python, HTML, CSS, and JavaScript. I'm adaptive with 
           learning programming languages, frameworks, and new technologies. 
           I enjoy the software development process, finding solutions to challenging 
           problems, and collaborating with teams to improve software applications.
