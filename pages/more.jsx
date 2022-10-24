@@ -120,7 +120,6 @@ const Javascript = () => {
             tech='Website'
           />
 
-
         </div>
 
         <div className='flex justify-center py-12'>

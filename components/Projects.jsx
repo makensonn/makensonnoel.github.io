@@ -4,7 +4,7 @@ import React from 'react';
 
 //Images
 import materialImg from '../public/assets/projects/material handling robot.png';
-import insightImg from '../public/assets/projects/insightt.png';
+import insightImg from '../public/assets/projects/insight.png';
 
 //Links
 const materialLink ='https://www.youtube.com/watch?v=CdM2Otm6FBI';
