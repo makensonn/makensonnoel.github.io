@@ -13,13 +13,8 @@ const About = () => {
           <p className={titleStyle}><br></br><br></br>About</p>
           <p className='py-2'></p>
           <p className='py-2 text-gray-600'>
-          I am Haitian-American and a first generation STEM college graduate. I attended Florida Atlantic University, 
-          where I obtained a Bachelor of Science in Computer Science degree.
-          I enjoy writing code and have multiple contributions to open source code on GitHub.
-          I have skills using Python, HTML, CSS, and JavaScript. I'm adaptive with 
-          learning programming languages, frameworks, and new technologies. 
-          I enjoy the software development process, finding solutions to challenging 
-          problems, and collaborating with teams to improve software applications.
+          Innovative, passionate, and motivated software developer simplifying complex problems through code. 
+          Seeking roles that apply programming skills and team collaboration to improve software and business applications.
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
