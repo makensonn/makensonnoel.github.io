@@ -48,11 +48,11 @@ const Projects = () => {
             tech='Material Handling Robot'
           />
 
-         {/* <Link href='/more'>
+         <Link href='/more'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
               View more
             </p>
-  </Link> */}
+        </Link> 
         </div>
       </div>
     </div>
