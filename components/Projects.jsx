@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
 //Image
 import materialImg from '../public/assets/projects/material handling robot.png';//Material Handling Robot
@@ -17,7 +18,7 @@ import studentImg from '../public/assets/projects/student registration.png';
 import pythonImg from '../public/assets/projects/python paradise.png';
 import todoImg from '../public/assets/projects/todo.png';
 import floatImg from '../public/assets/projects/float.png';
-import cogoptImg from '../public/assets/projects/cogopt.png';
+import retodoImg from '../public/assets/projects/retodo.png';
 
 //Links
 const materialLink ='https://www.youtube.com/watch?v=CdM2Otm6FBI'; //Material Handling Robot
@@ -34,7 +35,7 @@ const studentLink ='https://www.youtube.com/watch?v=ry1i-D-EfFI';
 const pythonLink ='https://www.youtube.com/watch?v=Xo44kXOb8-4';
 const todoLink = 'https://www.youtube.com/watch?v=nmbmXLqOjv8&t';
 const floatLink = 'https://www.youtube.com/shorts/JQ4K1mymz-M';
-const cogoptLink = 'https://cogopt.org/';
+const retodoLink = 'https://makenson.com/todo/';
 
 //Source
 const materialSource = 'https://github.com/materialhandlingrobot'; //Material Handling Robot
@@ -79,41 +80,49 @@ const Projects = () => {
             tech='Material Handling Robot'
           />
 
+
           <ProjectItems
-              title='Photo Art Gallery'
-              backgroundImg={artImg}
-              projectUrl={artLink}
-              tech='Website'
+            title='React.js To-do list'
+            backgroundImg={retodoImg}
+            projectUrl={retodoLink}
+            tech='Website'
           />
 
           <ProjectItems
-              title='Float'
-              backgroundImg={floatImg}
-              projectUrl={floatLink}
-              sourceUrl={floatSource}
-              tech='Mobile Application'
+            title='Photo Art Gallery'
+            backgroundImg={artImg}
+            projectUrl={artLink}
+            tech='Website'
+          />
+
+          <ProjectItems
+            title='Float'
+            backgroundImg={floatImg}
+            projectUrl={floatLink}
+            sourceUrl={floatSource}
+            tech='Mobile Application'
             /> 
 
           <ProjectItems
-              title='Coding is Fun'
-              backgroundImg={cofImg}
-              projectUrl={cofLink}
-              tech='Website'
+            title='Coding is Fun'
+            backgroundImg={cofImg}
+            projectUrl={cofLink}
+            tech='Website'
           />
 
           <ProjectItems
-              title='Weight Training'
-              backgroundImg={weightImg}
-              projectUrl={weightLink}
-              tech='Website'
+            title='Weight Training'
+            backgroundImg={weightImg}
+            projectUrl={weightLink}
+            tech='Website'
           />
 
          <ProjectItem
-                title='Dice Game'
-                backgroundImg={diceImg}
-                projectUrl={diceLink}
-                sourceUrl={diceSource}
-                tech='Node.js'
+              title='Dice Game'
+              backgroundImg={diceImg}
+              projectUrl={diceLink}
+              sourceUrl={diceSource}
+              tech='Node.js'
           /> 
             
           <ProjectItems
@@ -147,12 +156,39 @@ const Projects = () => {
             projectUrl={pythonLink}
             tech='Website'
           />
+          
+          <ProjectItems
+            title='Math Game'
+            backgroundImg={mathImg}
+            projectUrl={mathLink}
+            tech='Website'
+          />
+
+          <ProjectItems
+            title='Rock Paper Scissors'
+            backgroundImg={rpsImg}
+            projectUrl={rpsLink}
+            tech='Website'
+          />
+
 
          {/*<Link href='/more'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
               View more
             </p>
   </Link> */}
+        </div>
+        <div className='flex justify-center py-12'>
+          <Link href='/'>
+            <a>
+              <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <HiOutlineChevronDoubleUp
+                  className='text-[#0a192f]'
+                  size={30}
+                />
+              </div>
+            </a>
+          </Link>
         </div>
       </div>
     </div>

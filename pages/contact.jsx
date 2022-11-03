@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLink, FaLinkedinIn } from 'react-icons/fa';
-import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
+import { HiOutlineHome } from 'react-icons/hi';
 import ContactImg from '../public/assets/contact.png'
 
 const titleStyle = 'text-4xl font-bold inline border-b-4 text-[#0a192f] border-zinc-500'
@@ -113,7 +113,7 @@ const Contact = () => {
           <Link href='/'>
             <a>
               <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <HiOutlineChevronDoubleUp
+                <HiOutlineHome
                   className='text-[#0a192f]'
                   size={30}
                 />
