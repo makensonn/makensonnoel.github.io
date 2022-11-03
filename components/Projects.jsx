@@ -19,6 +19,9 @@ import pythonImg from '../public/assets/projects/python paradise.png';
 import todoImg from '../public/assets/projects/todo.png';
 import floatImg from '../public/assets/projects/float.png';
 import retodoImg from '../public/assets/projects/retodo.png';
+import speedImg from '../public/assets/projects/speed.png';
+import soonImg from '../public/assets/projects/soon.png';
+import arcadeImg from '../public/assets/projects/arcade.png';
 
 //Links
 const materialLink ='https://www.youtube.com/watch?v=CdM2Otm6FBI'; //Material Handling Robot
@@ -29,13 +32,17 @@ const diceLink = 'https://replit.com/@MakensonNoel/456-Nodejs#index.js';
 const cofLink = 'https://makenson.com/cof/';
 const artLink = 'https://makenson.com/art/';
 const weightLink = 'https://makenson.com/gym/';
-const covidLink = 'https://www.youtube.com/watch?v=CgPdWWw_qiU&t';
+const covidLink = 'https://makenson.com/cov/';
 const motionLink ='https://www.youtube.com/watch?v=1iIxOdu2hoY';
 const studentLink ='https://www.youtube.com/watch?v=ry1i-D-EfFI';
 const pythonLink ='https://www.youtube.com/watch?v=Xo44kXOb8-4';
 const todoLink = 'https://www.youtube.com/watch?v=nmbmXLqOjv8&t';
 const floatLink = 'https://www.youtube.com/shorts/JQ4K1mymz-M';
 const retodoLink = 'https://makenson.com/todo/';
+const speedLink = 'https://makenson.com/sc/';
+const soonLink = 'https://makenson.com/bop/#home';
+const arcadeLink = 'https://makenson.com/games/';
+
 
 //Source
 const materialSource = 'https://github.com/materialhandlingrobot'; //Material Handling Robot
@@ -156,7 +163,7 @@ const Projects = () => {
             projectUrl={pythonLink}
             tech='Website'
           />
-          
+
           <ProjectItems
             title='Math Game'
             backgroundImg={mathImg}
@@ -168,6 +175,27 @@ const Projects = () => {
             title='Rock Paper Scissors'
             backgroundImg={rpsImg}
             projectUrl={rpsLink}
+            tech='Website'
+          />
+
+          <ProjectItems
+            title='Speed Converter'
+            backgroundImg={speedImg}
+            projectUrl={speedLink}
+            tech='Website'
+          />
+
+          <ProjectItems
+            title='Coming Soon'
+            backgroundImg={soonImg}
+            projectUrl={soonLink}
+            tech='Website'
+          />
+
+          <ProjectItems
+            title='Arcade'
+            backgroundImg={arcadeImg}
+            projectUrl={arcadeLink}
             tech='Website'
           />
 
