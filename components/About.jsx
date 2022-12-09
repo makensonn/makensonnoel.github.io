@@ -13,9 +13,11 @@ const About = () => {
           <p className={titleStyle}><br></br><br></br>About</p>
           <p className='py-2'></p>
           <p className='py-2 text-gray-600'>
-          Innovative, passionate, and motivated software developer simplifying complex problems through code. 
-          Seeking roles that apply programming skills and team collaboration to improve software and business applications.
+            Innovative, passionate, and motivated software developer simplifying complex problems through code. 
+            Seeking a Software Engineer role that’ll apply programming skills and team collaboration to improve software and business applications.
           </p>
+
+
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
               View projects

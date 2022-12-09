@@ -71,27 +71,10 @@ const Projects = () => {
         <div className='grid md:grid-cols-3 gap-8'>
 
 
-          <ProjectItem
+          <ProjectItems
             title='Insight'
             backgroundImg={insightImg}
             projectUrl={insightLink}
-            sourceUrl={insightSource}
-            tech='ASL XR Application'
-          />
-
-          <ProjectItem
-            title='Robot'
-            backgroundImg={materialImg}
-            projectUrl={materialLink}
-            sourceUrl={materialSource}
-            tech='Material Handling Robot'
-          />
-
-
-          <ProjectItems
-            title='React.js To-do list'
-            backgroundImg={retodoImg}
-            projectUrl={retodoLink}
             tech='Website'
           />
 
@@ -101,14 +84,6 @@ const Projects = () => {
             projectUrl={artLink}
             tech='Website'
           />
-
-          <ProjectItems
-            title='Float'
-            backgroundImg={floatImg}
-            projectUrl={floatLink}
-            sourceUrl={floatSource}
-            tech='Mobile Application'
-            /> 
 
           <ProjectItems
             title='Coding is Fun'
@@ -123,72 +98,11 @@ const Projects = () => {
             projectUrl={weightLink}
             tech='Website'
           />
-
-         <ProjectItem
-              title='Dice Game'
-              backgroundImg={diceImg}
-              projectUrl={diceLink}
-              sourceUrl={diceSource}
-              tech='Node.js'
-          /> 
-            
-          <ProjectItems
-            title='Motion Detector'
-            backgroundImg={motionImg}
-            projectUrl={motionLink}
-            tech='Embedded System'
-          />
-          <ProjectItems
-            title='Student Registration'
-            backgroundImg={studentImg}
-            projectUrl={studentLink}
-            tech='Database'
-          />
-          <ProjectItems
-            title='Covid-19 Tracker'
-            backgroundImg={covidImg}
-            projectUrl={covidLink}
-            tech='Mobile Application'
-          />
-          <ProjectItems
-            title='To-do list'
-            backgroundImg={todoImg}
-            projectUrl={todoLink}
-            tech='Website'
-          />
-
-          <ProjectItems
-            title='Python Paradise'
-            backgroundImg={pythonImg}
-            projectUrl={pythonLink}
-            tech='Website'
-          />
-
-          <ProjectItems
-            title='Math Game'
-            backgroundImg={mathImg}
-            projectUrl={mathLink}
-            tech='Website'
-          />
-
-          <ProjectItems
-            title='Rock Paper Scissors'
-            backgroundImg={rpsImg}
-            projectUrl={rpsLink}
-            tech='Website'
-          />
-
+          
           <ProjectItems
             title='Speed Converter'
             backgroundImg={speedImg}
             projectUrl={speedLink}
-            tech='Website'
-          />
-
-          <ProjectItems
-            title='Coming Soon'
-            backgroundImg={soonImg}
-            projectUrl={soonLink}
             tech='Website'
           />
 
@@ -199,12 +113,12 @@ const Projects = () => {
             tech='Website'
           />
 
-
-         {/*<Link href='/more'>
+          <Link href='/more'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
               View more
             </p>
-  </Link> */}
+          </Link> 
+
         </div>
         <div className='flex justify-center py-12'>
           <Link href='/'>

@@ -12,12 +12,12 @@ const Main = () => {
     <div id='home' className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
-          <p className='uppercase text-sm tracking-widest text-gray-600'><br></br><br></br> Hi my name is</p>
+          <p className='uppercase text-sm tracking-widest text-gray-600'><br></br><br></br> Hey my name is</p>
           <h1 className='py-4 text-gray-700'>
             <span className='text-[#0a192f]'> Makenson</span>
           </h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-          I developed this website using React.js
+          I developed this website using Next.js
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
