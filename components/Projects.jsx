@@ -121,21 +121,21 @@ const Projects = () => {
           />
 
           <ProjectItems
-            title='Intro'
+            title='Intro Portfolio'
             backgroundImg={introImg}
             projectUrl={introLink}
             tech='Website'
           />
           
           <ProjectItems
-            title='College'
+            title='College Portfolio'
             backgroundImg={collegeImg}
             projectUrl={collegeLink}
             tech='Website'
           />
 
           <ProjectItems
-            title='Graduation'
+            title='Graduation Portfolio'
             backgroundImg={graduationImg}
             projectUrl={graduationLink}
             tech='Website'
