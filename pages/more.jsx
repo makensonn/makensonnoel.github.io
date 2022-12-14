@@ -22,6 +22,10 @@ import retodoImg from '../public/assets/projects/retodo.png';
 import speedImg from '../public/assets/projects/speed.png';
 import soonImg from '../public/assets/projects/soon.png';
 import arcadeImg from '../public/assets/projects/arcade.png';
+import introImg from '../public/assets/projects/intro.png';
+import collegeImg from '../public/assets/projects/college.png';
+import graduationImg from '../public/assets/projects/graduation.png';
+
 
 //Links
 const materialLink ='https://www.youtube.com/watch?v=CdM2Otm6FBI'; //Material Handling Robot
@@ -42,6 +46,9 @@ const retodoLink = 'https://makenson.com/todo/';
 const speedLink = 'https://makenson.com/sc/';
 const soonLink = 'https://makenson.com/bop/#home';
 const arcadeLink = 'https://makenson.com/games/';
+const introLink = 'https://makenson.com/intro/';
+const collegeLink = 'https://makenson.com/cp/';
+const graduationLink = 'https://makenson.com/college/';
 
 
 //Source
@@ -51,6 +58,7 @@ const diceSource = 'https://github.com/makensonn/456-Node.js';
 const mathSource = 'https://github.com/makensonn/mathGameNodejs';
 const rpsSource = 'https://github.com/makensonn/rpsGame';
 const floatSource = 'https://github.com/makensonn/float';
+
 
 
 
@@ -110,6 +118,27 @@ const Javascript = () => {
             title='Arcade'
             backgroundImg={arcadeImg}
             projectUrl={arcadeLink}
+            tech='Website'
+          />
+
+          <ProjectItems
+            title='Intro'
+            backgroundImg={introImg}
+            projectUrl={introLink}
+            tech='Website'
+          />
+          
+          <ProjectItems
+            title='College'
+            backgroundImg={collegeImg}
+            projectUrl={collegeLink}
+            tech='Website'
+          />
+
+          <ProjectItems
+            title='Graduation'
+            backgroundImg={graduationImg}
+            projectUrl={graduationLink}
             tech='Website'
           />
 
