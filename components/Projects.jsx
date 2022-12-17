@@ -120,27 +120,6 @@ const Projects = () => {
             tech='Website'
           />
 
-          <ProjectItems
-            title='Intro Portfolio'
-            backgroundImg={introImg}
-            projectUrl={introLink}
-            tech='Website'
-          />
-          
-          <ProjectItems
-            title='College Portfolio'
-            backgroundImg={collegeImg}
-            projectUrl={collegeLink}
-            tech='Website'
-          />
-
-          <ProjectItems
-            title='Graduation Portfolio'
-            backgroundImg={graduationImg}
-            projectUrl={graduationLink}
-            tech='Website'
-          />
-
           <Link href='/more'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
               View more
