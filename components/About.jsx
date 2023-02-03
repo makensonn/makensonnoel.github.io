@@ -21,9 +21,9 @@ const About = () => {
           <br></br>
 
 
-          <Link href='/#projects'>
+          <Link href='/#experience'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
-              View projects
+              View Experience
             </p>
           </Link>
         </div>
