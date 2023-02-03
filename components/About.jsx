@@ -14,14 +14,11 @@ const About = () => {
           <p className={titleStyle}><br></br><br></br>About</p>
           <p className='py-2'></p>
           <p className='py-2 text-gray-600'>
-            Innovative, passionate, and motivated software developer simplifying complex problems through code. 
-            Seeking a Software Engineer role that’ll apply programming skills and team collaboration to improve software and business applications.
+            Software Engineer with a Bachelor of Science in Computer Science from Florida Atlantic University
+            College of Engineering. Proven experience developing software professionally as a Freelance
+            Software Engineer.
           </p>
           <br></br>
-          <p className='py-2 text-gray-600'>
-            Skills: Python, HTML, CSS, Next.js, React, React Native, JavaScript, SQL, C#, C++, Java, PHP,
-            Git, GitHub, APIs, Node.js, AWS, MongoDB, Firebase, TailwindCSS, MySQL, Unity.
-          </p>
 
 
           <Link href='/#projects'>

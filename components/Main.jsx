@@ -17,7 +17,7 @@ const Main = () => {
             <span className='text-[#0a192f]'> Makenson</span>
           </h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-          I developed this website using Next.js
+          I developed this website with Next.js
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
