@@ -15,8 +15,7 @@ const About = () => {
           <p className='py-2'></p>
           <p className='py-2 text-gray-600'>
             Software Engineer with a Bachelor of Science in Computer Science from Florida Atlantic University
-            College of Engineering. Proven experience developing software professionally as a Freelance
-            Software Engineer.
+            College of Engineering. Proven experience developing software professionally as a Software Engineer.
           </p>
           <br></br>
 
