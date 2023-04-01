@@ -43,7 +43,7 @@ const Main = () => {
                 <AiOutlineMail />
               </div>
             </Link>
-            <a href='https://replit.com/@MakensonNoel' target="_blank">
+            <a href='https://www.youtube.com/channel/UCqXnQJAjBqTwqAE2MRky3Fw' target="_blank">
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <BsFillPersonLinesFill />
               </div>
