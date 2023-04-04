@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Makenson | Software Engineer</title>
-        <meta name="description" content="Innovative, passionate, and motivated software developer simplifying complex problems through code. Seeking roles that apply programming skills and team collaboration to improve software and business applications." />
+        <meta name="description" content="Innovative, passionate, and motivated software developer simplifying complex problems through code." />
         <link rel="icon" href="/fav.png" />
       </Head>
     <Main />
