@@ -27,21 +27,6 @@ import collegeImg from '../public/assets/projects/college.png';
 import graduationImg from '../public/assets/projects/graduation.png';
 
 
-
-
-//Image
-import lucienlawnserviceImg from '../public/assets/projects/lucienlawnservice.png';//Lucien Lawn Service
-import cogoptImg from '../public/assets/projects/cogopt.png'; //Cogopt
-import amosebImg from '../public/assets/projects/amoseb.png'; //Amoseb
-
-
-//Links
-const lucienlawnserviceLink = 'https://lucienlawnservice.squarespace.com/';
-const cogoptLink = 'https://cogopt.org';
-const amosebLink = 'https://amoseb.com';
-
-
-
 //Links
 const materialLink ='https://www.youtube.com/watch?v=CdM2Otm6FBI'; //Material Handling Robot
 const insightLink ='https://insitee.github.io/'; //Insight
@@ -87,24 +72,11 @@ const Projects = () => {
   return (
     <div id='projects' className='w-full'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
-        <p className = {titleStyle}><br></br><br></br>Portfolio</p>
+        <p className = {titleStyle}><br></br><br></br>Projects</p>
         <p className='py-6'></p>
 
         <div className='grid md:grid-cols-3 gap-8'>
 
-        <ProjectItems
-            title='Mozy'
-            backgroundImg={amosebImg}
-            projectUrl={amosebLink}
-            tech='Website'
-          />
-
-        <ProjectItems
-            title='Lucien Lawn Service'
-            backgroundImg={lucienlawnserviceImg}
-            projectUrl={lucienlawnserviceLink}
-            tech='Website'
-          />
 
           <ProjectItems
             title='Insight'
@@ -128,13 +100,27 @@ const Projects = () => {
           />
 
           <ProjectItems
+            title='Weight Training'
+            backgroundImg={weightImg}
+            projectUrl={weightLink}
+            tech='Website'
+          />
+          
+          <ProjectItems
+            title='Speed Converter'
+            backgroundImg={speedImg}
+            projectUrl={speedLink}
+            tech='Website'
+          />
+
+          <ProjectItems
             title='Arcade'
             backgroundImg={arcadeImg}
             projectUrl={arcadeLink}
             tech='Website'
           />
 
-          <Link href='/more' legacyBehavior>
+          <Link href='/more'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
               View more
             </p>
@@ -143,14 +129,14 @@ const Projects = () => {
         </div>
         <div className='flex justify-center py-12'>
           <Link href='/'>
-
-            <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-              <HiOutlineChevronDoubleUp
-                className='text-[#0a192f]'
-                size={30}
-              />
-            </div>
-
+            <a>
+              <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <HiOutlineChevronDoubleUp
+                  className='text-[#0a192f]'
+                  size={30}
+                />
+              </div>
+            </a>
           </Link>
         </div>
       </div>

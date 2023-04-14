@@ -1,7 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
-import { FaGithub, FaLink, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
+import { AiOutlineMail } from 'react-icons/ai';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { FaGithub, FaLink, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineHome } from 'react-icons/hi';
 import ContactImg from '../public/assets/contact.png'
 
@@ -32,34 +34,34 @@ const Contact = () => {
               <div>
                 <p className='uppercase pt-8'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
-                  <Link
+                  <a
                     href='https://www.linkedin.com/in/makensonnoel/'
                     target='_blank'
                     rel='noreferrer'
-                    legacyBehavior>
+                  >
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <FaLinkedinIn />
                     </div>
-                  </Link>
-                  <Link
+                  </a>
+                  <a
                     href='https://github.com/makensonn'
                     target='_blank'
                     rel='noreferrer'
-                    legacyBehavior>
+                  >
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <FaGithub />
                     </div>
-                  </Link>
+                  </a>
 
-                  <Link
-                    href='https://www.youtube.com/channel/UCqXnQJAjBqTwqAE2MRky3Fw'
+                  <a
+                    href='https://replit.com/@MakensonNoel'
                     target='_blank'
                     rel='noreferrer'
-                    legacyBehavior>
+                  >
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                      <FaYoutube />
+                      <BsFillPersonLinesFill />
                     </div>
-                  </Link>
+                  </a>
          
                 </div>
               </div>
@@ -108,15 +110,15 @@ const Contact = () => {
           </div>
         </div>
         <div className='flex justify-center py-12'>
-          <Link href='/' legacyBehavior>
-            <Link legacyBehavior>
+          <Link href='/'>
+            <a>
               <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <HiOutlineHome
                   className='text-[#0a192f]'
                   size={30}
                 />
               </div>
-            </Link>
+            </a>
           </Link>
         </div>
       </div>
