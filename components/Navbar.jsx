@@ -41,15 +41,16 @@ const Navbar = () => {
     >
       <div className={navBarStyle}>
         <Link href='/'>
-          <a>
-            <Image
-              src={NavLogo}
-              alt='/'
-              width='50px'
-              height='50px'
-              className='cursor-pointer'
-            />
-          </a>
+
+        {/* 
+             <Image
+            src={NavLogo}
+            alt='/'
+            width= '50px'
+            height='50px'
+            className='cursor-pointer'
+          />  
+        */}
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
@@ -60,10 +61,7 @@ const Navbar = () => {
               <Link href='/#about'>About</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#experience'>Experience</Link>
-            </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#projects'>Projects</Link>
+              <Link href='/#projects'>Portfolio</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/contact'>Contact</Link>
@@ -99,14 +97,14 @@ const Navbar = () => {
           <div>
             <div className='flex w-full items-center justify-between'>
               <Link href='/'>
-                <a>
-                  <Image
-                    src={NavLogo}
-                    width='50px'
-                    height='50px'
-                    alt='/'
-                  />
-                </a>
+
+               {/*} <Image
+                  src={NavLogo}
+                  width='50px'
+                  height='50px'
+                  alt='/'
+        /> */}
+
               </Link>
               <div
                 onClick={handleNav}
@@ -122,27 +120,22 @@ const Navbar = () => {
           </div>
           <div className='py-4 flex flex-col'>
             <ul className='uppercase'>
-              <Link href='/'>
+              <Link href='/' legacyBehavior>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Home
                 </li>
               </Link>
-              <Link href='/#about'>
+              <Link href='/#about' legacyBehavior>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   About
                 </li>
               </Link>
-              <Link href='/#experience'>
+              <Link href='/#projects' legacyBehavior>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Experience
+                  Portfolio
                 </li>
               </Link>
-              <Link href='/#projects'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Projetcs
-                </li>
-              </Link>
-              <Link href='/contact'>
+              <Link href='/contact' legacyBehavior>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Contact
                 </li>
@@ -171,7 +164,7 @@ const Navbar = () => {
                     <FaGithub />
                   </div>
                 </a>
-                <Link href='/contact'>
+                <Link href='/contact' legacyBehavior>
                   <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'

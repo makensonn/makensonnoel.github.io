@@ -1,8 +1,6 @@
 import Head from 'next/head'
 import About from '../components/About'
-import Contact from './contact'
 import Main from '../components/Main'
-import Experience from '../components/Experience'
 import Projects from '../components/Projects'
 
 
@@ -14,10 +12,9 @@ export default function Home() {
         <meta name="description" content="Innovative, passionate, and motivated software developer simplifying complex problems through code." />
         <link rel="icon" href="/fav.png" />
       </Head>
-    <Main />
-    <About />
-    <Experience />
-    <Projects />
+      <Main />
+      <About />
+      <Projects />
     {/*<Contact />*/}
     </div>
   )

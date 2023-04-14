@@ -74,39 +74,10 @@ const Javascript = () => {
   return (
     <div className='w-full'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
-        <p className = {titleStyle}><br></br><br></br>More Projects</p>
+        <p className = {titleStyle}><br></br><br></br>More</p>
         <p className='py-6'></p>
 
         <div className='grid md:grid-cols-3 gap-8'>
-        <ProjectItem
-            title='Insight'
-            backgroundImg={insightImg}
-            projectUrl={insightLink}
-            sourceUrl={insightSource}
-            tech='ASL XR Application'
-          />
-
-          <ProjectItems
-            title='Photo Art Gallery'
-            backgroundImg={artImg}
-            projectUrl={artLink}
-            tech='Website'
-          />
-
-          <ProjectItems
-            title='Coding is Fun'
-            backgroundImg={cofImg}
-            projectUrl={cofLink}
-            tech='Website'
-          />
-
-          <ProjectItems
-            title='Weight Training'
-            backgroundImg={weightImg}
-            projectUrl={weightLink}
-            tech='Website'
-          />
-          
           <ProjectItems
             title='Speed Converter'
             backgroundImg={speedImg}
@@ -232,15 +203,13 @@ const Javascript = () => {
         </div>
 
         <div className='flex justify-center py-12'>
-          <Link href='/#projects'>
-            <a>
+          <Link href='/#projects' legacyBehavior>
               <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <HiOutlineChevronDoubleLeft
                   className='text-[#0a192f]'
                   size={30}
                 />
               </div>
-            </a>
           </Link>
         </div>
 
