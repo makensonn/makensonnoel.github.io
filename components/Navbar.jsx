@@ -60,13 +60,10 @@ const Navbar = () => {
               <Link href='/#about'>About</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#experience'>Experience</Link>
-            </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#projects'>Projects</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/contact'>Contact</Link>
+              <Link href='/#contact'>Contact</Link>
         
             </li>
           </ul>
@@ -132,17 +129,12 @@ const Navbar = () => {
                   About
                 </li>
               </Link>
-              <Link href='/#experience'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Experience
-                </li>
-              </Link>
               <Link href='/#projects'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Projetcs
+                  Projects
                 </li>
               </Link>
-              <Link href='/contact'>
+              <Link href='/#contact'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Contact
                 </li>
@@ -171,7 +163,7 @@ const Navbar = () => {
                     <FaGithub />
                   </div>
                 </a>
-                <Link href='/contact'>
+                <Link href='/#contact'>
                   <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'

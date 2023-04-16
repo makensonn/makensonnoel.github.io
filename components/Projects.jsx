@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
+
 
 //Image
 import materialImg from '../public/assets/projects/material handling robot.png';//Material Handling Robot
@@ -72,7 +72,7 @@ const Projects = () => {
   return (
     <div id='projects' className='w-full'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
-        <p className = {titleStyle}><br></br><br></br>Projects</p>
+        <p className = {titleStyle}><br></br><br></br>Portfolio</p>
         <p className='py-6'></p>
 
         <div className='grid md:grid-cols-3 gap-8'>
@@ -98,46 +98,7 @@ const Projects = () => {
             projectUrl={cofLink}
             tech='Website'
           />
-
-          <ProjectItems
-            title='Weight Training'
-            backgroundImg={weightImg}
-            projectUrl={weightLink}
-            tech='Website'
-          />
           
-          <ProjectItems
-            title='Speed Converter'
-            backgroundImg={speedImg}
-            projectUrl={speedLink}
-            tech='Website'
-          />
-
-          <ProjectItems
-            title='Arcade'
-            backgroundImg={arcadeImg}
-            projectUrl={arcadeLink}
-            tech='Website'
-          />
-
-          <Link href='/more'>
-            <p className='py-2 text-gray-600 underline cursor-pointer'>
-              View more
-            </p>
-          </Link> 
-
-        </div>
-        <div className='flex justify-center py-12'>
-          <Link href='/'>
-            <a>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <HiOutlineChevronDoubleUp
-                  className='text-[#0a192f]'
-                  size={30}
-                />
-              </div>
-            </a>
-          </Link>
         </div>
       </div>
     </div>

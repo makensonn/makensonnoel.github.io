@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import About from '../components/About'
-import Contact from './contact'
+import Contact from '../components/contact'
 import Main from '../components/Main'
-import Experience from '../components/Experience'
 import Projects from '../components/Projects'
 
 
@@ -16,9 +15,8 @@ export default function Home() {
       </Head>
     <Main />
     <About />
-    <Experience />
     <Projects />
-    {/*<Contact />*/}
+    <Contact />
     </div>
   )
 }

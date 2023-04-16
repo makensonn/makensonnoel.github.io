@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import ProfileImg from '../public/assets/profile.jpg'
+import ProfileImg from '../public/assets/about.jpg';
 
 
 const titleStyle = 'text-4xl font-bold inline border-b-4 text-[#0a192f] border-zinc-500'
@@ -14,17 +14,16 @@ const About = () => {
           <p className={titleStyle}><br></br><br></br>About</p>
           <p className='py-2'></p>
           <p className='py-2 text-gray-600'>
-            Software Engineer with a Bachelor of Science in Computer Science from Florida Atlantic University
-            College of Engineering. Proven experience developing software professionally as a Front-End Developer.
+          Makenson is knowledgeable in several programming languages, he has experienced working on software development projects both independently and in a team environment 
+          using a variety of software development methodologies.
+          <br></br><br></br>
+          In addition, Makenson has strong problem-solving skills and is able to think creatively to develop innovative solutions to complex technical challenges. 
+          Makenson is excited to explore new opportunities and take the steps towards a successful career in software development.
+          <br></br><br></br>
+          If you're looking for a motivated and dedicated software engineer, please don't hesitate to reach out.
           </p>
           <br></br>
 
-
-          <Link href='/#experience'>
-            <p className='py-2 text-gray-600 underline cursor-pointer'>
-              View Experience
-            </p>
-          </Link>
         </div>
         <div className='w-auto h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
           <Image src={ProfileImg} className='rounded-xl' alt='/' />
