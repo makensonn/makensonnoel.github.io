@@ -18,5 +18,6 @@ export default function Home() {
     <Projects />
     <Contact />
     </div>
+   
   )
 }

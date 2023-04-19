@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import page from '../pages/guide/page';
 
 
 //Image
@@ -11,9 +12,8 @@ import visualsImg from '../public/assets/projects/visuals.png'; //Visuals
 
 //Links
 const aslLink ='https://www.youtube.com/watch?v=q1tI7GO7d1A'; //ASL Hand Tracker
-const guideLink ='https://makenson.com/cof/'; //Guide
+const guideLink = "/guide"; //Guide
 const visualsLink = 'https://makenson.com/art/'; //Visuals
-
 
 import ProjectItem from './ProjectItem';
 import ProjectItems from './ProjectItems';
@@ -32,7 +32,7 @@ const Projects = () => {
         <div className='grid md:grid-cols-3 gap-8'>
 
 
-          <ProjectItems
+          <ProjectItem
             title='ASL Hand Tracker'
             backgroundImg={aslImg}
             projectUrl={aslLink}
