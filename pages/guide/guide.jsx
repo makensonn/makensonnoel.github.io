@@ -6,7 +6,7 @@ import ProfileImg from '../guide/assets/about.jpg';
 
 const titleStyle = 'text-4xl font-bold inline border-b-4 text-[#0a192f] border-zinc-500'
 
-const Page = () => {
+const guide = () => {
   return (
     <div id='page' className='w-full md:h-screen p-2 flex items-center py-16'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
@@ -33,4 +33,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default guide;
