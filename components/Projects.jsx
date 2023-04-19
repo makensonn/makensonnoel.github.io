@@ -4,61 +4,15 @@ import React from 'react';
 
 
 //Image
-import materialImg from '../public/assets/projects/material handling robot.png';//Material Handling Robot
-import insightImg from '../public/assets/projects/insight.png'; //Insight
-import diceImg from '../public/assets/projects/dice.png';
-import mathImg from '../public/assets/projects/math.png';
-import rpsImg from '../public/assets/projects/rps.png';
-import cofImg from '../public/assets/projects/cof.png';
-import artImg from '../public/assets/projects/art.png';
-import weightImg from '../public/assets/projects/weight training.png';
-import covidImg from '../public/assets/projects/covid-19 tracker.png';
-import motionImg from '../public/assets/projects/motion detector.png';
-import studentImg from '../public/assets/projects/student registration.png';
-import pythonImg from '../public/assets/projects/python paradise.png';
-import todoImg from '../public/assets/projects/todo.png';
-import floatImg from '../public/assets/projects/float.png';
-import retodoImg from '../public/assets/projects/retodo.png';
-import speedImg from '../public/assets/projects/speed.png';
-import soonImg from '../public/assets/projects/soon.png';
-import arcadeImg from '../public/assets/projects/arcade.png';
-import introImg from '../public/assets/projects/intro.png';
-import collegeImg from '../public/assets/projects/college.png';
-import graduationImg from '../public/assets/projects/graduation.png';
 
+import aslImg from '../public/assets/projects/asl.png'; //ASL Hand Tracker
+import guideImg from '../public/assets/projects/guide.png'; //Guide
+import visualsImg from '../public/assets/projects/visuals.png'; //Visuals
 
 //Links
-const materialLink ='https://www.youtube.com/watch?v=CdM2Otm6FBI'; //Material Handling Robot
-const insightLink ='https://insitee.github.io/'; //Insight
-const mathLink = 'https://replit.com/@MakensonNoel/mathGame#index.js';
-const rpsLink = 'https://replit.com/@MakensonNoel/rpsGame#index.js';
-const diceLink = 'https://replit.com/@MakensonNoel/456-Nodejs#index.js';
-const cofLink = 'https://makenson.com/cof/';
-const artLink = 'https://makenson.com/art/';
-const weightLink = 'https://makenson.com/gym/';
-const covidLink = 'https://makenson.com/cov/';
-const motionLink ='https://www.youtube.com/watch?v=1iIxOdu2hoY';
-const studentLink ='https://www.youtube.com/watch?v=ry1i-D-EfFI';
-const pythonLink ='https://www.youtube.com/watch?v=Xo44kXOb8-4';
-const todoLink = 'https://www.youtube.com/watch?v=nmbmXLqOjv8&t';
-const floatLink = 'https://www.youtube.com/shorts/JQ4K1mymz-M';
-const retodoLink = 'https://makenson.com/todo/';
-const speedLink = 'https://makenson.com/sc/';
-const soonLink = 'https://makenson.com/bop/#home';
-const arcadeLink = 'https://makenson.com/games/';
-const introLink = 'https://makenson.com/intro/';
-const collegeLink = 'https://makenson.com/cp/';
-const graduationLink = 'https://makenson.com/college/';
-
-
-//Source
-const materialSource = 'https://github.com/materialhandlingrobot'; //Material Handling Robot
-const insightSource ='https://github.com/orgs/Insitee/repositories'; //Insight
-const diceSource = 'https://github.com/makensonn/456-Node.js';
-const mathSource = 'https://github.com/makensonn/mathGameNodejs';
-const rpsSource = 'https://github.com/makensonn/rpsGame';
-const floatSource = 'https://github.com/makensonn/float';
-
+const aslLink ='https://www.youtube.com/watch?v=q1tI7GO7d1A'; //ASL Hand Tracker
+const guideLink ='https://makenson.com/cof/'; //Guide
+const visualsLink = 'https://makenson.com/art/'; //Visuals
 
 
 import ProjectItem from './ProjectItem';
@@ -79,24 +33,24 @@ const Projects = () => {
 
 
           <ProjectItems
-            title='Insight'
-            backgroundImg={insightImg}
-            projectUrl={insightLink}
-            tech='Website'
+            title='ASL Hand Tracker'
+            backgroundImg={aslImg}
+            projectUrl={aslLink}
+            tech='Python'
           />
 
           <ProjectItems
-            title='Photo Art Gallery'
-            backgroundImg={artImg}
-            projectUrl={artLink}
-            tech='Website'
+            title='Visuals'
+            backgroundImg={visualsImg}
+            projectUrl={visualsLink}
+            tech='Next.js'
           />
 
           <ProjectItems
-            title='Coding is Fun'
-            backgroundImg={cofImg}
-            projectUrl={cofLink}
-            tech='Website'
+            title='Guide'
+            backgroundImg={guideImg}
+            projectUrl={guideLink}
+            tech='Next.js'
           />
           
         </div>
