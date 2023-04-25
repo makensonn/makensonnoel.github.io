@@ -33,24 +33,24 @@ const Projects = () => {
 
 
           <ProjectItem
-            title='ASL Hand Tracker'
+            title='ASL HT'
             backgroundImg={aslImg}
             projectUrl={aslLink}
-            tech='Python'
+            tech=''
           />
 
           <ProjectItem
             title='Visuals'
             backgroundImg={visualsImg}
             projectUrl={visualsLink}
-            tech='Next.js'
+            tech=''
           />
 
           <ProjectItem
             title='Guide'
             backgroundImg={guideImg}
             projectUrl={guideLink}
-            tech='Next.js'
+            tech=''
           />
           
         </div>
