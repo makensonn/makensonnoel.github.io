@@ -16,9 +16,9 @@ const Main = () => {
           <h1 className='py-4 text-gray-700'>
             <span className='text-[#0a192f]'> Makenson Noel</span>
           </h1>
-         {/* <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-          I developed this website with Next.js
-  </p>*/}
+         <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
+            Software Engineer
+          </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
               href='https://www.linkedin.com/in/makensonnoel/'
