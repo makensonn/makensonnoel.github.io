@@ -29,7 +29,7 @@ const Projects = () => {
         <p className = {titleStyle}><br></br><br></br>Projects</p>
         <p className='py-6'></p>
 
-        <div className='grid md:grid-cols-3 gap-8'>
+        <div className='grid md:grid-cols-1 gap-8'>
 
 
           <ProjectItem
@@ -38,21 +38,6 @@ const Projects = () => {
             projectUrl={aslLink}
             tech=''
           />
-
-          <ProjectItem
-            title='Visuals'
-            backgroundImg={visualsImg}
-            projectUrl={visualsLink}
-            tech=''
-          />
-
-          <ProjectItem
-            title='Guide'
-            backgroundImg={guideImg}
-            projectUrl={guideLink}
-            tech=''
-          />
-          
         </div>
       </div>
     </div>
