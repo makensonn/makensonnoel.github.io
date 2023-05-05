@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn, FaYoutube} from 'react-icons/fa';
 import { HiOutlineChevronDoubleDown } from 'react-icons/hi';
 
 const titleStyle = 'text-4xl font-bold inline border-b-4 text-[#0a192f] border-zinc-500'
@@ -38,12 +38,12 @@ const Main = () => {
                 <FaGithub />
               </div>
             </a>
-            <Link href='/#contact'>
+            <Link href='https://www.youtube.com/watch?v=q1tI7GO7d1A' target="_blank">
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <AiOutlineMail />
+                <FaYoutube />
               </div>
             </Link>
-            <a href='https://www.youtube.com/channel/UCqXnQJAjBqTwqAE2MRky3Fw' target="_blank">
+            <a href='/#projects'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <BsFillPersonLinesFill />
               </div>

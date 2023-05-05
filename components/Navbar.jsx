@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
 import NavLogo from '../public/assets/navLogo.png'
@@ -35,8 +35,8 @@ const Navbar = () => {
       style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
-          : 'fixed w-full h-20 z-[100]'
+          ? 'fixed w-full h-41px shadow-xl z-[100] ease-in-out duration-300'
+          : 'fixed w-full h-41px z-[100]'
       }
     >
       <div className={navBarStyle}>
@@ -62,10 +62,10 @@ const Navbar = () => {
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#projects'>Projects</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+           {/* <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#contact'>Contact</Link>
         
-            </li>
+    </li> */}
           </ul>
           {/* Hamburger Icon */}
           <div
@@ -134,11 +134,11 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href='/#contact'>
+             {/* <Link href='/#contact'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Contact
                 </li>
-              </Link>
+              </Link> */}
             </ul>
             <div className='pt-40'>
               <p className='uppercase tracking-widest text-[#0a192f]'>
@@ -154,6 +154,7 @@ const Navbar = () => {
                     <FaLinkedinIn />
                   </div>
                 </a>
+
                 <a
                   href='https://github.com/makensonn'
                   target='_blank'
@@ -163,12 +164,13 @@ const Navbar = () => {
                     <FaGithub />
                   </div>
                 </a>
-                <Link href='/#contact'>
+
+              <Link href='https://www.youtube.com/watch?v=q1tI7GO7d1A'>
                   <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
                   >
-                    <AiOutlineMail />
+                    <FaYoutube />
                   </div>
                 </Link>
               </div>
