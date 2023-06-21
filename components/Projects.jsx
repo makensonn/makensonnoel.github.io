@@ -16,6 +16,10 @@ const aslLink ='https://www.youtube.com/watch?v=q1tI7GO7d1A'; //ASL Hand Tracker
 const guideLink = "https://makenson.com/cof/"; //Guide
 const visualsLink = 'https://makenson.com/art/'; //Visuals
 
+//Source
+const aslSource ='https://github.com/makensonn/asl'; //ASL Hand Tracker
+
+
 import ProjectItem from './ProjectItem';
 import ProjectItems from './ProjectItems';
 
@@ -36,6 +40,7 @@ const Projects = () => {
             title='ASL HT'
             backgroundImg={aslImg}
             projectUrl={aslLink}
+            sourceUrl={aslSource}
             tech=''
           />
         </div>
