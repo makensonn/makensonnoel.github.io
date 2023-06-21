@@ -17,7 +17,7 @@ const Main = () => {
             <span className='text-[#0a192f]'> Makenson Noel</span>
           </h1>
          <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-            B.S. Computer Science
+            Software Engineer
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
@@ -38,11 +38,20 @@ const Main = () => {
                 <FaGithub />
               </div>
             </a>
-            <Link href='https://www.youtube.com/watch?v=q1tI7GO7d1A' target="_blank">
+            <a
+              href='https://www.youtube.com/watch?v=q1tI7GO7d1A'
+              target='_blank'
+              rel='noreferrer'
+            >
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <FaYoutube />
               </div>
-            </Link>
+            </a>
+          {/*  <Link href='https://www.youtube.com/watch?v=q1tI7GO7d1A' target="_blank">
+              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <FaYoutube />
+              </div>
+  </Link> */}
             <a href='/#projects'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <BsFillPersonLinesFill />
