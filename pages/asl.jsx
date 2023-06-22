@@ -38,12 +38,14 @@ const asl = () => {
           <h2>Overview</h2>
           <p>
             I built this application in Python and it's source code is on GitHub.
-            {/*This app features user authentication with firebase as well as the
-            firestore cloud storage database. This application is pulling movie
-            data from an the IMDB movie API and displaying different categories.
-            It features horizontal sliding and a featured selection. The
-            useContext hook is also being implemented for app-wide state
-  management.*/}
+            The American Sign Language (ASL) Hand Tracker project is a Python-based solution 
+            that utilizes TensorFlow, OpenCV, Mediapipe, Matplotlib, and Scikit-Learn to recognize 
+            and interpret ASL hand gestures in real-time. By leveraging deep learning with TensorFlow, 
+            the system accurately detects and classifies hand movements. OpenCV and Mediapipe provide 
+            the necessary tools for hand tracking and pose estimation. The project incorporates a graphical interface 
+            in Jupyter Notebook, enabling interactive visualization of the recognized gestures using Matplotlib. 
+            The ASL Hand Tracker serves as an invaluable tool for learning and communicating in ASL, while also contributing 
+            to the fields of computer vision, gesture recognition, and human-computer interaction.
           </p>
           <a
             href='https://github.com/makensonn/asl'
