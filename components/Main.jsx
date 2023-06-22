@@ -39,7 +39,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href='https://www.youtube.com/watch?v=q1tI7GO7d1A'
+              href='https://www.youtube.com/@MakMadeIt'
               target='_blank'
               rel='noreferrer'
             >
