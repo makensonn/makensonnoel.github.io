@@ -39,9 +39,9 @@ const Projects = () => {
           <ProjectItem
             title='ASL HT'
             backgroundImg={aslImg}
-            projectUrl={aslLink}
+            projectUrl='/asl'
             sourceUrl={aslSource}
-            tech=''
+            tech='Python'
           />
         </div>
       </div>
