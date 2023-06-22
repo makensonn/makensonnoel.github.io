@@ -1,8 +1,12 @@
 import Image from 'next/image';
 import React from 'react';
 import AslImg from '../public/assets/about.jpg';
+import aslImg from '../public/assets/projects/asl.png'; //ASL Hand Tracker
+import YouTubePlayer from '../components/YouTubePlayer';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
+
+const videoId = 'q1tI7GO7d1A';
 
 const asl = () => {
   return (
@@ -13,7 +17,7 @@ const asl = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={AslImg}
+          src={aslImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
@@ -28,8 +32,9 @@ const asl = () => {
 
           {/*<h2>Overview</h2>*/}
           <p>
-            Youtube Video
+            American Sign Language Hand Tracker
           </p>
+          <YouTubePlayer videoId={videoId} />
           <h2>Overview</h2>
           <p>
             I built this application in Python and it's source code is on GitHub.
