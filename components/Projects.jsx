@@ -45,6 +45,8 @@ const Projects = () => {
           />
         </div>
       </div>
+
+      {/* Scroll Up Button */}
       <div className='flex justify-center py-12'>
           <Link href='/'>
             <a>
@@ -57,6 +59,7 @@ const Projects = () => {
             </a>
           </Link>
         </div>
+      {/* Button Ends Here */}
     </div>
   );
 };

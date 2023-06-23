@@ -47,11 +47,6 @@ const Main = () => {
                 <FaYoutube />
               </div>
             </a>
-          {/*  <Link href='https://www.youtube.com/watch?v=q1tI7GO7d1A' target="_blank">
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FaYoutube />
-              </div>
-  </Link> */}
             <a href='/#projects'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <BsFillPersonLinesFill />

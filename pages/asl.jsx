@@ -1,20 +1,20 @@
 import Image from 'next/image';
 import React from 'react';
-import AslImg from '../public/assets/about.jpg';
 import aslImg from '../public/assets/projects/asl.png'; //ASL Hand Tracker
 import YouTubePlayer from '../components/YouTubePlayer';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
+import { HiOutlineChevronDoubleLeft } from 'react-icons/hi';
 
 const videoId = 'q1tI7GO7d1A';
 
 const asl = () => {
   return (
-    <div className='w-full'>
-      <div className='w-screen h-[50vh] relative'>
+    <div className='w-full h-screen'>
+      <div className='w-full h-[50vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
         <Image
-          className='absolute z-1'
+          className='absolute' 
           layout='fill'
           objectFit='cover'
           src={aslImg}
@@ -24,17 +24,19 @@ const asl = () => {
           <h2 className='py-2'>American Sign Language Hand Tracker</h2>
           <h3>Python / Jupyter Notebook / TensorFlow</h3>
         </div>
-      </div>
+  </div>
 
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
         <div className='col-span-4'>
           <p>Project</p>
 
           {/*<h2>Overview</h2>*/}
-          <p>
+          <h2>
             American Sign Language Hand Tracker
-          </p>
+          </h2>
+          <br></br>
           <YouTubePlayer videoId={videoId} />
+          <br></br><br></br>
           <h2>Overview</h2>
           <p>
             I built this application in Python and it's source code is on GitHub.
@@ -54,13 +56,13 @@ const asl = () => {
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
-         {/*} <a
-            href='https://fireclint.github.io/netflix-react-tailwind/'
+          <a
+            href='https://www.youtube.com/watch?v=q1tI7GO7d1A'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4'>Demo</button>
-          </a> */}
+          </a>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>
@@ -90,10 +92,25 @@ const asl = () => {
             </div>
           </div>
         </div>
-        <Link href='/#projects'>
-          <p className='underline cursor-pointer'>Back</p>
-        </Link>
       </div>
+
+      {/* Back Button */}
+
+      <div className='flex justify-center py-12'>
+          <Link href='/#projects'>
+            <a>
+              <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <HiOutlineChevronDoubleLeft
+                  className='text-[#0a192f]'
+                  size={30}
+                />
+              </div>
+            </a>
+          </Link>
+        </div>
+
+      {/* Back Button */}
+
     </div>
   );
 };
