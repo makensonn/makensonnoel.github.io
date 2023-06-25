@@ -23,7 +23,7 @@ const TicTacToePage = () => {
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Tic Tac Toe</h2>
-          <h3>Next.js / TailwindCSS </h3>
+          <h3>Next.js / TailwindCSS / React Hooks</h3>
         </div>
       </div>
       {/*Header*/}
@@ -83,7 +83,7 @@ const TicTacToePage = () => {
           </p>
           
           <a
-            href='https://github.com/makensonn/makensonn.github.io'
+            href='https://github.com/makensonn/makensonn.github.io/blob/master/components/TicTacToe.jsx'
             target='_blank'
             rel='noreferrer'
           >
@@ -109,6 +109,9 @@ const TicTacToePage = () => {
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> TailwindCSS
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> React Hooks
               </p>
             </div>
           </div>
