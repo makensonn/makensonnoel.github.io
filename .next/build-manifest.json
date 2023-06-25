@@ -30,15 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/asl": [
+    "/tic": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/asl.js"
-    ],
-    "/asls": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/asls.js"
+      "static/chunks/pages/tic.js"
     ]
   },
   "ampFirstPages": []
