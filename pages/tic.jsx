@@ -23,7 +23,7 @@ const TicTacToePage = () => {
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Tic Tac Toe</h2>
-          <h3>Next.js / TailwindCSS / React Hooks</h3>
+          <h3>Next.js / TailwindCSS </h3>
         </div>
       </div>
       {/*Header*/}
@@ -60,19 +60,19 @@ const TicTacToePage = () => {
 
           <br></br><br></br>
           <h2>Implementation Details</h2>
-          <p>
-          <li>The game logic is implemented using React Hooks, specifically the useState and useEffect hooks, to manage the board state, current player, and winner.</li>
+          <div>
+            <li>The game logic is implemented using React Hooks, specifically the useState and useEffect hooks, to manage the board state, current player, and winner.</li>
             <br></br>
             <li>The handleCellClick function handles the user's move by updating the board state, checking for a winner, and changing the current player.</li>
             <br></br>
             <li>The makeComputerMove function is triggered when it's the computer player's turn. It randomly selects an available cell and updates the board state.</li>
             <br></br>
-            <li> The checkWinner function checks for winning combinations by comparing the symbols in the board array against predefined winning combinations.</li>
+            <li>The checkWinner function checks for winning combinations by comparing the symbols in the board array against predefined winning combinations.</li>
             <br></br>
             <li>The game's UI is styled using Tailwind CSS classes, providing a clean and responsive design. The cells are expanded using flexbox to create a square shape for each box.</li>
             <br></br>
             <li>The component can be easily integrated into an existing Next.js project by importing the TicTacToe component and rendering it within a page or another component.</li>
-          </p>
+          </div>
 
           <br></br><br></br>
           <h2>Conclusion</h2>
@@ -109,9 +109,6 @@ const TicTacToePage = () => {
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> TailwindCSS
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React Hooks
               </p>
             </div>
           </div>

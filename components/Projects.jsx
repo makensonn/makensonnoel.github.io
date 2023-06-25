@@ -10,6 +10,8 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import aslImg from '../public/assets/projects/asl.png'; //ASL Hand Tracker
 import guideImg from '../public/assets/projects/guide.png'; //Guide
 import visualsImg from '../public/assets/projects/visuals.png'; //Visuals
+import ticImg from '../public/assets/projects/tictactoe.png'; //TicTacToe
+
 
 //Links
 const aslLink ='https://www.youtube.com/watch?v=q1tI7GO7d1A'; //ASL Hand Tracker
@@ -18,6 +20,7 @@ const visualsLink = 'https://makenson.com/art/'; //Visuals
 
 //Source
 const aslSource ='https://github.com/makensonn/asl'; //ASL Hand Tracker
+const ticSource ='https://github.com/makensonn/makensonn.github.io/blob/master/components/TicTacToe.jsx'; //ASL Hand Tracker
 
 
 import ProjectItem from './ProjectItem';
@@ -34,7 +37,7 @@ const Projects = () => {
         <p className = {titleStyle}><br></br><br></br>Projects</p>
         <p className='py-6'></p>
 
-        <div className='grid md:grid-cols-1 gap-8'>
+        <div className='grid md:grid-cols-2 gap-8'>
 
           <ProjectItem
             title='ASL HT'
@@ -42,6 +45,14 @@ const Projects = () => {
             projectUrl='/asl'
             sourceUrl={aslSource}
             tech='Python'
+          />
+
+          <ProjectItem
+            title='TicTacToe'
+            backgroundImg={ticImg}
+            projectUrl='/tic'
+            sourceUrl={ticSource}
+            tech='Next.js'
           />
         </div>
       </div>
