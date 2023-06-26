@@ -42,7 +42,7 @@ const EcommercePage = () => {
           <br></br><br></br>
           <h2>Overview</h2>
           <p>
-            This Ecommerce Website is developed with Next.js and TailwindCSS. It's coming soon and currently being built, please visit other projects. 
+            This Ecommerce Website is being developed with Next.js and TailwindCSS. It's coming soon, please visit other projects. 
           </p>
           
           <a
@@ -50,7 +50,7 @@ const EcommercePage = () => {
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+            <button className='px-8 py-2 mt-4 mr-8'>Solver Code</button>
           </a>
           <a
             href='https://makenson.com/ecomm'

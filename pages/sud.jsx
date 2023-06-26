@@ -3,6 +3,7 @@ import React from 'react';
 import sudImg from '../public/assets/projects/sudoku.png'; //Tic Tac Toe
 import YouTubePlayer from '../components/YouTubePlayer';
 import TicTacToe from '../components/TicTacToe';
+import SudokuGame from '../components/Sudoku';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import { HiOutlineChevronDoubleLeft } from 'react-icons/hi';
@@ -36,50 +37,46 @@ const SudokuSolverPage = () => {
             Sudoku Solver
           </h2>
           <br></br>
-          <TicTacToe /> 
+          <SudokuGame /> 
 
           <br></br><br></br>
           <h2>Overview</h2>
           <p>
-            This Tic Tac Toe game is implemented as a component in a Next.js application, allowing users 
-            to play against a computer-controlled player. The game board is rendered using a grid layout, 
-            and the styling is done using Tailwind CSS classes.
+            In this task, I created a Sudoku game using JSX and integrated Tailwind CSS for styling. 
+            The Sudoku game allows users to input numbers into a 9x9 grid, aiming to complete the grid 
+            with numbers from 1 to 9 without any repetition in rows, columns, or 3x3 boxes. 
+            The game provides a user-friendly interface for solving Sudoku puzzles.
           </p>
 
           <br></br><br></br>
           <h2>Key Features</h2>
           <p>
-            1. Interactive Gameplay: Users can click on the empty cells to make their moves. The game alternates between the human player (X) and the computer player (O).
+            1. Interactive Grid: The Sudoku grid is rendered dynamically, allowing users to input numbers into each cell. Changes made by the user are reflected in real-time.
             <br></br><br></br>
-            2. Computer Player Logic: The computer player's moves are determined using a random selection algorithm. It chooses an available cell on the board to place its symbol.
+            2. Input Validation: The game validates user input to ensure that only numbers from 1 to 9 are accepted in each cell. Non-numeric inputs or numbers outside the valid range are handled gracefully.
             <br></br><br></br>
-            3. Win Detection: The game checks for winning combinations after each move to determine if a player has won. If there is a winner, the game displays a message indicating the winning player. In case of a draw, a "draw" message is shown.
-            <br></br><br></br>
-            4. Resetting the Game: A reset button is provided to allow users to start a new game. Clicking the reset button clears the board and resets the game state.
+            3. Responsive Design: The game's UI is designed to be responsive using Tailwind CSS classes, ensuring a consistent experience across different screen sizes and devices.
           </p>
 
           <br></br><br></br>
           <h2>Implementation Details</h2>
           <div>
-            <li>The game logic is implemented using React Hooks, specifically the useState and useEffect hooks, to manage the board state, current player, and winner.</li>
+            <li>State Management: The Sudoku board is stored in the component state using the useState hook. Each cell of the board is represented by a 2D array of numbers.</li>
             <br></br>
-            <li>The handleCellClick function handles the user's move by updating the board state, checking for a winner, and changing the current player.</li>
+            <li>User Input Handling: The handleCellChange function is responsible for updating the board state when a user enters a number in a cell. It extracts the new value from the input element and updates the corresponding cell in the board state.</li>
             <br></br>
-            <li>The makeComputerMove function is triggered when it's the computer player's turn. It randomly selects an available cell and updates the board state.</li>
+            <li>Rendering the Board: The renderBoard function generates the JSX code for rendering the Sudoku board. It iterates over the board state and generates table rows and cells. Each cell contains an input element for user input.</li>
             <br></br>
-            <li>The checkWinner function checks for winning combinations by comparing the symbols in the board array against predefined winning combinations.</li>
-            <br></br>
-            <li>The game's UI is styled using Tailwind CSS classes, providing a clean and responsive design. The cells are expanded using flexbox to create a square shape for each box.</li>
-            <br></br>
-            <li>The component can be easily integrated into an existing Next.js project by importing the TicTacToe component and rendering it within a page or another component.</li>
+            <li>Styling with Tailwind CSS: Tailwind CSS classes are applied to various elements to style the game's UI. Classes like border, text-center, bg-gray-200, and focus:outline-none are used to achieve the desired appearance.</li>
           </div>
 
           <br></br><br></br>
           <h2>Conclusion</h2>
           <p>
-            This Tic Tac Toe game component offers an engaging gaming experience with a computer-controlled player 
-            in a Next.js application. With its interactive gameplay, win detection, and clean design using Tailwind CSS, 
-            it provides an enjoyable and visually appealing gaming experience.
+            In this task, I successfully created a Sudoku game using JSX and Tailwind CSS. 
+            The game allows users to solve Sudoku puzzles by inputting numbers into a 9x9 grid. 
+            The use of React for component-based UI and Tailwind CSS for styling ensured a clean and responsive design. 
+            This implementation can serve as a foundation for further enhancements, such as implementing puzzle generation, solving algorithms, and game logic validation.
           </p>
           
           <a
@@ -87,14 +84,14 @@ const SudokuSolverPage = () => {
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+            <button className='px-8 py-2 mt-4 mr-8'>Game Code</button>
           </a>
           <a
-            href='https://makenson.com/tic'
+            href='https://github.com/makensonn/Sudoku-solver/blob/master/Sudokusolver.java'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4'>Demo</button>
+            <button className='px-8 py-2 mt-4 mr-8'>Solver Code</button>
           </a>
         </div>
         {/*Project Overview*/}
@@ -106,6 +103,12 @@ const SudokuSolverPage = () => {
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Java
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Next.js
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> TailwindCSS
               </p>
             </div>
           </div>
