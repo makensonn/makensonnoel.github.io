@@ -9,6 +9,8 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
 import aslImg from '../public/assets/projects/asl.png'; //ASL Hand Tracker
 import ticImg from '../public/assets/projects/tictactoe.png'; //TicTacToe
+import sudImg from '../public/assets/projects/sudoku.png'; //ASL Hand Tracker
+import ecommImg from '../public/assets/projects/ecomm.png'; //TicTacToe
 
 
 //Links
@@ -19,7 +21,8 @@ const visualsLink = 'https://makenson.com/art/'; //Visuals
 //Source
 const aslSource ='https://github.com/makensonn/asl'; //ASL Hand Tracker
 const ticSource ='https://github.com/makensonn/makensonn.github.io/blob/master/components/TicTacToe.jsx'; //ASL Hand Tracker
-
+const sudSource ='https://github.com/makensonn/Sudoku-solver'; //ASL Hand Tracker
+const ecommSource ='https://github.com/makensonn/makensonn.github.io/blob/master/components/TicTacToe.jsx'; //ASL Hand Tracker
 
 import ProjectItem from './ProjectItem';
 import ProjectItems from './ProjectItems';
@@ -38,6 +41,14 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
 
           <ProjectItem
+            title='E-Commerce'
+            backgroundImg={ecommImg}
+            projectUrl='/ecomm'
+            sourceUrl={ecommSource}
+            tech='Next.js'
+          />
+
+          <ProjectItem
             title='ASL HT'
             backgroundImg={aslImg}
             projectUrl='/asl'
@@ -46,11 +57,19 @@ const Projects = () => {
           />
 
           <ProjectItem
+            title='Sudoku'
+            backgroundImg={sudImg}
+            projectUrl='/sud'
+            sourceUrl={sudSource}
+            tech='Java'
+          />
+
+          <ProjectItem
             title='TicTacToe'
             backgroundImg={ticImg}
             projectUrl='/tic'
             sourceUrl={ticSource}
-            tech='Next.js'
+            tech='JSX'
           />
         </div>
       </div>
