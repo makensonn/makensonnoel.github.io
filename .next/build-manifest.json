@@ -30,10 +30,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/tic": [
+    "/ecomm": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/tic.js"
+      "static/chunks/pages/ecomm.js"
+    ],
+    "/sud": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/sud.js"
     ]
   },
   "ampFirstPages": []

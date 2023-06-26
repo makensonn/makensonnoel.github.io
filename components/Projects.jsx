@@ -8,8 +8,6 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 //Image
 
 import aslImg from '../public/assets/projects/asl.png'; //ASL Hand Tracker
-import guideImg from '../public/assets/projects/guide.png'; //Guide
-import visualsImg from '../public/assets/projects/visuals.png'; //Visuals
 import ticImg from '../public/assets/projects/tictactoe.png'; //TicTacToe
 
 
