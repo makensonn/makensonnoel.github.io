@@ -21,8 +21,8 @@ const visualsLink = 'https://makenson.com/art/'; //Visuals
 //Source
 const aslSource ='https://github.com/makensonn/asl'; //ASL Hand Tracker
 const ticSource ='https://github.com/makensonn/makensonn.github.io/blob/master/components/TicTacToe.jsx'; //ASL Hand Tracker
-const sudSource ='https://github.com/makensonn/Sudoku-solver'; //ASL Hand Tracker
-const ecommSource ='https://github.com/makensonn/makensonn.github.io/blob/master/components/TicTacToe.jsx'; //ASL Hand Tracker
+const sudSource ='https://github.com/makensonn/Sudoku-solver'; //Sudoku Solver
+const ecommSource ='https://makenson.com/ecomm'; //ASL Hand Tracker
 
 import ProjectItem from './ProjectItem';
 import ProjectItems from './ProjectItems';

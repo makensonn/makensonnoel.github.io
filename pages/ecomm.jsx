@@ -1,8 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
 import ecommImg from '../public/assets/projects/ecomm.png'; //Tic Tac Toe
-import YouTubePlayer from '../components/YouTubePlayer';
-import TicTacToe from '../components/TicTacToe';
 import Countdown from '../components/Countdown';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
@@ -50,7 +48,7 @@ const EcommercePage = () => {
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8'>Solver Code</button>
+            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
             href='https://makenson.com/ecomm'

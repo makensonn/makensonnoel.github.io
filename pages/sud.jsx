@@ -1,8 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
 import sudImg from '../public/assets/projects/sudoku.png'; //Tic Tac Toe
-import YouTubePlayer from '../components/YouTubePlayer';
-import TicTacToe from '../components/TicTacToe';
 import SudokuGame from '../components/Sudoku';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
@@ -80,7 +78,7 @@ const SudokuSolverPage = () => {
           </p>
           
           <a
-            href='https://github.com/makensonn/makensonn.github.io/blob/master/components/TicTacToe.jsx'
+            href='https://github.com/makensonn/makensonn.github.io/blob/master/components/Sudoku.jsx'
             target='_blank'
             rel='noreferrer'
           >

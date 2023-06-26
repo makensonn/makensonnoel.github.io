@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
 import ticImg from '../public/assets/projects/tictactoe.png'; //Tic Tac Toe
-import YouTubePlayer from '../components/YouTubePlayer';
 import TicTacToe from '../components/TicTacToe';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
@@ -90,7 +89,7 @@ const TicTacToePage = () => {
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://makenson.com/tic'
+            href='/tic'
             target='_blank'
             rel='noreferrer'
           >
