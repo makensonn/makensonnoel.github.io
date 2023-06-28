@@ -38,7 +38,7 @@ const Projects = () => {
         <p className = {titleStyle}><br></br><br></br>Projects</p>
         <p className='py-6'></p>
 
-        <div className='grid md:grid-cols-2 gap-8'>
+        <div className='grid md:grid-cols-3 gap-8'>
 
           <ProjectItem
             title='E-Commerce'
@@ -64,14 +64,21 @@ const Projects = () => {
             tech='Java'
           />
 
-          <ProjectItem
+         {/* <ProjectItem
             title='TicTacToe'
             backgroundImg={ticImg}
             projectUrl='/tic'
             sourceUrl={ticSource}
             tech='JSX'
-          />
+  /> */}
         </div>
+
+        <br></br><br></br>
+
+        <a href='/more' className="flex items-center h-full">
+          View More
+        </a>
+
       </div>
 
       {/* Scroll Up Button */}
