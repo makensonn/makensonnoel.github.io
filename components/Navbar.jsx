@@ -173,14 +173,16 @@ const Navbar = () => {
                   </div>
                 </a>
 
-              <Link href='https://www.youtube.com/watch?v=q1tI7GO7d1A'>
-                  <div
-                    onClick={() => setNav(!nav)}
-                    className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
-                  >
-                    <FaYoutube />
+                <a
+                  href='https://replit.com/@MakensonNoel'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                    <BsFillPersonLinesFill />
                   </div>
-                </Link>
+                </a>
+
               </div>
             </div>
           </div>
