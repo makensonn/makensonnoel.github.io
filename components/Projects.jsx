@@ -38,30 +38,14 @@ const Projects = () => {
         <p className = {titleStyle}><br></br><br></br>Projects</p>
         <p className='py-6'></p>
 
-        <div className='grid md:grid-cols-2 gap-8'>
+        <div className='grid md:grid-cols-3 gap-8'>
 
           <ProjectItem
             title='E-Commerce'
             backgroundImg={ecommImg}
             projectUrl='/ecomm'
             sourceUrl={ecommSource}
-            tech='Next.js'
-          />
-
-          <ProjectItem
-            title='ASL HT'
-            backgroundImg={aslImg}
-            projectUrl='/asl'
-            sourceUrl={aslSource}
-            tech='Python'
-          />
-
-          <ProjectItem
-            title='Sudoku'
-            backgroundImg={sudImg}
-            projectUrl='/sud'
-            sourceUrl={sudSource}
-            tech='Java'
+            tech='JavaScript'
           />
 
           <ProjectItem
@@ -69,15 +53,23 @@ const Projects = () => {
             backgroundImg={ticImg}
             projectUrl='/tic'
             sourceUrl={ticSource}
-            tech='JSX'
+            tech='JavaScript'
           /> 
+
+          <ProjectItem
+            title='Sudoku'
+            backgroundImg={sudImg}
+            projectUrl='/sud'
+            sourceUrl={sudSource}
+            tech='JavaScript'
+          />
         </div>
 
-        <br></br><br></br>
+      {/*  <br></br><br></br>
 
         <a href='https://github.com/makensonn' target="_blank" className="flex items-center h-full underline">
           View More
-        </a>
+  </a> */}
 
       </div>
 

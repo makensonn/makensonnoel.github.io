@@ -14,7 +14,7 @@ const About = () => {
           <p className={titleStyle}><br></br><br></br>About</p>
           <p className='py-2'></p>
           <p className='py-2 text-gray-600'>
-          Knowledgeable in several programming languages, with experience working on software development projects both 
+          Knowledgeable in programming languages, with experience working on software development projects both 
           independently and in a team environment using a variety of software development methodologies.
           <br></br><br></br>
           In addition, Strong problem-solving skills and able to think creatively to develop innovative solutions to complex 
