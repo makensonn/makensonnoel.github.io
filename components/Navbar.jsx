@@ -174,8 +174,7 @@ const Navbar = () => {
                 </a>
 
                 <a
-                  href='https://replit.com/@MakensonNoel'
-                  target='_blank'
+                  href='/#about'
                   rel='noreferrer'
                 >
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>

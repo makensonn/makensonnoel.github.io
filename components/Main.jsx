@@ -38,8 +38,7 @@ const Main = () => {
                 <FaGithub />
               </div>
             </a>
-            <a href='https://replit.com/@MakensonNoel'
-               target='_blank'
+            <a href='#about'
             >
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <BsFillPersonLinesFill />
@@ -47,7 +46,7 @@ const Main = () => {
             </a>
           </div>
           <div className='flex justify-center py-12'>
-          <Link href='/#about'>
+          <Link href='/#projects'>
             <a>
               <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <HiOutlineChevronDoubleDown
