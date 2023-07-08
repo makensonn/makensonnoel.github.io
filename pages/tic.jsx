@@ -40,9 +40,9 @@ const TicTacToePage = () => {
           <br></br><br></br>
           <h2>Overview</h2>
           <p>
-            This Tic Tac Toe game is implemented as a component in a Next.js application, allowing users 
+            Developed Tic Tac Toe with JavaScript, allowing users 
             to play against a computer-controlled player. The game board is rendered using a grid layout, 
-            and the styling is done using Tailwind CSS classes.
+            and the styling is done using Tailwind CSS.
           </p>
 
          
