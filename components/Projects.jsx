@@ -3,26 +3,16 @@ import Link from 'next/link';
 import React from 'react';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
-
-
 //Image
-
-import aslImg from '../public/assets/projects/asl.png'; //ASL Hand Tracker
 import ticImg from '../public/assets/projects/tictactoe.png'; //TicTacToe
 import sudImg from '../public/assets/projects/sudoku.png'; //ASL Hand Tracker
 import ecommImg from '../public/assets/projects/ecomm.png'; //TicTacToe
 
-
-//Links
-const aslLink ='https://www.youtube.com/watch?v=q1tI7GO7d1A'; //ASL Hand Tracker
-const guideLink = "https://makenson.com/cof/"; //Guide
-const visualsLink = 'https://makenson.com/art/'; //Visuals
-
 //Source
 const aslSource ='https://github.com/makensonn/asl'; //ASL Hand Tracker
-const ticSource ='https://github.com/makensonn/makensonn.github.io/blob/master/components/TicTacToe.jsx'; //ASL Hand Tracker
+const ticSource ='https://github.com/makensonn/makensonn.github.io/blob/master/components/TicTacToe.jsx'; //TicTacToe
 const sudSource ='https://github.com/makensonn/makensonn.github.io/blob/master/components/Sudoku.jsx'; //Sudoku Solver
-const ecommSource ='https://makenson.com/ecomm'; //ASL Hand Tracker
+const ecommSource ='/ecomm'; //Ecommerce Site
 
 import ProjectItem from './ProjectItem';
 import ProjectItems from './ProjectItems';
@@ -49,7 +39,7 @@ const Projects = () => {
           />
 
           <ProjectItem
-            title='TicTacToe'
+            title='Tic Tac Toe'
             backgroundImg={ticImg}
             projectUrl='/tic'
             sourceUrl={ticSource}
@@ -57,7 +47,7 @@ const Projects = () => {
           /> 
 
           <ProjectItem
-            title='Sudoku'
+            title='Sudoku Game'
             backgroundImg={sudImg}
             projectUrl='/sud'
             sourceUrl={sudSource}

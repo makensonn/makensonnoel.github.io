@@ -22,7 +22,7 @@ const EcommercePage = () => {
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Ecommerce Website</h2>
-          <h3>Next.js / TailwindCSS </h3>
+          <h3>JavaScript / TailwindCSS </h3>
         </div>
       </div>
       {/*Header*/}
@@ -40,7 +40,7 @@ const EcommercePage = () => {
           <br></br><br></br>
           <h2>Overview</h2>
           <p>
-            This Ecommerce Website is being developed with Next.js and TailwindCSS. It's coming soon, please visit other projects. 
+            This Ecommerce Website is being developed with JavaScript and TailwindCSS. It's coming soon, please visit other projects. 
           </p>
           
           <a
@@ -48,14 +48,7 @@ const EcommercePage = () => {
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
-          </a>
-          <a
-            href='https://makenson.com/ecomm'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <button className='px-8 py-2 mt-4'>Demo</button>
+            <button className='px-8 py-2 mt-4 mr-8'>Source Code</button>
           </a>
         </div>
         {/*Project Overview*/}
@@ -66,7 +59,7 @@ const EcommercePage = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Next.js
+                <RiRadioButtonFill className='pr-1' /> JavaScript
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> TailwindCSS

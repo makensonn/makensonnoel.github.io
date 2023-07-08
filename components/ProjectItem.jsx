@@ -14,7 +14,7 @@ const ProjectItem = ({title, backgroundImg, tech, projectUrl, sourceUrl}) => {
         </a>
        <br></br>
         <a href={sourceUrl} target='_blank'>
-          <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>Code</p>
+          <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>Source Code</p>
         </a>
     </div>
  </div>
