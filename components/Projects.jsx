@@ -3,11 +3,6 @@ import Link from 'next/link';
 import React from 'react';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
-//Image
-import ticImg from '../public/assets/projects/tictactoe.png'; //TicTacToe
-import sudImg from '../public/assets/projects/sudoku.png'; //ASL Hand Tracker
-import ecommImg from '../public/assets/projects/ecomm.png'; //TicTacToe\
-
 import artImg from '../public/assets/projects/art.png'; //Art
 import dontforgetImg from '../public/assets/projects/dontforget.png'; //Dont forget
 import gymImg from '../public/assets/projects/gym.png'; //Gym
@@ -16,12 +11,13 @@ import scImg from '../public/assets/projects/sc.png'; //Speed Converter
 import portfolioImg from '../public/assets/projects/portfolio.png'; //TicTacToe\
 
 
-
 //Source
-const aslSource ='https://github.com/makensonn/asl'; //ASL Hand Tracker
-const ticSource ='https://github.com/makensonn/makensonn.github.io/blob/master/components/TicTacToe.jsx'; //TicTacToe
-const sudSource ='https://github.com/makensonn/makensonn.github.io/blob/master/components/Sudoku.jsx'; //Sudoku Solver
-const ecommSource ='/ecomm'; //Ecommerce Site
+const artSource ='https://github.com/makensonn/art'; //Art
+const dontforgetSource ='https://github.com/makensonn/todolist'; //Dont forget
+const gymSource ='https://github.com/makensonn/gym'; //Gym
+const cofSource ='https://github.com/makensonn/cof'; //Cof
+const scSource ='https://github.com/makensonn/sc'; //Speed Converter
+const portfolioSource ='https://github.com/makensonn/makensonn.github.io'; //Portfolio
 
 import ProjectItem from './ProjectItem';
 import ProjectItems from './ProjectItems';
@@ -42,52 +38,50 @@ const Projects = () => {
           <ProjectItem
             title='Coding is Fun'
             backgroundImg={cofImg}
-            projectUrl='/ecomm'
-            sourceUrl={ecommSource}
-            tech='JavaScript'
+            projectUrl='https://makensonn.github.io/cof/'
+            sourceUrl={cofSource}
+            tech='Coding Website'
           />
 
           <ProjectItem
-            title='Tic Tac Toe'
+            title='Art Gallery'
             backgroundImg={artImg}
-            projectUrl='/tic'
-            sourceUrl={ticSource}
-            tech='JavaScript'
+            projectUrl='https://makensonn.github.io/art/'
+            sourceUrl={artSource}
+            tech='Art Website'
           /> 
 
           <ProjectItem
-            title='Sudoku Game'
+            title='Gym Guide'
             backgroundImg={gymImg}
-            projectUrl='/sud'
-            sourceUrl={sudSource}
-            tech='JavaScript'
+            projectUrl='https://makensonn.github.io/gym/'
+            sourceUrl={gymSource}
+            tech='Gym Website'
           />
 
           <ProjectItem
-            title='E-Commerce'
+            title='Dont Forget'
             backgroundImg={dontforgetImg}
-            projectUrl='/ecomm'
-            sourceUrl={ecommSource}
-            tech='JavaScript'
+            projectUrl='https://makensonn.github.io/todolist/'
+            sourceUrl={dontforgetSource}
+            tech='To-Do List'
           />
 
           <ProjectItem
-            title='Tic Tac Toe'
+            title='Speed Converter'
             backgroundImg={scImg}
-            projectUrl='/tic'
-            sourceUrl={ticSource}
-            tech='JavaScript'
+            projectUrl='https://makensonn.github.io/sc/'
+            sourceUrl={scSource}
+            tech='Speed Converter'
           /> 
 
           <ProjectItem
-            title='Sudoku Game'
+            title='Web Portfolio'
             backgroundImg={portfolioImg}
-            projectUrl='/sud'
-            sourceUrl={sudSource}
-            tech='JavaScript'
+            projectUrl='/#about'
+            sourceUrl={portfolioSource}
+            tech='Portfolio'
           />
-
-
 
         </div>
       {/*  <br></br><br></br>
