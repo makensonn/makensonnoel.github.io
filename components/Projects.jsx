@@ -6,7 +6,16 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 //Image
 import ticImg from '../public/assets/projects/tictactoe.png'; //TicTacToe
 import sudImg from '../public/assets/projects/sudoku.png'; //ASL Hand Tracker
-import ecommImg from '../public/assets/projects/ecomm.png'; //TicTacToe
+import ecommImg from '../public/assets/projects/ecomm.png'; //TicTacToe\
+
+import artImg from '../public/assets/projects/art.png'; //Art
+import dontforgetImg from '../public/assets/projects/dontforget.png'; //Dont forget
+import gymImg from '../public/assets/projects/gym.png'; //Gym
+import cofImg from '../public/assets/projects/cof.png'; //Cof
+import scImg from '../public/assets/projects/sc.png'; //Speed Converter
+import portfolioImg from '../public/assets/projects/portfolio.png'; //TicTacToe\
+
+
 
 //Source
 const aslSource ='https://github.com/makensonn/asl'; //ASL Hand Tracker
@@ -31,8 +40,8 @@ const Projects = () => {
         <div className='grid md:grid-cols-3 gap-8'>
 
           <ProjectItem
-            title='E-Commerce'
-            backgroundImg={ecommImg}
+            title='Coding is Fun'
+            backgroundImg={cofImg}
             projectUrl='/ecomm'
             sourceUrl={ecommSource}
             tech='JavaScript'
@@ -40,7 +49,7 @@ const Projects = () => {
 
           <ProjectItem
             title='Tic Tac Toe'
-            backgroundImg={ticImg}
+            backgroundImg={artImg}
             projectUrl='/tic'
             sourceUrl={ticSource}
             tech='JavaScript'
@@ -48,13 +57,39 @@ const Projects = () => {
 
           <ProjectItem
             title='Sudoku Game'
-            backgroundImg={sudImg}
+            backgroundImg={gymImg}
             projectUrl='/sud'
             sourceUrl={sudSource}
             tech='JavaScript'
           />
-        </div>
 
+          <ProjectItem
+            title='E-Commerce'
+            backgroundImg={dontforgetImg}
+            projectUrl='/ecomm'
+            sourceUrl={ecommSource}
+            tech='JavaScript'
+          />
+
+          <ProjectItem
+            title='Tic Tac Toe'
+            backgroundImg={scImg}
+            projectUrl='/tic'
+            sourceUrl={ticSource}
+            tech='JavaScript'
+          /> 
+
+          <ProjectItem
+            title='Sudoku Game'
+            backgroundImg={portfolioImg}
+            projectUrl='/sud'
+            sourceUrl={sudSource}
+            tech='JavaScript'
+          />
+
+
+
+        </div>
       {/*  <br></br><br></br>
 
         <a href='https://github.com/makensonn' target="_blank" className="flex items-center h-full underline">
