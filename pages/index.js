@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import About from '../components/About'
 import Main from '../components/Main'
 import Projects from '../components/Projects'
 
@@ -13,7 +12,6 @@ export default function Home() {
         <link rel="icon" href="/fav.png" />
       </Head>
     <Main />
-    <About />
     <Projects />
     </div>
    

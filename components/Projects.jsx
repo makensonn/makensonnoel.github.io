@@ -78,7 +78,7 @@ const Projects = () => {
           <ProjectItem
             title='Web Portfolio'
             backgroundImg={portfolioImg}
-            projectUrl='/#about'
+            projectUrl='/about'
             sourceUrl={portfolioSource}
             tech='Portfolio'
           />
