@@ -8,7 +8,7 @@ import dontforgetImg from '../public/assets/projects/dontforget.png'; //Dont for
 import gymImg from '../public/assets/projects/gym.png'; //Gym
 import cofImg from '../public/assets/projects/cof.png'; //Cof
 import scImg from '../public/assets/projects/sc.png'; //Speed Converter
-import portfolioImg from '../public/assets/projects/portfolio.png'; //TicTacToe\
+import portfolioImg from '../public/assets/projects/mozy.png'; //TicTacToe\
 
 
 //Source
@@ -75,10 +75,10 @@ const Projects = () => {
             tech='Speed Converter'
           /> 
 
-          <ProjectItem
+          <ProjectItems
             title='Web Portfolio'
             backgroundImg={portfolioImg}
-            projectUrl='/about'
+            projectUrl='https://amoseb.com/'
             sourceUrl={portfolioSource}
             tech='Portfolio'
           />
