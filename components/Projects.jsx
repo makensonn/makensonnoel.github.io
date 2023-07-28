@@ -76,11 +76,11 @@ const Projects = () => {
           /> 
 
           <ProjectItems
-            title='Web Portfolio'
+            title='E-commerce'
             backgroundImg={portfolioImg}
             projectUrl='https://amoseb.com/'
             sourceUrl={portfolioSource}
-            tech='Portfolio'
+            tech='E-commerce Website'
           />
 
         </div>
