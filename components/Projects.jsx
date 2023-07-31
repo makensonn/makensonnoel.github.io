@@ -75,10 +75,6 @@ const Projects = () => {
             tech='Gym Website'
           />
 
-
-
-
-
           <ProjectItems
             title='E-commerce'
             backgroundImg={portfolioImg}
@@ -96,7 +92,7 @@ const Projects = () => {
 
       </div>
 
-      {/* Scroll Up Button */}
+      {/* Scroll Up Button 
       <div className='flex justify-center py-12'>
           <Link href='/'>
             <a>
@@ -108,8 +104,8 @@ const Projects = () => {
               </div>
             </a>
           </Link>
-        </div>
-      {/* Button Ends Here */}
+        </div> 
+      Button Ends Here */}
     </div>
   );
 };
