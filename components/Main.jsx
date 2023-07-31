@@ -13,15 +13,12 @@ const Main = () => {
   return (
     <div id='home' className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
-        <div>        
+        <div>    
+        <Image src={MakImg} alt='/' width={200} height={200} className="rounded-full"/>    
           <p className='uppercase text-sm tracking-widest text-gray-600'><br></br><br></br></p>
           <h1 className='py-4 text-gray-700'>
             <span className='text-[#0a192f]'> Makenson Noel</span>
           </h1>
-
-            <Image src={MakImg} alt='/' width={200} height={200} className="rounded-full"/>
-          
-
          <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
             Front-End Software Engineer
           </p>
