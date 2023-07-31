@@ -55,8 +55,7 @@ const Contact = () => {
                   </a>
 
                   <a
-                    href='https://replit.com/@MakensonNoel'
-                    target='_blank'
+                    href='/#about'
                     rel='noreferrer'
                   >
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
