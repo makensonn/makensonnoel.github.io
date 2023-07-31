@@ -34,7 +34,23 @@ const Projects = () => {
         <p className='py-6'></p>
 
         <div className='grid md:grid-cols-3 gap-8'>
-
+        
+          <ProjectItem
+            title='Dont Forget'
+            backgroundImg={dontforgetImg}
+            projectUrl='https://makensonn.github.io/todolist/'
+            sourceUrl={dontforgetSource}
+            tech='To-Do List'
+          />          
+          
+          <ProjectItem
+            title='Speed Converter'
+            backgroundImg={scImg}
+            projectUrl='https://makensonn.github.io/sc/'
+            sourceUrl={scSource}
+            tech='Speed Converter'
+          /> 
+          
           <ProjectItem
             title='Coding is Fun'
             backgroundImg={cofImg}
@@ -59,21 +75,9 @@ const Projects = () => {
             tech='Gym Website'
           />
 
-          <ProjectItem
-            title='Dont Forget'
-            backgroundImg={dontforgetImg}
-            projectUrl='https://makensonn.github.io/todolist/'
-            sourceUrl={dontforgetSource}
-            tech='To-Do List'
-          />
 
-          <ProjectItem
-            title='Speed Converter'
-            backgroundImg={scImg}
-            projectUrl='https://makensonn.github.io/sc/'
-            sourceUrl={scSource}
-            tech='Speed Converter'
-          /> 
+
+
 
           <ProjectItems
             title='E-commerce'
