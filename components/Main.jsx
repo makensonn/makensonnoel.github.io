@@ -50,12 +50,9 @@ const Main = () => {
           </div>
           <div className='flex justify-center py-12'>
           <Link href='/#projects'>
-            <a>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <HiOutlineChevronDoubleDown
-                  className='text-[#0a192f]'
-                  size={30}
-                />
+          <a>
+              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                View My Projects
               </div>
             </a>
           </Link>
