@@ -33,7 +33,7 @@ const Projects = () => {
         <p className = {titleStyle}><br></br><br></br>Projects</p>
         <p className='py-6'></p>
 
-        <div className='grid md:grid-cols-3 gap-8'>
+        <div className='grid md:grid-cols-2 gap-8'>
         
           <ProjectItem
             title='Dont Forget'
@@ -43,7 +43,13 @@ const Projects = () => {
             tech='To-Do List'
           />       
 
-         {/*Project Description <p>Yoooooo</p>    */}
+         {/*Project Description     */}
+
+         <p>Project Name: Don't forget
+          <br></br><br></br>
+          • Developed a interactive to-do-list that stores and deletes items on a list.
+          <br></br><br></br>
+          • Technologies Used: Bootstrap, HTML, CSS, JavaScript, GitHub, Visual Studio Code</p>
           
           <ProjectItem
             title='Speed Convert'
@@ -52,7 +58,11 @@ const Projects = () => {
             sourceUrl={scSource}
             tech='Speed Converter'
           /> 
-          
+            <p>Project Name: Speed Converter
+            <br></br><br></br>
+            • Developed a website that converts Miles Per Hour to Kilometers.
+            <br></br><br></br>
+            • Technologies Used: Bootstrap, HTML, CSS, JavaScript, GitHub, Visual Studio Code</p>
           <ProjectItem
             title='Coding is Fun'
             backgroundImg={cofImg}
@@ -60,8 +70,14 @@ const Projects = () => {
             sourceUrl={cofSource}
             tech='Coding Website'
           />
+            <p>Project Name: Coding is Fun
+            <br></br><br></br>
+            • Developed a website that helps people get started on programming.
+            <br></br><br></br>
+            • Technologies Used: Bootstrap, HTML, CSS, JavaScript, GitHub, Visual Studio Code</p>
 
-          <ProjectItem
+
+        {/*}  <ProjectItem
             title='Art Gallery'
             backgroundImg={artImg}
             projectUrl='https://makensonn.github.io/art/'
@@ -83,7 +99,7 @@ const Projects = () => {
             projectUrl='https://amoseb.com/'
             sourceUrl={portfolioSource}
             tech='E-commerce Website'
-          />
+          /> */}
 
         </div>
       {/*  <br></br><br></br>
