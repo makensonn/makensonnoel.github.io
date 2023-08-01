@@ -5,8 +5,8 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
 
 //Image
-import projectOneImg from '../public/assets/projects/cof.png'; // Tic Tac Toe
-import projectTwoImg from '../public/assets/projects/sc.png'; // Sudoku
+import projectOneImg from '../public/assets/projects/tictactoe.png'; // Tic Tac Toe
+import projectTwoImg from '../public/assets/projects/sudoku.png'; // Sudoku
 import projectThreeImg from '../public/assets/projects/dontforget.png'; // To Do List
 
 
