@@ -41,10 +41,12 @@ const Projects = () => {
             projectUrl='https://makensonn.github.io/todolist/'
             sourceUrl={dontforgetSource}
             tech='To-Do List'
-          />          
+          />       
+
+         {/*Project Description <p>Yoooooo</p>    */}
           
           <ProjectItem
-            title='Speed Converter'
+            title='Speed Convert'
             backgroundImg={scImg}
             projectUrl='https://makensonn.github.io/sc/'
             sourceUrl={scSource}
