@@ -3,21 +3,18 @@ import Link from 'next/link';
 import React from 'react';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
-import artImg from '../public/assets/projects/art.png'; //Art
-import dontforgetImg from '../public/assets/projects/dontforget.png'; //Dont forget
-import gymImg from '../public/assets/projects/gym.png'; //Gym
-import cofImg from '../public/assets/projects/cof.png'; //Cof
-import scImg from '../public/assets/projects/sc.png'; //Speed Converter
-import portfolioImg from '../public/assets/projects/mozy.png'; //TicTacToe\
+
+//Image
+import projectOneImg from '../public/assets/projects/cof.png'; // Tic Tac Toe
+import projectTwoImg from '../public/assets/projects/sc.png'; // Sudoku
+import projectThreeImg from '../public/assets/projects/dontforget.png'; // To Do List
 
 
 //Source
-const artSource ='https://github.com/makensonn/art'; //Art
-const dontforgetSource ='https://github.com/makensonn/todolist'; //Dont forget
-const gymSource ='https://github.com/makensonn/gym'; //Gym
-const cofSource ='https://github.com/makensonn/cof'; //Cof
-const scSource ='https://github.com/makensonn/sc'; //Speed Converter
-const portfolioSource ='https://github.com/makensonn/makensonn.github.io'; //Portfolio
+const projectOneSource ='https://github.com/makensonn/makensonn.github.io/blob/master/components/TicTacToe.jsx'; //Tic Tac Toe
+const projectTwoSource ='https://github.com/makensonn/makensonn.github.io/blob/master/components/Sudoku.jsx'; //Sudoku
+const projectThreeSource ='https://github.com/makensonn/todolist'; //To Do List
+
 
 import ProjectItem from './ProjectItem';
 import ProjectItems from './ProjectItems';
@@ -36,43 +33,44 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
         
           <ProjectItem
-            title='Dont Forget'
-            backgroundImg={dontforgetImg}
-            projectUrl='https://makensonn.github.io/todolist/'
-            sourceUrl={dontforgetSource}
-            tech='To-Do List'
+            title='Tic Tac Toe'
+            backgroundImg={projectOneImg}
+            projectUrl='/tic'
+            sourceUrl={projectOneSource}
+            tech=''
           />       
 
          {/*Project Description     */}
 
-         <p>Project Name: Don't forget
-          <br></br><br></br>
-          • Developed a interactive to-do-list that stores and deletes items on a list.
-          <br></br><br></br>
-          • Technologies Used: Bootstrap, HTML, CSS, JavaScript, GitHub, Visual Studio Code</p>
+            <p>Project: Tic Tac Toe
+            <br></br><br></br>
+            • Developed a simple classic two-player board game played on a 3x3 grid.
+            <br></br><br></br>
+            • Technologies Used: React, JavaScript XML, TailwindCSS, Vercel, GitHub, Visual Studio Code</p>
           
           <ProjectItem
-            title='Speed Convert'
-            backgroundImg={scImg}
-            projectUrl='https://makensonn.github.io/sc/'
-            sourceUrl={scSource}
-            tech='Speed Converter'
+            title='Sudoku Game'
+            backgroundImg={projectTwoImg}
+            projectUrl='/sud'
+            sourceUrl={projectTwoSource}
+            tech=''
           /> 
-            <p>Project Name: Speed Converter
+            <p>Project: Sudoku Game
             <br></br><br></br>
-            • Developed a website that converts Miles Per Hour to Kilometers.
+            • Developed a logic-based puzzle game for problem-solving.
             <br></br><br></br>
-            • Technologies Used: Bootstrap, HTML, CSS, JavaScript, GitHub, Visual Studio Code</p>
+            • Technologies Used: React, JavaScript XML, TailwindCSS, Vercel, GitHub, Visual Studio Code</p>
+
           <ProjectItem
-            title='Coding is Fun'
-            backgroundImg={cofImg}
-            projectUrl='https://makensonn.github.io/cof/'
-            sourceUrl={cofSource}
-            tech='Coding Website'
+            title='Dont Forget'
+            backgroundImg={projectThreeImg}
+            projectUrl='https://makensonn.github.io/todolist/'
+            sourceUrl={projectThreeSource}
+            tech=''
           />
-            <p>Project Name: Coding is Fun
+            <p>Project: Don't Forget
             <br></br><br></br>
-            • Developed a website that helps people get started on programming.
+            • Developed a interactive to-do-list that stores and deletes items on a list.
             <br></br><br></br>
             • Technologies Used: Bootstrap, HTML, CSS, JavaScript, GitHub, Visual Studio Code</p>
 
