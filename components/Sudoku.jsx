@@ -115,7 +115,7 @@ const SudokuGame = () => {
                     max="9"
                     value={cell || ''}
                     onChange={(e) => handleCellChange(e, rowIndex, colIndex)}
-                    className="w-12 h-12 p-2 text-center text-gray-700 bg-gray-200 focus:outline-none"
+                    className="w-full h-full p-2 text-center text-gray-700 bg-gray-200 focus:outline-none"
                   />
                 </td>
               ))}

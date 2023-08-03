@@ -21,7 +21,7 @@ const SudokuSolverPage = () => {
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Sudoku Solver</h2>
+          <h2 className='py-2'>Sudoku</h2>
           <h3>JavaScript</h3>
         </div>
       </div>
@@ -32,10 +32,10 @@ const SudokuSolverPage = () => {
         <div className='col-span-4'>
           <p>Project</p>
           <h2>
-            Sudoku Solver
+            Sudoku
           </h2>
           <br></br>
-          <SudokuGame /> 
+          <SudokuGame />
 
           <br></br><br></br>
           <h2>Overview</h2>
@@ -46,7 +46,6 @@ const SudokuSolverPage = () => {
             The game provides a user-friendly interface for solving Sudoku puzzles.
           </p>
 
-          
           <a
             href='https://github.com/makensonn/makensonn.github.io/blob/master/components/Sudoku.jsx'
             target='_blank'
