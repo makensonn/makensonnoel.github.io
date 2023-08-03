@@ -1,5 +1,12 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
+  "/_document": "pages/_document.js",
+  "/asl": "pages/asl.html",
+  "/ecomm": "pages/ecomm.html",
+  "/": "pages/index.html",
+  "/more": "pages/more.html",
+  "/sud": "pages/sud.html",
+  "/tic": "pages/tic.html",
+  "/404": "pages/404.html"
 }
