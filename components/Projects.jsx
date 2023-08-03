@@ -5,14 +5,14 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
 
 //Image
-import projectOneImg from '../public/assets/projects/weatherfacts.png'; // Tic Tac Toe
-import projectTwoImg from '../public/assets/projects/tictactoe.png'; // Sudoku
+import projectOneImg from '../public/assets/projects/weatherfacts.png'; // Weather Facts
+import projectTwoImg from '../public/assets/projects/tictactoe.png'; // Tic Tac Toe
 import projectThreeImg from '../public/assets/projects/dontforget.png'; // To Do List
 
 
 //Source
-const projectOneSource ='https://github.com/makensonn/weatherfacts'; //Tic Tac Toe
-const projectTwoSource ='https://github.com/makensonn/tictactoe'; //Sudoku
+const projectOneSource ='https://github.com/makensonn/weatherfacts'; //Weather Facts
+const projectTwoSource ='https://github.com/makensonn/tictactoe'; //Tic Tac Toe
 const projectThreeSource ='https://github.com/makensonn/todolist'; //To Do List
 
 
@@ -54,7 +54,7 @@ const Projects = () => {
             title='Tic Tac Toe'
             backgroundImg={projectTwoImg}
             projectUrl='https://tictactoe-eta-tan.vercel.app/'
-            sourceUrl={projectOneSource}
+            sourceUrl={projectTwoSource}
             tech=''
           />       
 
