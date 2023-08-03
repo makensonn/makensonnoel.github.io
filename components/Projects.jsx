@@ -11,7 +11,7 @@ import projectThreeImg from '../public/assets/projects/dontforget.png'; // To Do
 
 
 //Source
-const projectOneSource ='https://github.com/makensonn/makensonn.github.io/blob/master/components/TicTacToe.jsx'; //Tic Tac Toe
+const projectOneSource ='https://github.com/makensonn/tictactoe'; //Tic Tac Toe
 const projectTwoSource ='https://github.com/makensonn/makensonn.github.io/blob/master/components/Sudoku.jsx'; //Sudoku
 const projectThreeSource ='https://github.com/makensonn/todolist'; //To Do List
 
@@ -35,7 +35,7 @@ const Projects = () => {
           <ProjectItem
             title='Tic Tac Toe'
             backgroundImg={projectOneImg}
-            projectUrl='/tic'
+            projectUrl='https://tictactoe-eta-tan.vercel.app/'
             sourceUrl={projectOneSource}
             tech=''
           />       
