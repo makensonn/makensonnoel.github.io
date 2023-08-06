@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@vercel/analytics": "^1.0.1",
+    "chart.js": "^4.3.3",
     "css": "^3.0.0",
     "date-fns": "^2.30.0",
     "dotenv": "^16.0.1",
@@ -22,6 +23,8 @@
     "next": "^12.2.5",
     "node": "^16.17.0",
     "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-datepicker": "^4.16.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "react-player": "^2.12.0",
