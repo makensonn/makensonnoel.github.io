@@ -4,7 +4,7 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn, FaYoutube} from 'react-icons/fa';
 import { HiOutlineChevronDoubleDown } from 'react-icons/hi';
-import MakImg from '../public/assets/mak.png'
+import MakImg from '../public/assets/mak.jpeg'
 import Image from 'next/image';
 
 const titleStyle = 'text-4xl font-bold inline border-b-4 text-[#0a192f] border-zinc-500'
@@ -14,7 +14,7 @@ const Main = () => {
     <div id='home' className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>    
-        <Image src={MakImg} alt='/' width={200} height={200} className="rounded-full"/>    
+        <Image src={MakImg} alt='/' width={200} height={200} className="rounded-full"/>   
           <p className='uppercase text-sm tracking-widest text-gray-600'><br></br><br></br></p>
           <h1 className='py-4 text-gray-700'>
             <span className='text-[#0a192f]'> Makenson Noel</span>
