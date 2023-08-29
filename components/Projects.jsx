@@ -30,7 +30,7 @@ const Projects = () => {
         <p className = {titleStyle}><br></br><br></br>Projects</p>
         <p className='py-6'></p>
 
-        <div className='grid md:grid-cols-2 gap-8'>
+        <div className='grid md:grid-cols-4 gap-8'>
 
         <ProjectItem
             title='Weather App'
