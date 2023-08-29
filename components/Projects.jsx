@@ -42,11 +42,9 @@ const Projects = () => {
 
          {/*Project Description     */}
 
-            <p>Project: Weather Facts
+            <p>Title: Weather Facts
             <br></br><br></br>
-            Developed a weather application that fetches data from a weather API.
-            <br></br><br></br>
-            Technologies Used: React, JavaScript XML, TailwindCSS, Vercel, GitHub, Visual Studio Code</p>
+            Developed a weather application that fetches data from a weather API using React.</p>
 
 
         
@@ -60,11 +58,9 @@ const Projects = () => {
 
          {/*Project Description     */}
 
-            <p>Project: Tic Tac Toe
+            <p>Title: Tic Tac Toe
             <br></br><br></br>
-            Developed a simple classic two-player board game played on a 3x3 grid.
-            <br></br><br></br>
-            Technologies Used: React, JavaScript XML, TailwindCSS, Vercel, GitHub, Visual Studio Code</p>
+            Developed a simple classic two-player board game played on a 3x3 grid using React.</p>
           
           <ProjectItem
             title='Dont Forget'
@@ -73,11 +69,9 @@ const Projects = () => {
             sourceUrl={projectThreeSource}
             tech=''
           />
-            <p>Project: Don't Forget
+            <p> Title: Don't Forget
             <br></br><br></br>
-            Developed a interactive to-do-list that stores and deletes items on a list.
-            <br></br><br></br>
-            Technologies Used: Bootstrap, HTML, CSS, JavaScript, GitHub, Visual Studio Code</p>
+            Developed a interactive to-do-list that stores and deletes items on a list using React.</p>
 
 
         {/*}  <ProjectItem
