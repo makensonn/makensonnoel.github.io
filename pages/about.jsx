@@ -16,13 +16,14 @@ const About = () => {
           <p className={titleStyle}><br></br><br></br>About</p>
           <p className='py-2'></p>
           <p className='py-2 text-gray-600'>
-          Knowledgeable in programming languages, with experience working on software development projects both 
-          independently and in a team environment using a variety of software development methodologies.
+
+          I Graduated from Florida Atlantic University with a Bachelor of Science in Computer Science.
           <br></br><br></br>
-          In addition, Strong problem-solving skills and able to think creatively to develop innovative solutions to complex 
-          technical challenges. Excited to explore new opportunities and take the steps towards a successful career in software development.
+          I'm skilled in software development, with experience working on software development projects both 
+          independently and in a team environment.
           <br></br><br></br>
-          If you're looking for a motivated and dedicated software engineer, please don't hesitate to reach out.
+          In addition I have Strong problem-solving, communication, and teamwork skills. I'm able to think creatively to develop innovative solutions to complex 
+          technical challenges.
           </p>
           <br></br>
 

@@ -5,15 +5,17 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
 
 //Image
-import projectOneImg from '../public/assets/projects/weatherfacts.png'; // Weather Facts
+import projectOneImg from '../public/assets/projects/float.png'; // Weather Facts
 import projectTwoImg from '../public/assets/projects/tictactoe.png'; // Tic Tac Toe
 import projectThreeImg from '../public/assets/projects/dontforget.png'; // To Do List
+import projectFourImg from '../public/assets/projects/weatherfacts.png'; // Weather Facts
 
 
 //Source
-const projectOneSource ='https://github.com/makensonn/weatherfacts'; //Weather Facts
+const projectOneSource ='https://github.com/makensonn/float'; //Float
 const projectTwoSource ='https://github.com/makensonn/tictactoe'; //Tic Tac Toe
 const projectThreeSource ='https://github.com/makensonn/todolist'; //To Do List
+const projectFourSource ='https://github.com/makensonn/weatherfacts' //Weather Facts
 
 
 import ProjectItem from './ProjectItem';
@@ -32,23 +34,23 @@ const Projects = () => {
 
         <div className='grid md:grid-cols-4 gap-8'>
 
-        <ProjectItem
-            title='Weather App'
+        <ProjectItems
+            title='Float'
             backgroundImg={projectOneImg}
-            projectUrl='https://weatherfacts.vercel.app/'
+            projectUrl='/float'
             sourceUrl={projectOneSource}
             tech=''
           />       
 
          {/*Project Description     */}
 
-            <p>Title: Weather Facts
+            <p>Title: Float
             <br></br><br></br>
-            Developed a weather application that fetches data from a weather API using React.</p>
+            This application is a recreation of the side scrolling mobile app game Flappy Bird using React-Native.</p>
 
 
         
-          <ProjectItem
+          <ProjectItems
             title='Tic Tac Toe'
             backgroundImg={projectTwoImg}
             projectUrl='https://tictactoe-eta-tan.vercel.app/'
@@ -62,16 +64,36 @@ const Projects = () => {
             <br></br><br></br>
             Developed a simple classic two-player board game played on a 3x3 grid using React.</p>
           
-          <ProjectItem
-            title='Dont Forget'
+          <ProjectItems
+            title='To-Do-List'
             backgroundImg={projectThreeImg}
-            projectUrl='https://makensonn.github.io/todolist/'
+            projectUrl='todolist/'
             sourceUrl={projectThreeSource}
             tech=''
           />
-            <p> Title: Don't Forget
+            <p> Title: To-Do-List
             <br></br><br></br>
             Developed a interactive to-do-list that stores and deletes items on a list using React.</p>
+
+            
+
+        <ProjectItems
+            title='Weather App'
+            backgroundImg={projectFourImg}
+            projectUrl='https://weatherfacts.vercel.app/'
+            sourceUrl={projectFourSource}
+            tech=''
+          />       
+
+         {/*Project Description     */}
+
+            <p>Title: Weather Facts
+            <br></br><br></br>
+            Developed a weather application that fetches data from a weather API using React.</p>
+
+            <br></br><br></br>
+     
+
 
 
         {/*}  <ProjectItem
