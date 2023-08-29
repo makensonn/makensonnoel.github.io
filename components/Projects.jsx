@@ -5,6 +5,7 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
 
 //Image
+import projectOneeImg from '../public/assets/projects/thousandmen.gif'; // Weather Facts
 import projectOneImg from '../public/assets/projects/float.png'; // Weather Facts
 import projectTwoImg from '../public/assets/projects/tictactoe.png'; // Tic Tac Toe
 import projectThreeImg from '../public/assets/projects/dontforget.png'; // To Do List
@@ -12,6 +13,7 @@ import projectFourImg from '../public/assets/projects/weatherfacts.png'; // Weat
 
 
 //Source
+const projectOneeSource ='https://github.com/makensonn/weatherfacts' //Weather Facts
 const projectOneSource ='https://github.com/makensonn/float'; //Float
 const projectTwoSource ='https://github.com/makensonn/tictactoe'; //Tic Tac Toe
 const projectThreeSource ='https://github.com/makensonn/todolist'; //To Do List
@@ -33,6 +35,22 @@ const Projects = () => {
         <p className='py-6'></p>
 
         <div className='grid md:grid-cols-4 gap-8'>
+
+        <ProjectItems
+            title='E-Commerce'
+            backgroundImg={projectOneeImg}
+            projectUrl='https://thousandmen.co/'
+            sourceUrl={projectOneeSource}
+            tech=''
+          />       
+
+         {/*Project Description     */}
+
+            <p>Title: E-Commerce Site
+            <br></br><br></br>
+            This is a an E-Commerce site for Thousand Men, LLC.</p>
+
+
 
         <ProjectItems
             title='Float'
@@ -75,27 +93,9 @@ const Projects = () => {
             <br></br><br></br>
             Developed a interactive to-do-list that stores and deletes items on a list using React.</p>
 
-            
-
-        <ProjectItems
-            title='Weather App'
-            backgroundImg={projectFourImg}
-            projectUrl='https://weatherfacts.vercel.app/'
-            sourceUrl={projectFourSource}
-            tech=''
-          />       
-
-         {/*Project Description     */}
-
-            <p>Title: Weather Facts
-            <br></br><br></br>
-            Developed a weather application that fetches data from a weather API using React.</p>
 
             <br></br><br></br>
      
-
-
-
         {/*}  <ProjectItem
             title='Art Gallery'
             backgroundImg={artImg}
