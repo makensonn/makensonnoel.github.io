@@ -55,7 +55,7 @@ const Projects = () => {
         <ProjectItems
             title='Float'
             backgroundImg={projectOneImg}
-            projectUrl='/float'
+            projectUrl='https://www.youtube.com/shorts/JQ4K1mymz-M'
             sourceUrl={projectOneSource}
             tech=''
           />       
@@ -80,7 +80,7 @@ const Projects = () => {
 
             <p>Title: Tic Tac Toe
             <br></br><br></br>
-            Developed a simple classic two-player board game played on a 3x3 grid using React.</p>
+            This is a simple classic two-player board game played on a 3x3 grid using React.</p>
           
           <ProjectItems
             title='To-Do-List'
@@ -91,7 +91,7 @@ const Projects = () => {
           />
             <p> Title: To-Do-List
             <br></br><br></br>
-            Developed a interactive to-do-list that stores and deletes items on a list using React.</p>
+            This is a interactive to-do-list that stores and deletes items on a list using React.</p>
 
 
             <br></br><br></br>
