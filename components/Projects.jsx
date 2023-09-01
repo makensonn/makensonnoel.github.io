@@ -123,7 +123,7 @@ const Projects = () => {
         </div>
         <br></br><br></br>
 
-        <a href='/menu' className="flex items-center h-full underline">
+        <a href='https://github.com/makensonn' className="flex items-center h-full underline">
           View More
         </a>
 
