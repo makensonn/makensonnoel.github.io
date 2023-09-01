@@ -121,11 +121,11 @@ const Projects = () => {
           /> */}
 
         </div>
-      {/*  <br></br><br></br>
+        <br></br><br></br>
 
-        <a href='https://github.com/makensonn' target="_blank" className="flex items-center h-full underline">
+        <a href='/menu' className="flex items-center h-full underline">
           View More
-  </a> */}
+        </a>
 
       </div>
 

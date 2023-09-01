@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/todolist": [
+    "/menu": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/todolist.js"
+      "static/chunks/pages/menu.js"
     ]
   },
   "ampFirstPages": []

@@ -15,7 +15,7 @@ const Main = () => {
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>    
         <Image src={MakImg} alt='/' width={200} height={200} className="rounded-full"/>   
-          <p className='uppercase text-sm tracking-widest text-gray-600'><br></br><br></br></p>
+          <p className='uppercase text-sm tracking-widest text-gray-600'></p>
           <h1 className='py-4 text-gray-700'>
             <span className='text-[#0a192f]'> Makenson Noel</span>
           </h1>
