@@ -8,7 +8,7 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import projectOneeImg from '../public/assets/projects/thousandmen.png'; // Thousan Men
 import projectOneImg from '../public/assets/projects/float.png'; // Float
 import projectTwoImg from '../public/assets/projects/mozy.png'; // Mozy
-import projectThreeImg from '../public/assets/projects/dontforget.png'; // To Do List
+import projectThreeImg from '../public/assets/projects/asl.png'; // ASL
 import projectFourImg from '../public/assets/projects/weatherfacts.png'; // Weather Facts
 
 
@@ -64,6 +64,20 @@ const Projects = () => {
             <br></br><br></br>
             This is a custom E-Commerce site for Amose Blanc, LLC using HTML, CSS, and Shopify Liquid.</p>
 
+            <ProjectItems
+            title='ABC ASL'
+            backgroundImg={projectThreeImg}
+            projectUrl='/asl'
+            sourceUrl={projectOneeSource}
+            tech=''
+          />       
+
+         {/*Project Description     */}
+
+            <p>Title: ABC American Sign Language Tracker
+            <br></br><br></br>
+            This is an application that translates American sign language hand gestures to subtitles.</p>
+
 
 
         <ProjectItems
@@ -79,6 +93,8 @@ const Projects = () => {
             <p>Title: Float
             <br></br><br></br>
             This is the mobile app game Flappy Bird recreated using React-Native.</p>
+
+             {/*Project Description     *
           
           <ProjectItems
             title='To-Do-List'
