@@ -5,9 +5,9 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
 
 //Image
-import projectOneeImg from '../public/assets/projects/thousandmen.gif'; // Weather Facts
-import projectOneImg from '../public/assets/projects/float.png'; // Weather Facts
-import projectTwoImg from '../public/assets/projects/tictactoe.png'; // Tic Tac Toe
+import projectOneeImg from '../public/assets/projects/thousandmen.gif'; // Thousan Men
+import projectOneImg from '../public/assets/projects/float.png'; // Float
+import projectTwoImg from '../public/assets/projects/mozy.png'; // Mozy
 import projectThreeImg from '../public/assets/projects/dontforget.png'; // To Do List
 import projectFourImg from '../public/assets/projects/weatherfacts.png'; // Weather Facts
 
@@ -48,7 +48,21 @@ const Projects = () => {
 
             <p>Title: E-Commerce Site
             <br></br><br></br>
-            This is a an E-Commerce site for Thousand Men, LLC.</p>
+            This is a custom E-Commerce site for Thousand Men, LLC using HTML, CSS, and Shopify Liquid.</p>
+
+          <ProjectItems
+            title='E-Commerce'
+            backgroundImg={projectTwoImg}
+            projectUrl='https://amoseb.com/'
+            sourceUrl={projectOneeSource}
+            tech=''
+          />       
+
+         {/*Project Description     */}
+
+            <p>Title: E-Commerce Site
+            <br></br><br></br>
+            This is a custom E-Commerce site for Amose Blanc, LLC using HTML, CSS, and Shopify Liquid.</p>
 
 
 
@@ -64,23 +78,7 @@ const Projects = () => {
 
             <p>Title: Float
             <br></br><br></br>
-            This application is a recreation of the side scrolling mobile app game Flappy Bird using React-Native.</p>
-
-
-        
-          <ProjectItems
-            title='Tic Tac Toe'
-            backgroundImg={projectTwoImg}
-            projectUrl='https://tictactoe-eta-tan.vercel.app/'
-            sourceUrl={projectTwoSource}
-            tech=''
-          />       
-
-         {/*Project Description     */}
-
-            <p>Title: Tic Tac Toe
-            <br></br><br></br>
-            This is a simple classic two-player board game played on a 3x3 grid using React.</p>
+            This is the mobile app game Flappy Bird recreated using React-Native.</p>
           
           <ProjectItems
             title='To-Do-List'
@@ -123,10 +121,11 @@ const Projects = () => {
         </div>
         <br></br><br></br>
 
-        <a href='https://github.com/makensonn' className="flex items-center h-full underline">
-          View More
-        </a>
-
+        <div className="flex justify-center items-center">
+          <a href='https://github.com/makensonn' className="flex items-center h-full underline">
+            View More
+          </a>
+       </div>
       </div>
 
       {/* Scroll Up Button 

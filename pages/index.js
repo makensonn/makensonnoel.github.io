@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Main from '../components/Main'
 import Projects from '../components/Projects'
+import TicTacToe from '../components/TicTacToe'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
     <Main />
     <Projects />
+    <TicTacToe />
     </div>
    
   )

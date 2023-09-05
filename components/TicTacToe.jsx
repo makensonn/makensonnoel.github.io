@@ -84,6 +84,9 @@ const TicTacToe = () => {
 
   return (
     <div className="tic-tac-toe">
+      <div className="flex justify-center items-center">
+      <h1> Tic Tac Toe</h1>
+      </div>
       <div className="board grid grid-cols-3 gap-4 w-64 mx-auto mt-8">
         {board.map((cell, index) => renderCell(index))}
       </div>
@@ -98,6 +101,7 @@ const TicTacToe = () => {
       >
         Reset Game
       </button>
+      <br></br><br></br><br></br>
     </div>
   );
 };
