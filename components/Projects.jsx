@@ -5,7 +5,7 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
 
 //Image
-import projectOneeImg from '../public/assets/projects/thousandmen.gif'; // Thousan Men
+import projectOneeImg from '../public/assets/projects/thousandmen.png'; // Thousan Men
 import projectOneImg from '../public/assets/projects/float.png'; // Float
 import projectTwoImg from '../public/assets/projects/mozy.png'; // Mozy
 import projectThreeImg from '../public/assets/projects/dontforget.png'; // To Do List
