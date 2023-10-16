@@ -6,7 +6,7 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
 //Image
 import projectOneeImg from '../public/assets/projects/thousandmen.png'; // Thousan Men
-import projectOneImg from '../public/assets/projects/float.png'; // Float
+import projectOneImg from '../public/assets/projects/insight.png'; // Insight
 import projectTwoImg from '../public/assets/projects/mozy.png'; // Mozy
 import projectThreeImg from '../public/assets/projects/asl.png'; // ASL
 import projectFourImg from '../public/assets/projects/weatherfacts.png'; // Weather Facts
@@ -31,7 +31,7 @@ const Projects = () => {
   return (
     <div id='projects' className='w-full'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
-        <p className = {titleStyle}><br></br><br></br>Projects</p>
+        <p className = {titleStyle}><br></br><br></br>Experience</p>
         <p className='py-6'></p>
 
         <div className='grid md:grid-cols-4 gap-8'>
@@ -46,7 +46,7 @@ const Projects = () => {
 
          {/*Project Description     */}
 
-            <p>Title: E-Commerce Site
+            <p>Title: thousandmen.co
             <br></br><br></br>
             This is a custom E-Commerce site for Thousand Men, LLC using HTML, CSS, and Shopify Liquid.</p>
 
@@ -60,7 +60,7 @@ const Projects = () => {
 
          {/*Project Description     */}
 
-            <p>Title: E-Commerce Site
+            <p>Title: amoseb.com
             <br></br><br></br>
             This is a custom E-Commerce site for Amose Blanc, LLC using HTML, CSS, and Shopify Liquid.</p>
 
@@ -74,14 +74,14 @@ const Projects = () => {
 
          {/*Project Description     */}
 
-            <p>Title: ABC American Sign Language Tracker
+            <p>Title: Hand Gesture Tracker
             <br></br><br></br>
-            This is an application that translates American sign language hand gestures to subtitles.</p>
+            This is an application that translates American sign language hand gestures to subtitles in real-time.</p>
 
 
 
         <ProjectItems
-            title='Float'
+            title='Insight'
             backgroundImg={projectOneImg}
             projectUrl='https://www.youtube.com/shorts/JQ4K1mymz-M'
             sourceUrl={projectOneSource}
@@ -90,9 +90,9 @@ const Projects = () => {
 
          {/*Project Description     */}
 
-            <p>Title: Float
+            <p>Title: insitee.github.io
             <br></br><br></br>
-            This is the mobile app game Flappy Bird recreated using React-Native.</p>
+            This is a product landing page for an accessibility app developed at an hackathon.</p>
 
              {/*Project Description     *
           
