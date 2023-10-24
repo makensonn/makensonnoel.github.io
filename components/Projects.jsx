@@ -46,9 +46,9 @@ const Projects = () => {
 
          {/*Project Description     */}
 
-            <p>Title: thousandmen.co
+            <p>Title: Thousandmen.co
             <br></br><br></br>
-            This is a custom E-Commerce site for Thousand Men, LLC using HTML, CSS, and Shopify Liquid.</p>
+            This is a custom E-Commerce site for Thousandmen.co using HTML, CSS, and Shopify Liquid.</p>
 
           <ProjectItems
             title='E-Commerce'
@@ -60,9 +60,9 @@ const Projects = () => {
 
          {/*Project Description     */}
 
-            <p>Title: amoseb.com
+            <p>Title: Amoseb.com
             <br></br><br></br>
-            This is a custom E-Commerce site for Amose Blanc, LLC using HTML, CSS, and Shopify Liquid.</p>
+            This is a custom E-Commerce site for Amoseb.com using HTML, CSS, and Shopify Liquid.</p>
 
             <ProjectItems
             title='ABC ASL'
@@ -90,7 +90,7 @@ const Projects = () => {
 
          {/*Project Description     */}
 
-            <p>Title: insitee.github.io
+            <p>Title: Insitee.github.io
             <br></br><br></br>
             This is a product landing page for an accessibility app developed at an hackathon.</p>
 
