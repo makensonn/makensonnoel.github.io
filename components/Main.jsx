@@ -14,10 +14,10 @@ const Main = () => {
     <div id='home' className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>    
-      {/* <!-- <Image src={MakImg} alt='/' width={200} height={200} className="rounded-full"/>   -->*/}
+         <Image src={MakImg} alt='/' width={200} height={200} className="rounded-full"/>
           <p className='uppercase text-sm tracking-widest text-gray-600'></p>
           <h1 className='py-4 text-gray-700'>
-            <span className='text-[#0a192f]'>Makenson N.</span>
+            <span className='text-[#0a192f]'>Makenson</span>
           </h1>
          <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
             Software Engineer
