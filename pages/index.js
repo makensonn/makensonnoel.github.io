@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Main from '../components/Main'
+import About from '../components/About'
 import Projects from '../components/Projects'
 import TicTacToe from '../components/TicTacToe'
 
@@ -12,6 +13,7 @@ export default function Home() {
         <link rel="icon" href="/fav.png" />
       </Head>
     <Main />
+    <About />
     <Projects />
     <TicTacToe />
     </div>
