@@ -92,7 +92,7 @@ const Projects = () => {
 
             <p>Title: Insitee.github.io
             <br></br><br></br>
-            This is a product landing page for an accessibility app developed at an hackathon.</p>
+            This is an award winning product landing page for an accessibility app developed at an hackathon.</p>
 
              {/*Project Description     *
           
