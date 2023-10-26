@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Makenson Noel | Software Engineer </title>
-        <meta name="description" content="Software Engineer with a Bachelor of Science in Computer Science" />
+        <title>Makenson | Software Engineer </title>
+        <meta name="description" content="Award winning Software Engineer | Front-End Engineer| Back-End Engineer | Full-Stack Engineer | Web Developer | Software Developer | PC Builder" />
         <link rel="icon" href="/fav.png" />
       </Head>
     <Main />
