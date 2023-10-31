@@ -89,7 +89,7 @@ const Projects = () => {
           <ProjectItems
             title="Insight"
             backgroundImg={projectOneImg}
-            projectUrl="https://www.youtube.com/shorts/JQ4K1mymz-M"
+            projectUrl="https://insitee.github.io/"
             sourceUrl={projectOneSource}
             tech=""
           />
