@@ -51,7 +51,7 @@ const Projects = () => {
             Title: Thousandmen.co
             <br></br>
             <br></br>
-            This is a custom E-Commerce site for Thousandmen.co using HTML, CSS, and Shopify Liquid.
+            Custom E-Commerce site.
           </p>
 
           <ProjectItems
@@ -67,7 +67,7 @@ const Projects = () => {
             Title: Amoseb.com
             <br></br>
             <br></br>
-            This is a custom E-Commerce site for Amoseb.com using HTML, CSS, and Shopify Liquid.
+            Custom E-Commerce site.
           </p>
 
           <ProjectItems
