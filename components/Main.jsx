@@ -27,7 +27,7 @@ const Main = () => {
           <Image src={MakImg} alt='/' width={200} height={200} className={imageStyle} />
           <p className={nameStyle}></p>
           <h1 className={headingStyle}>
-            <span className='text-[#0a192f]'>Makenson</span>
+            <span className='text-[#0a192f]'>Makenson Noel</span>
           </h1>
           <p className={descriptionStyle}>Software Engineer</p>
           <div className={socialIconsContainerStyle}>

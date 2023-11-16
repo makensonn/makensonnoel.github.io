@@ -2,5 +2,20 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/all": "pages/all.html",
+  "/asl": "pages/asl.html",
+  "/cplusplus": "pages/cplusplus.html",
+  "/ecomm": "pages/ecomm.html",
+  "/float": "pages/float.html",
+  "/gym": "pages/gym.html",
+  "/": "pages/index.html",
+  "/java": "pages/java.html",
+  "/menu": "pages/menu.html",
+  "/more": "pages/more.html",
+  "/prism": "pages/prism.html",
+  "/python": "pages/python.html",
+  "/sud": "pages/sud.html",
+  "/tic": "pages/tic.html",
+  "/todolist": "pages/todolist.html",
+  "/404": "pages/404.html"
 }
