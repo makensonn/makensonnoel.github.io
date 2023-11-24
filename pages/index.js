@@ -1,6 +1,7 @@
 import Head from 'next/head'
-import Main from '../components/Main'
+
 import About from '../components/About'
+import Main from '../components/Main'
 import Projects from '../components/Projects'
 import TicTacToe from '../components/TicTacToe'
 
