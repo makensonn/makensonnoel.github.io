@@ -114,7 +114,7 @@ const All = () => {
             projectUrl='https://makensonn.github.io/art/'
             sourceUrl={artSource}
             tech='Art Website'
-          /> 
+          />
 
           <ProjectItem
             title='Gym Guide'
@@ -144,7 +144,7 @@ const All = () => {
         </a>
       </div>
 
-      {/* Scroll Up Button 
+      {/* Scroll Up Button
       <div className='flex justify-center py-12'>
           <Link href='/'>
             <a>
@@ -156,7 +156,7 @@ const All = () => {
               </div>
             </a>
           </Link>
-        </div> 
+        </div>
       Button Ends Here */}
     </div>
   );
