@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const WorkoutChart = () => {
   return (
@@ -78,7 +78,7 @@ const WorkoutChart = () => {
               </tr>
             </thead>
             <tbody>
-             <tr>
+              <tr>
                 <td className="px-4 py-2">Warm Up</td>
                 <td className="px-4 py-2"></td>
                 <td className="px-4 py-2">2-5 mins</td>

@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const TodoList = () => {
   const [tasks, setTasks] = useState([]);
-  const [newTask, setNewTask] = useState('');
+  const [newTask, setNewTask] = useState("");
 
   const addTask = () => {
-    if (newTask.trim() === '') return;
+    if (newTask.trim() === "") return;
 
     setTasks([...tasks, newTask]);
-    setNewTask('');
+    setNewTask("");
   };
 
   const removeTask = (index) => {
@@ -38,10 +38,7 @@ const TodoList = () => {
         {tasks.map((task, index) => (
           <li key={index} className="flex items-center justify-between mb-2">
             <span>{task}</span>
-            <button
-              className="text-red-500"
-              onClick={() => removeTask(index)}
-            >
+            <button className="text-red-500" onClick={() => removeTask(index)}>
               Remove
             </button>
           </li>

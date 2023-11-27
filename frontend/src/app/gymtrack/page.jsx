@@ -172,7 +172,9 @@ function GymWorkoutTracker() {
 
       {selectedDate && (
         <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Select Workout:</label>
+          <label className="block text-sm font-bold mb-1">
+            Select Workout:
+          </label>
           <select
             value={selectedWorkout}
             onChange={handleWorkoutChange}
@@ -190,28 +192,36 @@ function GymWorkoutTracker() {
 
       {selectedWorkout && (
         <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Starting Weight:</label>
+          <label className="block text-sm font-bold mb-1">
+            Starting Weight:
+          </label>
           <input
             type="number"
             value={startingWeight}
             onChange={handleStartingWeightChange}
             className="w-full border rounded p-2"
           />
-          <label className="block text-sm font-bold mb-1 mt-2">Starting Reps:</label>
+          <label className="block text-sm font-bold mb-1 mt-2">
+            Starting Reps:
+          </label>
           <input
             type="number"
             value={startingReps}
             onChange={handleStartingRepsChange}
             className="w-full border rounded p-2"
           />
-          <label className="block text-sm font-bold mb-1 mt-2">Ending Weight:</label>
+          <label className="block text-sm font-bold mb-1 mt-2">
+            Ending Weight:
+          </label>
           <input
             type="number"
             value={endingWeight}
             onChange={handleEndingWeightChange}
             className="w-full border rounded p-2"
           />
-          <label className="block text-sm font-bold mb-1 mt-2">Ending Reps:</label>
+          <label className="block text-sm font-bold mb-1 mt-2">
+            Ending Reps:
+          </label>
           <input
             type="number"
             value={endingReps}
