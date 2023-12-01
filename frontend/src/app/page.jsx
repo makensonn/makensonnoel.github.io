@@ -1,16 +1,16 @@
-import React from 'react'
+import React from "react";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
-import Main from "./components/Main"
+import Main from "./components/Main";
 import Projects from "./components/Projects";
 
 const Home = () => {
   return (
     <>
-    <Navbar />
-    <Main/>
-    <About/>
-    <Projects/>
+      <Navbar />
+      <Main />
+      <About />
+      <Projects />
     </>
   );
 };
