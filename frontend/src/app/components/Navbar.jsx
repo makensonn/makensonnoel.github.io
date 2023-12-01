@@ -1,5 +1,9 @@
-import { AiOutlineHome, AiOutlineInfoCircle, AiOutlineMail } from 'react-icons/ai';
-import Link from 'next/link';
+import {
+  AiOutlineHome,
+  AiOutlineInfoCircle,
+  AiOutlineMail,
+} from "react-icons/ai";
+import Link from "next/link";
 
 const Navbar = () => {
   return (

@@ -1,30 +1,30 @@
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 // Image Imports
-import projectOneeImg from '../assets/projects/thousandmen.png';
-import projectOneImg from '../assets/projects/insight.png';
-import projectTwoImg from '../assets/projects/mozy.png';
-import projectThreeImg from '../assets/projects/asl.png';
-import projectFourImg from '../assets/projects/weatherfacts.png';
+import projectOneeImg from "../assets/projects/thousandmen.png";
+import projectOneImg from "../assets/projects/insight.png";
+import projectTwoImg from "../assets/projects/mozy.png";
+import projectThreeImg from "../assets/projects/asl.png";
+import projectFourImg from "../assets/projects/weatherfacts.png";
 
 // Source URLs
-const projectOneeSource = 'https://github.com/makensonn/weatherfacts';
-const projectOneSource = 'https://github.com/makensonn/float';
-const projectTwoSource = 'https://github.com/makensonn/tictactoe';
-const projectThreeSource = 'https://github.com/makensonn/todolist';
-const projectFourSource = 'https://github.com/makensonn/weatherfacts';
+const projectOneeSource = "https://github.com/makensonn/weatherfacts";
+const projectOneSource = "https://github.com/makensonn/float";
+const projectTwoSource = "https://github.com/makensonn/tictactoe";
+const projectThreeSource = "https://github.com/makensonn/todolist";
+const projectFourSource = "https://github.com/makensonn/weatherfacts";
 
-import ProjectItem from './ProjectItem';
-import ProjectItems from './ProjectItems';
+import ProjectItem from "./ProjectItem";
+import ProjectItems from "./ProjectItems";
 
 // Tailwind CSS Classes
-const titleStyle = 'text-4xl font-bold inline border-b-4  border-zinc-500';
-const containerStyle = 'w-full';
-const maxWidthStyle = 'max-w-[1240px] mx-auto px-2 py-16';
-const gridStyle = 'grid md:grid-cols-4 gap-8';
+const titleStyle = "text-4xl font-bold inline border-b-4  border-zinc-500";
+const containerStyle = "w-full";
+const maxWidthStyle = "max-w-[1240px] mx-auto px-2 py-16";
+const gridStyle = "grid md:grid-cols-4 gap-8";
 
 const Projects = () => {
   return (
@@ -83,7 +83,8 @@ const Projects = () => {
             Title: Hand Gesture Tracker
             <br></br>
             <br></br>
-            This is an application that translates American sign language hand gestures to subtitles in real-time.
+            This is an application that translates American sign language hand
+            gestures to subtitles in real-time.
           </p>
 
           <ProjectItems
@@ -99,7 +100,8 @@ const Projects = () => {
             Title: Insitee.github.io
             <br></br>
             <br></br>
-            This is an award-winning product landing page for an accessibility app developed at a hackathon.
+            This is an award-winning product landing page for an accessibility
+            app developed at a hackathon.
           </p>
         </div>
 
@@ -107,7 +109,10 @@ const Projects = () => {
         <br></br>
 
         <div className="flex justify-center items-center">
-          <a href="https://github.com/makensonn" className="flex items-center h-full underline">
+          <a
+            href="https://github.com/makensonn"
+            className="flex items-center h-full underline"
+          >
             View More
           </a>
         </div>
