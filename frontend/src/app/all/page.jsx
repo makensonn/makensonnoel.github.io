@@ -4,11 +4,11 @@ import React from "react";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 //Image
-import projectOneeImg from "../public/assets/projects/thousandmen.gif"; // Weather Facts
-import projectOneImg from "../public/assets/projects/float.png"; // Weather Facts
-import projectTwoImg from "../public/assets/projects/tictactoe.png"; // Tic Tac Toe
-import projectThreeImg from "../public/assets/projects/dontforget.png"; // To Do List
-import projectFourImg from "../public/assets/projects/weatherfacts.png"; // Weather Facts
+import projectOneeImg from "../assets/projects/thousandmen.gif"; // Weather Facts
+import projectOneImg from "../assets/projects/float.png"; // Weather Facts
+import projectTwoImg from "../assets/projects/tictactoe.png"; // Tic Tac Toe
+import projectThreeImg from "../assets/projects/dontforget.png"; // To Do List
+import projectFourImg from "../assets/projects/weatherfacts.png"; // Weather Facts
 
 //Source
 const projectOneeSource = "https://github.com/makensonn/weatherfacts"; //Weather Facts
