@@ -2,17 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Raleway', sans-serif;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb: 228, 229, 241;
+  --background-end-rgb: 214, 219, 220;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-start-rgb: 33, 33, 33;
+    --background-end-rgb: 33, 33, 25;
   }
 }
 
@@ -25,3 +33,25 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold
+}
+
+h1 {
+  @apply text-4xl sm:text-5xl md:text-6xl font-[Raleway]
+}
+
+h2 {
+  @apply text-3xl sm:text-4xl
+}
+
+li {
+  @apply cursor-pointer
+}
+
+button {
+  @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#0d1e37] to-[#172f53] text-white
+}
+{/* 255, 255, 255;*/}
