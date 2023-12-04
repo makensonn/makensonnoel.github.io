@@ -1,9 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import ProfileImg from "../assets/about.jpg";
 import { HiOutlineChevronDoubleLeft } from "react-icons/hi";
-import MakImg from "../assets/mak.jpeg";
+import MakImg from "../assets/mak.svg";
 
 // Define Tailwind CSS classes
 const titleStyle = "text-4xl font-bold inline border-b-4  border-zinc-500";
