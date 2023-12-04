@@ -71,7 +71,6 @@ const Projects = () => {
             This is a drop shipping website using JavaScript, HTML, and CSS.
           </p>
 
-
           {/* Project 3*/}
           <ProjectItems
             title="Project 3"
@@ -86,7 +85,7 @@ const Projects = () => {
             Title: Hand Gesture Tracker
             <br></br>
             <br></br>
-            This is an ASL tracker using Python, JavaScript, HTML, and CSS. 
+            This is an ASL tracker using Python, JavaScript, HTML, and CSS.
           </p>
 
           {/* Project 4*/}
@@ -104,10 +103,9 @@ const Projects = () => {
             Title: Insitee.github.io
             <br></br>
             <br></br>
-            This is an award-winning wesbite using JavaScript, HTML, and Boostrap. 
+            This is an award-winning wesbite using JavaScript, HTML, and
+            Boostrap.
           </p>
-
-
 
           {/* Project 5*/}
 
@@ -127,7 +125,6 @@ const Projects = () => {
             This is an award-winning product landing page for an accessibility
             app developed at a hackathon.
           </p>
-
 
           {/* Project 6*/}
 
@@ -167,7 +164,6 @@ const Projects = () => {
             app developed at a hackathon.
           </p>
 
-
           {/* Project 8*/}
 
           <ProjectItems
@@ -205,7 +201,7 @@ const Projects = () => {
             This is an award-winning product landing page for an accessibility
             app developed at a hackathon.
           </p>
-          </div>
+        </div>
 
         <br></br>
         <br></br>
@@ -221,18 +217,15 @@ const Projects = () => {
       </div>
 
       {/* Scroll Up Button */}
-     <div className="flex justify-center py-12">
-          <Link legacyBehavior href="/">
-            <a>
-              <div className="rounded-full shadow-lg shadow-neutral-950  p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-                <HiOutlineChevronDoubleLeft
-                  className=""
-                  size={30}
-                />
-              </div>
-            </a>
-          </Link>
-        </div> 
+      <div className="flex justify-center py-12">
+        <Link legacyBehavior href="/">
+          <a>
+            <div className="rounded-full shadow-lg shadow-neutral-950  p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+              <HiOutlineChevronDoubleLeft className="" size={30} />
+            </div>
+          </a>
+        </Link>
+      </div>
       {/* Button Ends Here */}
     </div>
   );

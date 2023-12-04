@@ -73,7 +73,6 @@ const Projects = () => {
             This is a drop shipping website using JavaScript, HTML, and CSS.
           </p>
 
-
           {/* Project 3*/}
           <ProjectItems
             title="Project 3"
@@ -88,7 +87,7 @@ const Projects = () => {
             Title: Hand Gesture Tracker
             <br></br>
             <br></br>
-            This is a ASL tracker using Python, JavaScript, HTML, and CSS. 
+            This is a ASL tracker using Python, JavaScript, HTML, and CSS.
           </p>
 
           {/* Project 4*/}
@@ -106,10 +105,9 @@ const Projects = () => {
             Title: Insitee.github.io
             <br></br>
             <br></br>
-            This is an award-winning wesbite using JavaScript, HTML, and Boostrap. 
+            This is an award-winning wesbite using JavaScript, HTML, and
+            Boostrap.
           </p>
-
-
 
           {/* Project 5*/}
 
@@ -129,7 +127,6 @@ const Projects = () => {
             This is a custom business website using JavaScript, HTML, and CSS.
           </p>
 
-
           {/* Project 6*/}
 
           <ProjectItems
@@ -147,14 +144,14 @@ const Projects = () => {
             <br></br>
             This is a custom business website using JavaScript, HMTL, and CSS.
           </p>
-          </div>
+        </div>
 
         <br></br>
         <br></br>
 
         <div className="flex justify-center items-center">
           <a
-            href="https://github.com/makensonn" 
+            href="https://github.com/makensonn"
             target="_blank"
             className="flex items-center h-full underline"
           >
