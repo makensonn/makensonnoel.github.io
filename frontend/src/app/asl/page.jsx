@@ -39,7 +39,7 @@ const asl = () => {
           <br></br>
           <h2>Overview</h2>
           <p>
-            I built this application in Python and it's source code is on
+            I built this application in Python and it&apos;s source code is on
             GitHub. The American Sign Language (ASL) Hand Tracker project is a
             Python-based solution that utilizes TensorFlow, OpenCV, Mediapipe,
             Matplotlib, and Scikit-Learn to recognize and interpret ASL hand
