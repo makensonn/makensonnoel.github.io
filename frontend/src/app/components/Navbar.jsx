@@ -7,11 +7,11 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="bg-transparent py-4 fixed top-0 left-0 right-0 z-50">
+    <nav className="bg-inherit py-4 fixed top-0 left-0 right-0 z-50">
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
           <div className="font-bold text-xl">
-            <Link href="/">Your Logo</Link>
+            <Link href="/"> MN</Link>
           </div>
           <div className="flex space-x-4">
             <Link legacyBehavior href="/">
