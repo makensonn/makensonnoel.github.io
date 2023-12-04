@@ -4,11 +4,12 @@ import Link from "next/link";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 // Image Imports
-import projectOneeImg from "../assets/projects/thousandmen.png";
-import projectOneImg from "../assets/projects/insight.png";
-import projectTwoImg from "../assets/projects/mozy.png";
-import projectThreeImg from "../assets/projects/asl.png";
-import projectFourImg from "../assets/projects/weatherfacts.png";
+import projectOneImg from "../assets/projects/thousandmen.svg";
+import projectTwoImg from "../assets/projects/mozy.svg";
+import projectThreeImg from "../assets/projects/asl.svg";
+import projectFourImg from "../assets/projects/insight.svg";
+import projectFiveImg from "../assets/projects/lulawn.svg";
+import projectSixImg from "../assets/projects/guitto.svg";
 
 // Source URLs
 const projectOneeSource = "https://github.com/makensonn/weatherfacts";
@@ -38,79 +39,123 @@ const Projects = () => {
         <p className="py-6"></p>
 
         <div className={gridStyle}>
+          {/* Project 1*/}
           <ProjectItems
-            title="E-Commerce"
-            backgroundImg={projectOneeImg}
+            title="Project 1"
+            backgroundImg={projectOneImg}
             projectUrl="https://thousandmen.co/"
             sourceUrl={projectOneeSource}
             tech=""
           />
 
-          {/* Project Description */}
+          {/* Description */}
           <p>
             Title: Thousandmen.co
             <br></br>
             <br></br>
-            Custom E-Commerce site.
+            This is a custom ecommerce website using JavaScript, HTML, and CSS.
           </p>
 
+          {/* Project 2*/}
           <ProjectItems
-            title="E-Commerce"
+            title="Project 2"
             backgroundImg={projectTwoImg}
             projectUrl="https://amoseb.com/"
             sourceUrl={projectOneeSource}
             tech=""
           />
 
-          {/* Project Description */}
+          {/*Description */}
           <p>
             Title: Amoseb.com
             <br></br>
             <br></br>
-            Custom E-Commerce site.
+            This is a drop shipping website using JavaScript, HTML, and CSS.
           </p>
 
+
+          {/* Project 3*/}
           <ProjectItems
-            title="ABC ASL"
+            title="Project 3"
             backgroundImg={projectThreeImg}
             projectUrl="/asl"
             sourceUrl={projectOneeSource}
             tech=""
           />
 
-          {/* Project Description */}
+          {/* Description */}
           <p>
             Title: Hand Gesture Tracker
             <br></br>
             <br></br>
-            This is an application that translates American sign language hand
-            gestures to subtitles in real-time.
+            This is a ASL tracker using Python, JavaScript, HTML, and CSS. 
           </p>
 
+          {/* Project 4*/}
+
           <ProjectItems
-            title="Insight"
-            backgroundImg={projectOneImg}
+            title="Project 4"
+            backgroundImg={projectFourImg}
             projectUrl="https://insitee.github.io/"
             sourceUrl={projectOneSource}
             tech=""
           />
 
-          {/* Project Description */}
+          {/* Description */}
           <p>
             Title: Insitee.github.io
             <br></br>
             <br></br>
-            This is an award-winning product landing page for an accessibility
-            app developed at a hackathon.
+            This is an award-winning wesbite using JavaScript, HTML, and Boostrap. 
           </p>
-        </div>
+
+
+
+          {/* Project 5*/}
+
+          <ProjectItems
+            title="Project 5"
+            backgroundImg={projectFiveImg}
+            projectUrl="https://lulawn.vercel.app/"
+            sourceUrl={projectOneSource}
+            tech=""
+          />
+
+          {/* Description */}
+          <p>
+            Title: Lucien Lawn Services
+            <br></br>
+            <br></br>
+            This is a custom business website using JavaScript, HTML, and CSS.
+          </p>
+
+
+          {/* Project 6*/}
+
+          <ProjectItems
+            title="Project 6"
+            backgroundImg={projectSixImg}
+            projectUrl="https://guitto-eta.vercel.app/"
+            sourceUrl={projectOneSource}
+            tech=""
+          />
+
+          {/* Description */}
+          <p>
+            Title: Guitto Transportation
+            <br></br>
+            <br></br>
+            This is a custom business website using JavaScript, HMTL, and CSS.
+          </p>
+          </div>
 
         <br></br>
         <br></br>
 
         <div className="flex justify-center items-center">
           <a
-            href="https://github.com/makensonn"
+            href="https://github.com/makensonn" 
+            target="_blank"
             className="flex items-center h-full underline"
           >
             View More
