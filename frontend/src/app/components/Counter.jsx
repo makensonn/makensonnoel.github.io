@@ -1,5 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import { format, differenceInDays, differenceInHours, differenceInMinutes, differenceInSeconds, add } from 'date-fns';
+import React, { useState, useEffect } from "react";
+import {
+  format,
+  differenceInDays,
+  differenceInHours,
+  differenceInMinutes,
+  differenceInSeconds,
+  add,
+} from "date-fns";
 
 const Countdown = () => {
   const [timeLeft, setTimeLeft] = useState(null);
@@ -20,7 +27,7 @@ const Countdown = () => {
 
       if (distance < 0) {
         clearInterval(interval);
-        setTimeLeft('Countdown expired');
+        setTimeLeft("Countdown expired");
       }
     }, 1000);
 
