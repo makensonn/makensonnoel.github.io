@@ -23,7 +23,6 @@ const buttonContainerStyle = "flex justify-center py-12";
 const socialIconStyle =
   "rounded-full shadow-lg shadow-neutral-950 p-6 cursor-pointer hover:scale-110 ease-in duration-300";
 
-
 const Projects = () => {
   return (
     <div id="projects" className={containerStyle}>
@@ -141,11 +140,11 @@ const Projects = () => {
         <br></br>
 
         <div className={buttonContainerStyle}>
-            <Link legacyBehavior href="/more">
-              <a>
-                <div className={socialIconStyle}>View More</div>
-              </a>
-            </Link>
+          <Link legacyBehavior href="/more">
+            <a>
+              <div className={socialIconStyle}>View More</div>
+            </a>
+          </Link>
         </div>
       </div>
 
