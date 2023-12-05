@@ -12,13 +12,6 @@ import projectFiveImg from "../assets/projects/lulawn.svg";
 import projectSixImg from "../assets/projects/guitto.svg";
 
 // Source URLs
-const projectOneeSource = "https://github.com/makensonn/weatherfacts";
-const projectOneSource = "https://github.com/makensonn/float";
-const projectTwoSource = "https://github.com/makensonn/tictactoe";
-const projectThreeSource = "https://github.com/makensonn/todolist";
-const projectFourSource = "https://github.com/makensonn/weatherfacts";
-
-import ProjectItem from "./ProjectItem";
 import ProjectItems from "./ProjectItems";
 
 // Tailwind CSS Classes
@@ -44,7 +37,6 @@ const Projects = () => {
             title="Project 1"
             backgroundImg={projectOneImg}
             projectUrl="https://thousandmen.co/"
-            sourceUrl={projectOneeSource}
             tech=""
           />
 
@@ -61,7 +53,6 @@ const Projects = () => {
             title="Project 2"
             backgroundImg={projectTwoImg}
             projectUrl="https://amoseb.com/"
-            sourceUrl={projectOneeSource}
             tech=""
           />
 
@@ -77,8 +68,7 @@ const Projects = () => {
           <ProjectItems
             title="Project 3"
             backgroundImg={projectThreeImg}
-            projectUrl="/asl"
-            sourceUrl={projectOneeSource}
+            projectUrl="https://youtu.be/q1tI7GO7d1A?si=Ju90rTWD7aCWOwdQ"
             tech=""
           />
 
@@ -96,7 +86,6 @@ const Projects = () => {
             title="Project 4"
             backgroundImg={projectFourImg}
             projectUrl="https://insitee.github.io/"
-            sourceUrl={projectOneSource}
             tech=""
           />
 
@@ -115,7 +104,6 @@ const Projects = () => {
             title="Project 5"
             backgroundImg={projectFiveImg}
             projectUrl="https://lulawn.vercel.app/"
-            sourceUrl={projectOneSource}
             tech=""
           />
 
@@ -133,7 +121,6 @@ const Projects = () => {
             title="Project 6"
             backgroundImg={projectSixImg}
             projectUrl="https://guitto-eta.vercel.app/"
-            sourceUrl={projectOneSource}
             tech=""
           />
 

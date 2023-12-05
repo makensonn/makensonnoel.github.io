@@ -1,4 +1,5 @@
-import Image from "next/image";
+{
+  /*import Image from "next/image";
 import React from "react";
 import aslImg from "../assets/projects/asl.svg"; //ASL Hand Tracker
 import YouTubePlayer from "../components/YouTubePlayer";
@@ -11,7 +12,7 @@ const videoId = "q1tI7GO7d1A"; //ASL Video
 const asl = () => {
   return (
     <div className="w-full h-screen">
-      {/*Header*/}
+      {/*Header*
       <div className="w-full h-[50vh] relative">
         <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10" />
         <Image
@@ -26,9 +27,9 @@ const asl = () => {
           <h3>Python / Jupyter Notebook / TensorFlow</h3>
         </div>
       </div>
-      {/*Header*/}
+      {/*Header*
 
-      {/* Project Overview */}
+      {/* Project Overview *
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
         <div className="col-span-4">
           <p>Project</p>
@@ -39,7 +40,7 @@ const asl = () => {
           <br></br>
           <h2>Overview</h2>
           <p>
-            I built this application in Python and it's source code is on
+            I built this application in Python and it&apos;s source code is on
             GitHub. The American Sign Language (ASL) Hand Tracker project is a
             Python-based solution that utilizes TensorFlow, OpenCV, Mediapipe,
             Matplotlib, and Scikit-Learn to recognize and interpret ASL hand
@@ -64,9 +65,8 @@ const asl = () => {
             <button className="px-8 py-2 mt-4">Demo</button>
           </a>
         </div>
-        {/*Project Overview*/}
-
-        {/*Technologies*/}
+        {/*Project Overview*/
+  /*Technologies*
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
@@ -96,9 +96,8 @@ const asl = () => {
           </div>
         </div>
       </div>
-      {/* Technologies */}
-
-      {/* Back Button */}
+      {/* Technologies */
+  /* Back Button *
       <div className="flex justify-center py-12">
         <Link href="/#projects">
           <a>
@@ -111,9 +110,10 @@ const asl = () => {
           </a>
         </Link>
       </div>
-      {/* Back Button */}
+      {/* Back Button *
     </div>
   );
 };
 
-export default asl;
+export default asl; */
+}

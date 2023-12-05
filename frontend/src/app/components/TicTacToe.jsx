@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+{
+  /*import React, { useState, useEffect } from "react";
 
 const initialBoard = Array(9).fill("");
 
@@ -109,3 +110,5 @@ const TicTacToe = () => {
 };
 
 export default TicTacToe;
+*/
+}
