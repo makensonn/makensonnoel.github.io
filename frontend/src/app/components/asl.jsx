@@ -1,4 +1,5 @@
-{/*import Image from "next/image";
+{
+  /*import Image from "next/image";
 import React from "react";
 import aslImg from "../assets/projects/asl.svg"; //ASL Hand Tracker
 import YouTubePlayer from "../components/YouTubePlayer";
@@ -65,8 +66,7 @@ const asl = () => {
           </a>
         </div>
         {/*Project Overview*/
-
-        /*Technologies*
+  /*Technologies*
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
@@ -97,8 +97,7 @@ const asl = () => {
         </div>
       </div>
       {/* Technologies */
-
-      /* Back Button *
+  /* Back Button *
       <div className="flex justify-center py-12">
         <Link href="/#projects">
           <a>
@@ -116,4 +115,5 @@ const asl = () => {
   );
 };
 
-export default asl; */}
+export default asl; */
+}
