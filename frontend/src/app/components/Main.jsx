@@ -31,7 +31,7 @@ const Main = () => {
           <h1 className={headingStyle}>
             <span>Makenson Noel</span>
           </h1>
-          <p className={descriptionStyle}>Software Engineer</p>
+          <p className={descriptionStyle}>Solving Problems with Code</p>
           <div className={socialIconsContainerStyle}>
             <a
               href="https://www.linkedin.com/in/makensonnoel/"
