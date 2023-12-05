@@ -2,21 +2,19 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { HiOutlineChevronDoubleLeft } from "react-icons/hi";
+import Navbar from "../components/Navbar";
 
 // Image Imports
-import projectOneeImg from "../assets/projects/thousandmen.svg";
-import projectOneImg from "../assets/projects/insight.svg";
+import projectOneImg from "../assets/projects/thousandmen.svg";
 import projectTwoImg from "../assets/projects/mozy.svg";
 import projectThreeImg from "../assets/projects/asl.svg";
-//import projectFourImg from "../assets/projects/weatherfacts.svg";
+import projectFourImg from "../assets/projects/insight.svg";
+import projectFiveImg from "../assets/projects/lulawn.svg";
+import projectSixImg from "../assets/projects/guitto.svg";
+import projectSoonImg from "../assets/projects/soon.svg";
+
 
 // Source URLs
-const projectOneeSource = "https://github.com/makensonn/weatherfacts";
-const projectOneSource = "https://github.com/makensonn/float";
-const projectTwoSource = "https://github.com/makensonn/tictactoe";
-const projectThreeSource = "https://github.com/makensonn/todolist";
-const projectFourSource = "https://github.com/makensonn/weatherfacts";
-
 import ProjectItems from "../components/ProjectItems";
 
 // Tailwind CSS Classes
@@ -25,14 +23,20 @@ const containerStyle = "w-full";
 const maxWidthStyle = "max-w-[1240px] mx-auto px-2 py-16";
 const gridStyle = "grid md:grid-cols-4 gap-8";
 
+
+const soon = "Coming Soon";
+const comingSoon = "This project is coming soon"
+
 const Projects = () => {
   return (
+    <>
+    <Navbar/>
     <div id="projects" className={containerStyle}>
       <div className={maxWidthStyle}>
         <p className={titleStyle}>
           <br></br>
           <br></br>
-          Projects
+          More Projects
         </p>
         <p className="py-6"></p>
 
@@ -40,180 +44,105 @@ const Projects = () => {
           {/* Project 1*/}
           <ProjectItems
             title="Project 1"
-            backgroundImg={projectOneeImg}
-            projectUrl="https://thousandmen.co/"
-            sourceUrl={projectOneeSource}
+            backgroundImg={projectSoonImg}
+            projectUrl="/"
             tech=""
           />
 
           {/* Description */}
           <p>
-            Title: Thousandmen.co
+            Title {soon}
             <br></br>
             <br></br>
-            This is a custom ecommerce website using JavaScript, HTML, and CSS.
+            {comingSoon}
           </p>
 
           {/* Project 2*/}
           <ProjectItems
             title="Project 2"
-            backgroundImg={projectTwoImg}
-            projectUrl="https://amoseb.com/"
-            sourceUrl={projectOneeSource}
+            backgroundImg={projectSoonImg}
+            projectUrl="/"
             tech=""
           />
 
           {/*Description */}
           <p>
-            Title: Amoseb.com
+            Title {soon}
             <br></br>
             <br></br>
-            This is a drop shipping website using JavaScript, HTML, and CSS.
+            {comingSoon}
           </p>
 
           {/* Project 3*/}
           <ProjectItems
             title="Project 3"
-            backgroundImg={projectThreeImg}
-            projectUrl="/asl"
-            sourceUrl={projectOneeSource}
+            backgroundImg={projectSoonImg}
+            projectUrl="/"
             tech=""
           />
 
           {/* Description */}
           <p>
-            Title: Hand Gesture Tracker
+            Title {soon}
             <br></br>
             <br></br>
-            This is an ASL tracker using Python, JavaScript, HTML, and CSS.
+            {comingSoon}
           </p>
 
           {/* Project 4*/}
 
           <ProjectItems
             title="Project 4"
-            backgroundImg={projectOneImg}
-            projectUrl="https://insitee.github.io/"
-            sourceUrl={projectOneSource}
+            backgroundImg={projectSoonImg}
+            projectUrl="/"
             tech=""
           />
 
           {/* Description */}
           <p>
-            Title: Insitee.github.io
+            Title {soon}
             <br></br>
             <br></br>
-            This is an award-winning wesbite using JavaScript, HTML, and
-            Boostrap.
+            {comingSoon}
           </p>
 
           {/* Project 5*/}
 
           <ProjectItems
             title="Project 5"
-            backgroundImg={projectOneImg}
-            projectUrl="https://insitee.github.io/"
-            sourceUrl={projectOneSource}
+            backgroundImg={projectSoonImg}
+            projectUrl="/"
             tech=""
           />
 
           {/* Description */}
           <p>
-            Title: Lucien Lawn Services
+          Title {soon}
             <br></br>
             <br></br>
-            This is an award-winning product landing page for an accessibility
-            app developed at a hackathon.
+            {comingSoon}
           </p>
 
           {/* Project 6*/}
 
           <ProjectItems
             title="Project 6"
-            backgroundImg={projectOneImg}
-            projectUrl="https://insitee.github.io/"
-            sourceUrl={projectOneSource}
+            backgroundImg={projectSoonImg}
+            projectUrl="/"
             tech=""
           />
 
           {/* Description */}
           <p>
-            Title: Guitto Transportation
+            Title {soon}
             <br></br>
             <br></br>
-            This is an award-winning product landing page for an accessibility
-            app developed at a hackathon.
-          </p>
-
-          {/* Project 7*/}
-
-          <ProjectItems
-            title="Project 7"
-            backgroundImg={projectOneImg}
-            projectUrl="https://insitee.github.io/"
-            sourceUrl={projectOneSource}
-            tech=""
-          />
-
-          {/* Description */}
-          <p>
-            Title: Insitee.github.io
-            <br></br>
-            <br></br>
-            This is an award-winning product landing page for an accessibility
-            app developed at a hackathon.
-          </p>
-
-          {/* Project 8*/}
-
-          <ProjectItems
-            title="Project 8"
-            backgroundImg={projectOneImg}
-            projectUrl="https://insitee.github.io/"
-            sourceUrl={projectOneSource}
-            tech=""
-          />
-
-          {/* Description */}
-          <p>
-            Title: Insitee.github.io
-            <br></br>
-            <br></br>
-            This is an award-winning product landing page for an accessibility
-            app developed at a hackathon.
-          </p>
-
-          {/* Project 9*/}
-
-          <ProjectItems
-            title="Project 9"
-            backgroundImg={projectOneImg}
-            projectUrl="https://insitee.github.io/"
-            sourceUrl={projectOneSource}
-            tech=""
-          />
-
-          {/* Description */}
-          <p>
-            Title: Insitee.github.io
-            <br></br>
-            <br></br>
-            This is an award-winning product landing page for an accessibility
-            app developed at a hackathon.
+            {comingSoon}
           </p>
         </div>
 
         <br></br>
         <br></br>
-
-        <div className="flex justify-center items-center">
-          <a
-            href="https://github.com/makensonn"
-            className="flex items-center h-full underline"
-          >
-            View More
-          </a>
-        </div>
       </div>
 
       {/* Scroll Up Button */}
@@ -225,9 +154,17 @@ const Projects = () => {
             </div>
           </a>
         </Link>
+       {/* <Link legacyBehavior href="/">
+          <a>
+            <div className="rounded-full shadow-lg shadow-neutral-950  p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+              <HiOutlineChevronDoubleLeft className="" size={30} />
+            </div>
+          </a>
+  </Link> */}
       </div>
       {/* Button Ends Here */}
     </div>
+    </>
   );
 };
 

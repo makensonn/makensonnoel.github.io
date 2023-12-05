@@ -19,6 +19,10 @@ const titleStyle = "text-4xl font-bold inline border-b-4  border-zinc-500";
 const containerStyle = "w-full";
 const maxWidthStyle = "max-w-[1240px] mx-auto px-2 py-16";
 const gridStyle = "grid md:grid-cols-4 gap-8";
+const buttonContainerStyle = "flex justify-center py-12";
+const socialIconStyle =
+  "rounded-full shadow-lg shadow-neutral-950 p-6 cursor-pointer hover:scale-110 ease-in duration-300";
+
 
 const Projects = () => {
   return (
@@ -77,7 +81,7 @@ const Projects = () => {
             Title: Hand Gesture Tracker
             <br></br>
             <br></br>
-            This is a ASL tracker using Python, JavaScript, HTML, and CSS.
+            This is a ASL tracker using Python, Next.js, and Tailwind CSS.
           </p>
 
           {/* Project 4*/}
@@ -112,7 +116,7 @@ const Projects = () => {
             Title: Lucien Lawn Services
             <br></br>
             <br></br>
-            This is a custom business website using JavaScript, HTML, and CSS.
+            This is a custom business website using Next.js and Tailwind CSS.
           </p>
 
           {/* Project 6*/}
@@ -129,21 +133,19 @@ const Projects = () => {
             Title: Guitto Transportation
             <br></br>
             <br></br>
-            This is a custom business website using JavaScript, HMTL, and CSS.
+            This is a custom business website using Next.js and Tailwind CSS.
           </p>
         </div>
 
         <br></br>
         <br></br>
 
-        <div className="flex justify-center items-center">
-          <a
-            href="https://github.com/makensonn"
-            target="_blank"
-            className="flex items-center h-full underline"
-          >
-            View More
-          </a>
+        <div className={buttonContainerStyle}>
+            <Link legacyBehavior href="/more">
+              <a>
+                <div className={socialIconStyle}>View More</div>
+              </a>
+            </Link>
         </div>
       </div>
 
