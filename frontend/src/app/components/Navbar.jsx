@@ -16,15 +16,15 @@ const Navbar = () => {
       <div className="container mx-auto max-w-screen-xl px-4">
         <div className="flex items-center justify-between w-full lg:w-auto">
           <div className="font-bold text-xl">
-            <Link legacyBehavior href='/'>
+            <Link legacyBehavior href="/">
               <a>
                 <Image
                   src={MakImg}
-                  alt='/'
+                  alt="/"
                   width={navbarImageSize}
                   height={navbarImageSize}
-                  className='cursor-pointer'
-                  style={{ objectFit: 'cover', borderRadius: '50%' }}
+                  className="cursor-pointer"
+                  style={{ objectFit: "cover", borderRadius: "50%" }}
                 />
               </a>
             </Link>

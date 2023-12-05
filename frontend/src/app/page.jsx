@@ -4,12 +4,10 @@ import About from "./components/About";
 import Main from "./components/Main";
 import Projects from "./components/Projects";
 
-
-
 const Home = () => {
   return (
     <>
-      <Navbar />      
+      <Navbar />
       <Main />
       <About />
       <Projects />
