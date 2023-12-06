@@ -25,30 +25,29 @@ const About = () => {
           <p className="py-2"></p>
           <p className="py-2">
             Hello! 👋 I&apos;m Makenson Noel, a highly motivated and
-            detail-oriented entry-level Software Engineer with a passion for
-            crafting robust and user-friendly solutions. My journey in the tech
-            world began at Florida Atlantic University, where I earned my
-            Bachelor of Science in Computer Science in August 2021. In my most
-            recent role with Develop With Mak LLC, I&apos;ve been actively
-            involved in delivering custom websites using a tech stack that
-            includes JavaScript, HTML, and CSS. I specialize in creating
-            seamless, engaging web experiences tailored to meet client needs.
-            One of my recent projects involved developing an American Sign
-            Language Hand Tracker, showcasing my versatility with Python,
-            JavaScript, HTML, and CSS. I also had the opportunity to contribute
-            my skills to Thousandmen.co, where I played a key role in developing
-            a custom ecommerce website. This experience further honed my
-            abilities in creating functional and aesthetically pleasing web
-            applications. Beyond my professional endeavors, I&apos;m an active
-            member of Haitians in Tech, demonstrating my commitment to fostering
-            diversity and inclusion within the tech community. In my free time,
-            I enjoy refurbishing and building personal gaming computers,
-            combining my technical skills with a love for gaming. 🏆 Awards &
-            Certifications: Awarded Best Accessibility App at PlutoHacks 2022.
-            Certified in Deep Learning Onramp and Machine Learning Onramp by
-            MathWorks (July 2020). 🎓 Education: Bachelor of Science in Computer
-            Science from Florida Atlantic University, Boca Raton, FL (August
-            2021)
+            detail-oriented web developer with a passion for crafting robust and
+            user-friendly solutions. My journey in the tech world began at
+            Florida Atlantic University, where I earned my Bachelor of Science
+            in Computer Science in August 2021. In my most recent role with
+            Develop With Mak LLC, I&apos;ve been actively involved in delivering
+            custom websites using a tech stack that includes JavaScript, HTML,
+            and CSS. I specialize in creating seamless, engaging web experiences
+            tailored to meet client needs. One of my recent projects involved
+            developing an American Sign Language Hand Tracker, showcasing my
+            versatility with Python, JavaScript, HTML, and CSS. I also had the
+            opportunity to contribute my skills to Thousandmen.co, where I
+            played a key role in developing a custom ecommerce website. This
+            experience further honed my abilities in creating functional and
+            aesthetically pleasing web applications. Beyond my professional
+            endeavors, I&apos;m an active member of Haitians in Tech,
+            demonstrating my commitment to fostering diversity and inclusion
+            within the tech community. In my free time, I enjoy refurbishing and
+            building personal gaming computers, combining my technical skills
+            with a love for gaming. 🏆 Awards & Certifications: Awarded Best
+            Accessibility App at PlutoHacks 2022. Certified in Deep Learning
+            Onramp and Machine Learning Onramp by MathWorks (July 2020). 🎓
+            Education: Bachelor of Science in Computer Science from Florida
+            Atlantic University, Boca Raton, FL (August 2021)
           </p>
           <br></br>
         </div>
