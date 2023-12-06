@@ -43,13 +43,13 @@ const Projects = () => {
             <ProjectItems
               title="Project 1"
               backgroundImg={projectSoonImg}
-              projectUrl="/"
+              projectUrl="https://github.com/makensonn?tab=repositories&q=&type=&language=javascript&sort="
               tech=""
             />
 
             {/* Description */}
             <p>
-              Title {soon}
+              Title: JavaScript
               <br></br>
               <br></br>
               {comingSoon}
@@ -59,13 +59,13 @@ const Projects = () => {
             <ProjectItems
               title="Project 2"
               backgroundImg={projectSoonImg}
-              projectUrl="/"
+              projectUrl="https://github.com/makensonn?tab=repositories&q=&type=&language=python&sort="
               tech=""
             />
 
             {/*Description */}
             <p>
-              Title {soon}
+              Title: Python
               <br></br>
               <br></br>
               {comingSoon}
@@ -75,13 +75,13 @@ const Projects = () => {
             <ProjectItems
               title="Project 3"
               backgroundImg={projectSoonImg}
-              projectUrl="/"
+              projectUrl="https://github.com/makensonn?tab=repositories&q=&type=&language=java&sort="
               tech=""
             />
 
             {/* Description */}
             <p>
-              Title {soon}
+              Title: Java
               <br></br>
               <br></br>
               {comingSoon}
@@ -92,13 +92,13 @@ const Projects = () => {
             <ProjectItems
               title="Project 4"
               backgroundImg={projectSoonImg}
-              projectUrl="/"
+              projectUrl="https://github.com/makensonn?tab=repositories&q=&type=&language=c%2B%2B&sort="
               tech=""
             />
 
             {/* Description */}
             <p>
-              Title {soon}
+              Title: C++
               <br></br>
               <br></br>
               {comingSoon}
@@ -109,13 +109,13 @@ const Projects = () => {
             <ProjectItems
               title="Project 5"
               backgroundImg={projectSoonImg}
-              projectUrl="/"
+              projectUrl="https://github.com/makensonn"
               tech=""
             />
 
             {/* Description */}
             <p>
-              Title {soon}
+              Title: Sandbox
               <br></br>
               <br></br>
               {comingSoon}
@@ -132,7 +132,7 @@ const Projects = () => {
 
             {/* Description */}
             <p>
-              Title {soon}
+              Title: Blog
               <br></br>
               <br></br>
               {comingSoon}

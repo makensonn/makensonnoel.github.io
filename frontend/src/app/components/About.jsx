@@ -25,7 +25,7 @@ const About = () => {
           <p className="py-2"></p>
           <p className="py-2">
             Hello! 👋 I&apos;m Makenson Noel, a highly motivated and
-            detail-oriented entry-level Software Engineer with a passion for
+            detail-oriented web developer with a passion for
             crafting robust and user-friendly solutions. My journey in the tech
             world began at Florida Atlantic University, where I earned my
             Bachelor of Science in Computer Science in August 2021. In my most
