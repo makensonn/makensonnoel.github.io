@@ -9,7 +9,8 @@ const titleStyle = "text-4xl font-bold inline border-b-4  border-zinc-500";
 const containerStyle = "w-full md:h-screen p-2 flex items-center py-16";
 const gridStyle = "max-w-[1240px] m-auto md:grid grid-cols-3 gap-8";
 const textContainerStyle = "col-span-2";
-const imageContainerStyle = "w-auto h-auto m-auto shadow-xl shadow-neutral-950 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300";
+const imageContainerStyle =
+  "w-auto h-auto m-auto shadow-xl shadow-neutral-950 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300";
 const imageStyle = "rounded-xl";
 
 const About = () => {
