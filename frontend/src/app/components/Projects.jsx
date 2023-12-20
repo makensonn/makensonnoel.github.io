@@ -37,7 +37,7 @@ const Projects = () => {
         <div className={gridStyle}>
           {/* Project 1*/}
           <ProjectItems
-            title="Project 1"
+            title="Project"
             backgroundImg={projectOneImg}
             projectUrl="https://thousandmen.co/"
             tech=""
@@ -48,12 +48,12 @@ const Projects = () => {
             Title: Thousandmen.co
             <br></br>
             <br></br>
-            This is a custom ecommerce website using JavaScript, HTML, and CSS.
+            This is a custom ecommerce website using JavaScript.
           </p>
 
           {/* Project 2*/}
           <ProjectItems
-            title="Project 2"
+            title="Project"
             backgroundImg={projectTwoImg}
             projectUrl="https://amoseb.com/"
             tech=""
@@ -64,12 +64,12 @@ const Projects = () => {
             Title: Amoseb.com
             <br></br>
             <br></br>
-            This is a drop shipping website using JavaScript, HTML, and CSS.
+            This is a drop shipping website using JavaScript.
           </p>
 
           {/* Project 3*/}
           <ProjectItems
-            title="Project 3"
+            title="Project"
             backgroundImg={projectThreeImg}
             projectUrl="https://youtu.be/q1tI7GO7d1A?si=Ju90rTWD7aCWOwdQ"
             tech=""
@@ -80,13 +80,13 @@ const Projects = () => {
             Title: Hand Gesture Tracker
             <br></br>
             <br></br>
-            This is a ASL tracker using Python, Next.js, and Tailwind CSS.
+            This is a American Sign Language hand tracker using Python.
           </p>
 
           {/* Project 4*/}
 
           <ProjectItems
-            title="Project 4"
+            title="Project"
             backgroundImg={projectFourImg}
             projectUrl="https://insitee.github.io/"
             tech=""
@@ -98,13 +98,13 @@ const Projects = () => {
             <br></br>
             <br></br>
             This is an award-winning wesbite using JavaScript, HTML, and
-            Boostrap.
+            Bootstrap.
           </p>
 
           {/* Project 5*/}
 
           <ProjectItems
-            title="Project 5"
+            title="Project"
             backgroundImg={projectFiveImg}
             projectUrl="https://lulawn.vercel.app/"
             tech=""
@@ -115,13 +115,13 @@ const Projects = () => {
             Title: Lucien Lawn Services
             <br></br>
             <br></br>
-            This is a custom business website using Next.js and Tailwind CSS.
+            This is a custom landing page using Next.js.
           </p>
 
           {/* Project 6*/}
 
           <ProjectItems
-            title="Project 6"
+            title="Project"
             backgroundImg={projectSixImg}
             projectUrl="https://guitto-eta.vercel.app/"
             tech=""
@@ -132,7 +132,7 @@ const Projects = () => {
             Title: Guitto Transportation
             <br></br>
             <br></br>
-            This is a custom business website using Next.js and Tailwind CSS.
+            This is a custom landing page using Next.js.
           </p>
         </div>
 
