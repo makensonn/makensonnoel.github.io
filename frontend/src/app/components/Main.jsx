@@ -56,7 +56,6 @@ const Main = () => {
                 <BsFillPersonLinesFill />
               </div>
             </a>
-
           </div>
           <div className={buttonContainerStyle}>
             <Link legacyBehavior href="/#projects">
