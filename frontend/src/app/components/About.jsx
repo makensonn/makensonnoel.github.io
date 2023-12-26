@@ -24,22 +24,20 @@ const About = () => {
           </p>
           <p className="py-2"></p>
           <p className="py-2">
-            Hello! 👋🏾 I&apos;m Makenson Noel, a highly motivated and
-            detail-oriented web developer with a passion for crafting robust and
-            user-friendly solutions.<br></br><br></br>My journey in the tech world began at
-            Florida Atlantic University, where I earned my Bachelor of Science
-            in Computer Science in August 2021 🎓. I&apos;ve been actively involved in delivering
-            custom websites using React, JavaScript, HTML,
-            and CSS. I specialize in creating seamless, engaging web experiences. 
+            Hello! 👋🏾 I&apos;m Makenson, a highly motivated and 
+            detail-oriented Full-Stack Software Engineer with a 
+            passion for crafting robust and user-friendly solutions.
+            <br></br><br></br>My journey in the tech world began repairing 
+            computers in High School, then got an A.A. On the STEM path at 
+            Broward College, I then transferred to Florida Atlantic University, 
+            where I declared my major and earned a Bachelor of Science in Computer Science 🎓.  
             <br></br><br></br>
-            I&apos;m an active member of Haitians in Tech. In my free time, I enjoy refurbishing and
-            building personal gaming computers, combining my technical skills
-            with a love for gaming. 
+            I&apos;ve been actively involved in delivering custom websites using Next.js, React, JavaScript, HTML,
+            and CSS. I specialize in creating seamless, engaging web experiences
             <br></br><br></br>
-            🏆 Awards & Certifications: Awarded Best
-            Accessibility App at PlutoHacks 2022. 
-            <br></br>📃Certified in Deep Learning
-            Onramp and Machine Learning Onramp by MathWorks (July 2020).
+            🏆 Awards & Certifications: Awarded Best Accessibility App at PlutoHacks 2022.<br></br>
+            🎓 Bachelor of Science in Computer Science from Florida Atlantic University. <br></br>
+            📃 Certified in Deep Learning Onramp and Machine Learning Onramp by MathWorks.
           </p>
           <br></br>
         </div>

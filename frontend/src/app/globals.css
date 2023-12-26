@@ -52,7 +52,7 @@ li {
 }
 
 button {
-  @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#0d1e37] to-[#172f53] text-white
+  @apply rounded-full shadow-lg shadow-neutral-950 p-6 cursor-pointer hover:scale-110 ease-in duration-300
 }
 
 
@@ -67,4 +67,23 @@ button {
 
 .fade-in {
   animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Form field styles */
+input, textarea, select {
+  background-color: rgb(var(--background-end-rgb));
+  color: rgb(var(--foreground-rgb));
+  border: 1px solid rgb(var(--foreground-rgb));
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Dark mode styles for form fields */
+@media (prefers-color-scheme: dark) {
+  input, textarea, select {
+    background-color: rgb(var(--foreground-rgb));
+    color: rgb(var(--background-start-rgb));
+    border-color: rgb(var(--background-start-rgb));
+  }
 }
