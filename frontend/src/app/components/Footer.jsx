@@ -3,7 +3,9 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="p-4 text-center">
-      <br></br><br></br><br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       Made with <span className="text-red-500">&#10084;</span> by{" "}
       <a
         href="https://makenson.com/"

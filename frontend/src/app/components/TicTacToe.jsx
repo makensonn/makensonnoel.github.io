@@ -1,34 +1,34 @@
-'use client'
+"use client";
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
-const initialBoard = Array(9).fill('');
+const initialBoard = Array(9).fill("");
 
 const TicTacToe = () => {
   const [board, setBoard] = useState(initialBoard);
-  const [currentPlayer, setCurrentPlayer] = useState('X');
+  const [currentPlayer, setCurrentPlayer] = useState("X");
   const [winner, setWinner] = useState(null);
 
   useEffect(() => {
-    if (currentPlayer === 'O' && !winner) {
+    if (currentPlayer === "O" && !winner) {
       makeComputerMove();
     }
   }, [currentPlayer, winner]);
 
   const handleCellClick = (index) => {
-    if (board[index] === '' && !winner && currentPlayer === 'X') {
+    if (board[index] === "" && !winner && currentPlayer === "X") {
       const newBoard = [...board];
       newBoard[index] = currentPlayer;
       setBoard(newBoard);
       checkWinner(newBoard);
-      setCurrentPlayer('O');
+      setCurrentPlayer("O");
     }
   };
 
   const makeComputerMove = () => {
     const availableCells = board.reduce(
-      (acc, cell, index) => (cell === '' ? [...acc, index] : acc),
-      []
+      (acc, cell, index) => (cell === "" ? [...acc, index] : acc),
+      [],
     );
 
     const randomIndex = Math.floor(Math.random() * availableCells.length);
@@ -38,7 +38,7 @@ const TicTacToe = () => {
     newBoard[computerMove] = currentPlayer;
     setBoard(newBoard);
     checkWinner(newBoard);
-    setCurrentPlayer('X');
+    setCurrentPlayer("X");
   };
 
   const checkWinner = (board) => {
@@ -61,14 +61,14 @@ const TicTacToe = () => {
       }
     }
 
-    if (!board.includes('')) {
-      setWinner('draw');
+    if (!board.includes("")) {
+      setWinner("draw");
     }
   };
 
   const resetGame = () => {
     setBoard(initialBoard);
-    setCurrentPlayer('X');
+    setCurrentPlayer("X");
     setWinner(null);
   };
 
@@ -87,14 +87,14 @@ const TicTacToe = () => {
   return (
     <div className="tic-tac-toe">
       <div className="flex justify-center items-center">
-      <h1> Tic Tac Toe</h1>
+        <h1> Tic Tac Toe</h1>
       </div>
       <div className="board grid grid-cols-3 gap-4 w-64 mx-auto mt-8">
         {board.map((cell, index) => renderCell(index))}
       </div>
       {winner && (
         <div className="winner text-center text-xl font-bold mt-4">
-          {winner === 'draw' ? "It's a draw!" : `Player ${winner} wins!`}
+          {winner === "draw" ? "It's a draw!" : `Player ${winner} wins!`}
         </div>
       )}
       <button
@@ -103,7 +103,9 @@ const TicTacToe = () => {
       >
         Reset Game
       </button>
-      <br></br><br></br><br></br>
+      <br></br>
+      <br></br>
+      <br></br>
     </div>
   );
 };
