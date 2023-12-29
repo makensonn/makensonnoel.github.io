@@ -1,15 +1,15 @@
-'use clint'
-import React, { useState } from 'react';
+"use clint";
+import React, { useState } from "react";
 
 const TodoList = () => {
   const [tasks, setTasks] = useState([]);
-  const [newTask, setNewTask] = useState('');
+  const [newTask, setNewTask] = useState("");
 
   const addTask = () => {
-    if (newTask.trim() === '') return;
+    if (newTask.trim() === "") return;
 
     setTasks([...tasks, newTask]);
-    setNewTask('');
+    setNewTask("");
   };
 
   const removeTask = (index) => {
@@ -29,10 +29,7 @@ const TodoList = () => {
             value={newTask}
             onChange={(e) => setNewTask(e.target.value)}
           />
-          <button
-            className="px-4 py-2 rounded"
-            onClick={addTask}
-          >
+          <button className="px-4 py-2 rounded" onClick={addTask}>
             Add
           </button>
         </div>

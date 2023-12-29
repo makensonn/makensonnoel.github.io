@@ -1,6 +1,6 @@
-'use client'
-import React from 'react';
-import Navbar from '../components/Navbar';
+"use client";
+import React from "react";
+import Navbar from "../components/Navbar";
 
 const WorkoutChart = () => {
   return (

@@ -1,5 +1,5 @@
-'use client'
-import React, { useState } from 'react';
+"use client";
+import React, { useState } from "react";
 
 const SudokuGame = () => {
   // Define initial Sudoku board state
@@ -121,7 +121,7 @@ const SudokuGame = () => {
                     type="number"
                     min="1"
                     max="9"
-                    value={cell || ''}
+                    value={cell || ""}
                     onChange={(e) => handleCellChange(e, rowIndex, colIndex)}
                     className="w-full h-full p-2 text-center text-gray-700 focus:outline-none"
                   />
