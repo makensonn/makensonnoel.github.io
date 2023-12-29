@@ -4,7 +4,7 @@ import About from "./components/About";
 import Main from "./components/Main";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-import TicTacToe from "./components/TicTacToe";
+import TicTacToe from "./tic/page";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 

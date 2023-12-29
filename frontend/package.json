@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/drei": "^9.92.7",
+    "@react-three/fiber": "^8.15.12",
     "babel": "^6.23.0",
     "link": "^2.1.0",
     "next": "^14.0.3",
@@ -21,15 +23,18 @@
     "react-icons": "^4.12.0",
     "react-interactions": "^0.0.8",
     "react-player": "^2.13.0",
+    "react-three-fiber": "^6.0.13",
+    "react-three-game-engine": "^0.14.6",
     "react-youtube": "^10.1.0",
     "redux": "^4.2.1",
-    "sharp": "^0.30.7"
+    "sharp": "^0.30.7",
+    "three": "^0.160.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.0.3",
     "postcss": "^8",
-    "tailwindcss": "^3.3.0"
+    "tailwindcss": "^3.4.0"
   }
 }
