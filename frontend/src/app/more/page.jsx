@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import React from "react";
 import Image from "next/image";
@@ -9,8 +9,6 @@ import Sudoku from "../sudoku/page";
 import ToDoList from "../todo/page";
 import GymWorkoutTracker from "../gym/page";
 import Countdown from "../components/Counter";
-
-
 
 // Source URLs
 import ProjectItems from "../components/ProjectItems";
@@ -29,7 +27,7 @@ const Projects = () => {
     <>
       <Navbar />
       <ToDoList />
-      <GymWorkoutTracker/>
+      <GymWorkoutTracker />
       <Sudoku />
     </>
   );

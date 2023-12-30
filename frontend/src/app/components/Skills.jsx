@@ -25,13 +25,20 @@ const skillsData = [
   { image: Node, label: "NodeJS", link: "https://nodejs.org/en/about" },
   { image: Python, label: "Python", link: "https://www.python.org/" },
   ,
-  { image: Javascript, label: "JavaScript", link: "https://www.javascript.com/" },
+  {
+    image: Javascript,
+    label: "JavaScript",
+    link: "https://www.javascript.com/",
+  },
   { image: Html, label: "HTML", link: "https://www.w3schools.com/html/" },
   { image: Css, label: "CSS", link: "https://www.w3schools.com/css/" },
   { image: CPP, label: "C++", link: "https://cplusplus.com/" },
-  { image: Java, label: "Java", link: "https://www.java.com/en/download/help/whatis_java.html" },
+  {
+    image: Java,
+    label: "Java",
+    link: "https://www.java.com/en/download/help/whatis_java.html",
+  },
 ];
-
 
 const Skills = () => {
   return (
@@ -53,8 +60,17 @@ const Skills = () => {
             >
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <a href={skill.link} target="_blank" rel="noopener noreferrer">
-                    <Image src={skill.image} width="64px" height="64px" alt={skill.label} />
+                  <a
+                    href={skill.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Image
+                      src={skill.image}
+                      width="64px"
+                      height="64px"
+                      alt={skill.label}
+                    />
                   </a>
                 </div>
                 <div className="flex flex-col items-center justify-center">

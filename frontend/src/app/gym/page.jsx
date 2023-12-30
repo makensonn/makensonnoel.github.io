@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import Chart from "../chart/page";
@@ -151,104 +151,116 @@ function GymWorkoutTracker() {
 
   return (
     <>
-    <Navbar/>
-    <div className="flex justify-center items-center h-screen">
-      <div className="container mx-auto mt-8 p-4 sm:p-8 items-center">
-      <h1 className="text-2xl mb-4">Gym Workout Tracker - Screenshot Results</h1>
+      <Navbar />
+      <div className="flex justify-center items-center h-screen">
+        <div className="container mx-auto mt-8 p-4 sm:p-8 items-center">
+          <h1 className="text-2xl mb-4">
+            Gym Workout Tracker - Screenshot Results
+          </h1>
 
-      <div className="mb-4">
-        <label className="block text-sm font-bold mb-1">Name:</label>
-        <input
-          type="text"
-          value={name}
-          onChange={handleNameChange}
-          className="w-full border rounded p-2"
-        />
-      </div>
-
-      <div className="mb-4">
-        <label className="block text-sm font-bold mb-1">Select Date:</label>
-        <input
-          type="date"
-          value={selectedDate}
-          onChange={handleDateChange}
-          className="w-full border rounded p-2"
-        />
-      </div>
-
-      {selectedDate && (
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Select Workout:</label>
-          <select
-            value={selectedWorkout}
-            onChange={handleWorkoutChange}
-            className="w-full border rounded p-2"
-          >
-            <option value="">Select a Workout</option>
-            {workouts.map((workout, index) => (
-              <option key={index} value={workout}>
-                {workout}
-              </option>
-            ))}
-          </select>
-        </div>
-      )}
-
-      {selectedWorkout && (
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Starting Weight:</label>
-          <input
-            type="number"
-            value={startingWeight}
-            onChange={handleStartingWeightChange}
-            className="w-full border rounded p-2"
-          />
-          <label className="block text-sm font-bold mb-1 mt-2">Starting Reps:</label>
-          <input
-            type="number"
-            value={startingReps}
-            onChange={handleStartingRepsChange}
-            className="w-full border rounded p-2"
-          />
-          <label className="block text-sm font-bold mb-1 mt-2">Ending Weight:</label>
-          <input
-            type="number"
-            value={endingWeight}
-            onChange={handleEndingWeightChange}
-            className="w-full border rounded p-2"
-          />
-          <label className="block text-sm font-bold mb-1 mt-2">Ending Reps:</label>
-          <input
-            type="number"
-            value={endingReps}
-            onChange={handleEndingRepsChange}
-            className="w-full border rounded p-2"
-          />
-        </div>
-      )}
-
-      {selectedWorkout && (
-      <div className="mb-4 button-container flex justify-center">
-        <button
-          className="py-2 px-4 rounded w-full sm:w-auto"
-          onClick={handleSubmit}
-        >
-          Submit
-        </button>
-      </div>
-      )}
-
-      {Object.keys(workoutData).map((date) => (
-        <div key={date} className="mt-4">
-          <h2 className="text-lg font-bold mb-2">{date}</h2>
-          <div className="overflow-x-auto">
-            <WorkoutTable date={date} />
+          <div className="mb-4">
+            <label className="block text-sm font-bold mb-1">Name:</label>
+            <input
+              type="text"
+              value={name}
+              onChange={handleNameChange}
+              className="w-full border rounded p-2"
+            />
           </div>
+
+          <div className="mb-4">
+            <label className="block text-sm font-bold mb-1">Select Date:</label>
+            <input
+              type="date"
+              value={selectedDate}
+              onChange={handleDateChange}
+              className="w-full border rounded p-2"
+            />
+          </div>
+
+          {selectedDate && (
+            <div className="mb-4">
+              <label className="block text-sm font-bold mb-1">
+                Select Workout:
+              </label>
+              <select
+                value={selectedWorkout}
+                onChange={handleWorkoutChange}
+                className="w-full border rounded p-2"
+              >
+                <option value="">Select a Workout</option>
+                {workouts.map((workout, index) => (
+                  <option key={index} value={workout}>
+                    {workout}
+                  </option>
+                ))}
+              </select>
+            </div>
+          )}
+
+          {selectedWorkout && (
+            <div className="mb-4">
+              <label className="block text-sm font-bold mb-1">
+                Starting Weight:
+              </label>
+              <input
+                type="number"
+                value={startingWeight}
+                onChange={handleStartingWeightChange}
+                className="w-full border rounded p-2"
+              />
+              <label className="block text-sm font-bold mb-1 mt-2">
+                Starting Reps:
+              </label>
+              <input
+                type="number"
+                value={startingReps}
+                onChange={handleStartingRepsChange}
+                className="w-full border rounded p-2"
+              />
+              <label className="block text-sm font-bold mb-1 mt-2">
+                Ending Weight:
+              </label>
+              <input
+                type="number"
+                value={endingWeight}
+                onChange={handleEndingWeightChange}
+                className="w-full border rounded p-2"
+              />
+              <label className="block text-sm font-bold mb-1 mt-2">
+                Ending Reps:
+              </label>
+              <input
+                type="number"
+                value={endingReps}
+                onChange={handleEndingRepsChange}
+                className="w-full border rounded p-2"
+              />
+            </div>
+          )}
+
+          {selectedWorkout && (
+            <div className="mb-4 button-container flex justify-center">
+              <button
+                className="py-2 px-4 rounded w-full sm:w-auto"
+                onClick={handleSubmit}
+              >
+                Submit
+              </button>
+            </div>
+          )}
+
+          {Object.keys(workoutData).map((date) => (
+            <div key={date} className="mt-4">
+              <h2 className="text-lg font-bold mb-2">{date}</h2>
+              <div className="overflow-x-auto">
+                <WorkoutTable date={date} />
+              </div>
+            </div>
+          ))}
         </div>
-      ))}
-    </div>
-    </div>
-    <Chart/>
+      </div>
+      <Chart />
     </>
   );
 }
