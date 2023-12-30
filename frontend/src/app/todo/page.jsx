@@ -1,4 +1,4 @@
-'use clint'
+'use client'
 import React, { useState } from 'react';
 
 const TodoList = () => {
