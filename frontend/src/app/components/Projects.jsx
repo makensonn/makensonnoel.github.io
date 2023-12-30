@@ -71,7 +71,7 @@ const Projects = () => {
           <ProjectItems
             title="Project"
             backgroundImg={projectThreeImg}
-            projectUrl="https://youtu.be/q1tI7GO7d1A?si=Ju90rTWD7aCWOwdQ"
+            projectUrl="/asl"
             tech=""
           />
 

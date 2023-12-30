@@ -1,4 +1,4 @@
-"use client";
+'use client'
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
@@ -177,7 +177,7 @@ const Navbar = () => {
                   </div>
                 </a>
 
-                <a href="/about" rel="noreferrer">
+                <a href="/#about" rel="noreferrer">
                   <div className="rounded-full shadow-lg shadow-neutral-950 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <BsFillPersonLinesFill />
                   </div>

@@ -1,4 +1,4 @@
-"use client";
+'use client'
 
 import React, { useState, useEffect } from "react";
 
@@ -13,6 +13,7 @@ const TicTacToe = () => {
     if (currentPlayer === "O" && !winner) {
       makeComputerMove();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentPlayer, winner]);
 
   const handleCellClick = (index) => {

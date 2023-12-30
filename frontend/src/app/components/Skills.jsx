@@ -21,16 +21,17 @@ const just = "max-w-[1240px] m-auto px-2 py-16 w-full ";
 const oldJust = "max-w-[1240px] mx-auto flex flex-col justify-center h-full";
 
 const skillsData = [
-  { image: NextJS, label: "NextJS" },
-  { image: Node, label: "NodeJS" },
-  { image: Python, label: "Python" },
+  { image: NextJS, label: "NextJS", link: "https://nextjs.org/" },
+  { image: Node, label: "NodeJS", link: "https://nodejs.org/en/about" },
+  { image: Python, label: "Python", link: "https://www.python.org/" },
   ,
-  { image: Javascript, label: "JavaScript" },
-  { image: Html, label: "HTML" },
-  { image: Css, label: "CSS" },
-  { image: CPP, label: "C++" },
-  { image: Java, label: "Java" },
+  { image: Javascript, label: "JavaScript", link: "https://www.javascript.com/" },
+  { image: Html, label: "HTML", link: "https://www.w3schools.com/html/" },
+  { image: Css, label: "CSS", link: "https://www.w3schools.com/css/" },
+  { image: CPP, label: "C++", link: "https://cplusplus.com/" },
+  { image: Java, label: "Java", link: "https://www.java.com/en/download/help/whatis_java.html" },
 ];
+
 
 const Skills = () => {
   return (
@@ -52,7 +53,9 @@ const Skills = () => {
             >
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image src={skill.image} width="64px" height="64px" alt="/" />
+                  <a href={skill.link} target="_blank" rel="noopener noreferrer">
+                    <Image src={skill.image} width="64px" height="64px" alt={skill.label} />
+                  </a>
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <h3>{skill.label}</h3>
