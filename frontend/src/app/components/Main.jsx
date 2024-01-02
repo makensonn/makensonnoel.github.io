@@ -43,7 +43,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href="https://github.com/makensonn"
+              href="https://github.com/makjustcode"
               target="_blank"
               rel="noreferrer"
             >
