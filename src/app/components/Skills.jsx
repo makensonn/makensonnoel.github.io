@@ -1,24 +1,24 @@
+
+import TypeScript from "../assets/skills/typescript.png";
+import ReactImg from "../assets/skills/react.png";
+import MongoDB from "../assets/skills/mongo.png";
+import Firebase from "../assets/skills/firebase.png";
+import AWS from "../assets/skills/aws.png";
+import Bootstrap from "../assets/skills/bootstrap.png";
+import Node from "../assets/skills/node.png";
+import NextJS from "../assets/skills/nextjs.png";
+import CPP from "../assets/skills/cpp.png";
+import Java from "../assets/skills/java.png";
+import Python from "../assets/skills/python.png";
 import Image from "next/image";
 import React from "react";
 import Html from "../assets/skills/html.png";
 import Css from "../assets/skills/css.png";
 import Javascript from "../assets/skills/javascript.png";
-import TypeScript from "../assets/skills/typescript.png";
-import ReactImg from "../assets/skills/react.png";
-import Node from "../assets/skills/node.png";
-import MongoDB from "../assets/skills/mongo.png";
-import Firebase from "../assets/skills/firebase.png";
-import AWS from "../assets/skills/aws.png";
-import NextJS from "../assets/skills/nextjs.png";
-import CPP from "../assets/skills/cpp.png";
-import Java from "../assets/skills/java.png";
-import Python from "../assets/skills/python.png";
-import Bootstrap from "../assets/skills/bootstrap.png";
 
 const titleStyle = "text-4xl font-bold inline border-b-4 border-zinc-500";
 
 const just = "max-w-[1240px] m-auto px-2 py-16 w-full ";
-const oldJust = "max-w-[1240px] mx-auto flex flex-col justify-center h-full";
 
 const skillsData = [
   { image: NextJS, label: "NextJS", link: "https://nextjs.org/" },
