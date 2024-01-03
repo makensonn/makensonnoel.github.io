@@ -10,7 +10,6 @@ This applications is my portfolio website showing my skills, achievements, and p
 First, run the development server:
 
 ```bash
-cd frontend
 npm run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
