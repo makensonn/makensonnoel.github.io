@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 const ProjectItem = ({ title, backgroundImg, tech, projectUrl, sourceUrl }) => {
+  
   // Tailwind CSS Classes
   const containerStyle =
     "relative flex items-center justify-center h-auto w-full shadow-xl shadow-neutral-950 rounded-xl group hover:bg-gradient-to-r from-[#c2c2c2] to-[#e4e4e4]";

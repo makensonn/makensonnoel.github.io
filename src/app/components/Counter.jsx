@@ -40,7 +40,7 @@ const Countdown = () => {
 
   return (
     <div className="text-center">
-      <h2 className="text-4xl font-bold mb-2">Coming Soon</h2>
+      <h2 className="text-4xl font-bold mb-2">Get Your Coding Skills Up 😎</h2>
       <div className="text-2xl font-medium">{timeLeft}</div>
     </div>
   );
