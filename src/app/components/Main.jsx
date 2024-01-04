@@ -29,7 +29,7 @@ const Main = () => {
         <div>
           <p className={titleStyle}></p>
           <h1 className={headingStyle}>
-            <span>Makenson</span>
+            <span>Makenson Noel</span>
           </h1>
           <p className={descriptionStyle}>Solving Problems with Code</p>
           <div className={socialIconsContainerStyle}>
