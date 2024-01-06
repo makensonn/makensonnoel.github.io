@@ -1,5 +1,9 @@
 "use client";
 
+const centerText = "text-center";
+const textStyle = "text-4xl font-bold mb-2";
+const timeStyle = "text-2xl font-medium";
+
 import React, { useState, useEffect } from "react";
 import {
   format,
@@ -39,9 +43,9 @@ const Countdown = () => {
   }, []);
 
   return (
-    <div className="text-center">
-      <h2 className="text-4xl font-bold mb-2">Get Your Coding Skills Up 😎</h2>
-      <div className="text-2xl font-medium">{timeLeft}</div>
+    <div className={centerText}>
+      <h2 className={textStyle}>Get Your Coding Skills Up 😎</h2>
+      <div className={timeStyle}>{timeLeft}</div>
     </div>
   );
 };

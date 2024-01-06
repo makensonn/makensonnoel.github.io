@@ -27,6 +27,8 @@ const socialIconsContainerStyle =
   "flex items-center justify-between max-w-[330px] m-auto py-4";
 const backToTopIconStyle =
   "rounded-full shadow-lg shadow-neutral-950 p-4 cursor-pointer hover:scale-110 ease-in duration-300";
+const textStyle = "uppercase text-sm py-2";
+const contactImageStyle = "rounded-xl hover:scale-105 ease-in duration-300";
 
 const Contact = () => {
   return (
@@ -42,11 +44,7 @@ const Contact = () => {
           <div className={leftContainerStyle}>
             <div className="lg:p-4 h-full ">
               <div>
-                <Image
-                  className="rounded-xl hover:scale-105 ease-in duration-300"
-                  src={MakImg}
-                  alt="/"
-                />
+                <Image className={contactImageStyle} src={MakImg} alt="/" />
               </div>
               <div>
                 {/*<h2 className='py-2'>Makenson</h2>*/}
@@ -93,16 +91,16 @@ const Contact = () => {
               >
                 <div className={formStyle}>
                   <div className={inputContainerStyle}>
-                    <label className="uppercase text-sm py-2">Name</label>
+                    <label className={textStyle}>Name</label>
                     <input className={inputStyle} type="text" name="name" />
                   </div>
                 </div>
                 <div className={inputContainerStyle}>
-                  <label className="uppercase text-sm py-2">Email</label>
+                  <label className={textStyle}>Email</label>
                   <input className={inputStyle} type="email" name="email" />
                 </div>
                 <div className={inputContainerStyle}>
-                  <label className="uppercase text-sm py-2">Message</label>
+                  <label className={textStyle}>Message</label>
                   <textarea
                     className={textareaStyle}
                     rows="10"

@@ -1,12 +1,14 @@
 import React from "react";
+const footerTextCenter = "p-4 text-center";
+const heartColor = "text-red-500";
 
 const Footer = () => {
   return (
-    <footer className="p-4 text-center">
+    <footer className={footerTextCenter}>
       <br></br>
       <br></br>
       <br></br>
-      Made with <span className="text-red-500">&#10084;</span> by{" "}
+      Made with <span className={heartColor}>&#10084;</span> by{" "}
       <a
         href="https://makenson.com/"
         target="_blank"

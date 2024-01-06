@@ -7,7 +7,6 @@ import { FaGithub, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import { HiOutlineChevronDoubleDown } from "react-icons/hi";
 
 // Tailwind CSS Classes
-//const titleStyle = 'text-4xl font-bold inline border-b-4 text-[#0a192f] border-zinc-500';
 const containerStyle = "w-full h-screen text-center";
 const maxWidthStyle =
   "max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center";
