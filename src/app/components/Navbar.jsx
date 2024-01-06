@@ -2,11 +2,35 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
-import { FaGithub, FaLinkedinIn, FaYoutube } from "react-icons/fa";
+import {
+  AiOutlineClose,
+  AiOutlineMail,
+  AiOutlineMenu,
+} from "react-icons/ai";
+import {
+  FaGithub,
+  FaLinkedinIn,
+  FaYoutube,
+} from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-// import { useRouter } from 'next/router';
 import MakImg from "../assets/logo.svg";
+
+// Tailwind CSS classes as constants
+const navBarStyle =
+  "flex justify-between items-center w-full h-full px-2 2xl:px-16";
+const fixedNavBarStyle =
+  "fixed w-full h-41px z-[100]";
+const scrolledNavBarStyle =
+  "fixed w-full h-41px shadow-xl z-[100] ease-in-out duration-300";
+const hiddenMobileMenuStyle = "md:hidden";
+const mobileMenuOverlayStyle = "md:hidden fixed left-0 top-0 w-full h-screen bg-inherit";
+const mobileMenuContainerStyle =
+  "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-amber-300 p-10 ease-in duration-500";
+const closeButtonStyle =
+  "rounded-full shadow-lg shadow-neutral-950 p-3 cursor-pointer";
+const navLinkStyle = "ml-10 text-sm uppercase hover:border-b";
+const socialIconContainerStyle =
+  "rounded-full shadow-lg shadow-neutral-950 p-3 cursor-pointer hover:scale-105 ease-in duration-300";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -14,9 +38,6 @@ const Navbar = () => {
   const [navBg, setNavBg] = useState("bg-current");
   const [linkColor, setLinkColor] = useState("bg-current");
   const size = 50;
-
-  const navBarStyle =
-    "flex justify-between items-center w-full h-full px-2 2xl:px-16";
 
   const handleNav = () => {
     setNav(!nav);
@@ -38,8 +59,8 @@ const Navbar = () => {
       style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? "fixed w-full h-41px shadow-xl z-[100] ease-in-out duration-300"
-          : "fixed w-full h-41px z-[100]"
+          ? `${fixedNavBarStyle} ${scrolledNavBarStyle}`
+          : fixedNavBarStyle
       }
     >
       <div className={navBarStyle}>
@@ -55,28 +76,28 @@ const Navbar = () => {
           </a>
         </Link>
         <div>
-          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
-            <li className="ml-10 text-sm uppercase hover:border-b">
+          <ul style={{ color: `${linkColor}` }} className={`hidden md:flex`}>
+            <li className={navLinkStyle}>
               <Link legacyBehavior href="/">
                 Home
               </Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className={navLinkStyle}>
               <Link legacyBehavior href="/#skills">
                 Skills
               </Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className={navLinkStyle}>
               <Link legacyBehavior href="/#about">
                 About
               </Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className={navLinkStyle}>
               <Link legacyBehavior href="/#projects">
                 Projects
               </Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className={navLinkStyle}>
               <Link legacyBehavior href="/#contact">
                 Contact
               </Link>
@@ -86,7 +107,7 @@ const Navbar = () => {
           <div
             style={{ color: `${linkColor}` }}
             onClick={handleNav}
-            className="md:hidden"
+            className={hiddenMobileMenuStyle}
           >
             <AiOutlineMenu size={25} />
           </div>
@@ -97,15 +118,15 @@ const Navbar = () => {
       {/* Overlay */}
       <div
         className={
-          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-inherit" : ""
+          nav ? mobileMenuOverlayStyle : ""
         }
       >
         {/* Side Drawer Menu */}
         <div
           className={
             nav
-              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-amber-300 p-10 ease-in duration-500"
-              : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
+              ? mobileMenuContainerStyle
+              : `fixed left-[-100%] top-0 p-10 ease-in duration-500`
           }
         >
           <div>
@@ -117,7 +138,7 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-neutral-950 p-3 cursor-pointer"
+                className={closeButtonStyle}
               >
                 <AiOutlineClose />
               </div>
@@ -162,7 +183,7 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-neutral-950 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className={socialIconContainerStyle}>
                     <FaLinkedinIn />
                   </div>
                 </a>
@@ -172,13 +193,13 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-neutral-950 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className={socialIconContainerStyle}>
                     <FaGithub />
                   </div>
                 </a>
 
                 <a href="/#about" rel="noreferrer">
-                  <div className="rounded-full shadow-lg shadow-neutral-950 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className={socialIconContainerStyle}>
                     <BsFillPersonLinesFill />
                   </div>
                 </a>
