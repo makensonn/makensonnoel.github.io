@@ -22,11 +22,11 @@ const ProjectItem = ({ title, backgroundImg, tech, projectUrl, sourceUrl }) => {
         <h3 className={titleStyle}>{title}</h3>
         <p className={techStyle}>{tech}</p>
         <a href={projectUrl} target="_blank">
-          <p className={buttonStyle}>View Site</p>
+          <p className={buttonStyle}>View</p>
+          <br></br>
         </a>
-        <br></br>
         <a href={sourceUrl} target="_blank">
-          <p className={buttonStyle}>Source Code</p>
+          <p className={buttonStyle}>Source</p>
         </a>
       </div>
     </div>
