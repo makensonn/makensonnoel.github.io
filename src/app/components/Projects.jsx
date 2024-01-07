@@ -4,15 +4,17 @@ import Link from "next/link";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 // Image Imports
-import projectOneImg from "../assets/projects/thousandmen.svg";
-import projectTwoImg from "../assets/projects/mozy.svg";
-import projectThreeImg from "../assets/projects/asl.svg";
-import projectFourImg from "../assets/projects/insight.svg";
-import projectFiveImg from "../assets/projects/lulawn.svg";
-import projectSixImg from "../assets/projects/guitto.svg";
+import projectOneImg from "../assets/projects/asl.gif";
+import projectTwoImg from "../assets/projects/thousand.gif";
+import projectThreeImg from "../assets/projects/mozy.gif";
+import projectFourImg from "../assets/projects/mbj.gif";
+import projectSixImg from "../assets/projects/insight.gif";
+import projectFiveImg from "../assets/projects/lulawn.gif";
+
 
 // Source URLs
 import ProjectItems from "./ProjectItems";
+import ProjectItem from "./ProjectItem";
 
 // Tailwind CSS Classes
 const titleStyle = "text-4xl font-bold inline border-b-4  border-zinc-500";
@@ -34,43 +36,12 @@ const Projects = () => {
         </p>
         <p className="py-6"></p>
 
+
         <div className={gridStyle}>
           {/* Project 1*/}
           <ProjectItems
             title="Project"
             backgroundImg={projectOneImg}
-            projectUrl="https://thousandmen.co/"
-            tech=""
-          />
-
-          {/* Description */}
-          <p>
-            Title: Thousandmen.co
-            <br></br>
-            <br></br>
-            This is a custom ecommerce website using JavaScript.
-          </p>
-
-          {/* Project 2*/}
-          <ProjectItems
-            title="Project"
-            backgroundImg={projectTwoImg}
-            projectUrl="https://amoseb.com/"
-            tech=""
-          />
-
-          {/*Description */}
-          <p>
-            Title: Amoseb.com
-            <br></br>
-            <br></br>
-            This is a drop shipping website using JavaScript.
-          </p>
-
-          {/* Project 3*/}
-          <ProjectItems
-            title="Project"
-            backgroundImg={projectThreeImg}
             projectUrl="/asl"
             tech=""
           />
@@ -80,7 +51,39 @@ const Projects = () => {
             Title: Hand Gesture Tracker
             <br></br>
             <br></br>
-            This is a American Sign Language hand tracker using Python.
+            This is a Open Source American Sign Language hand tracker using Python, OpenCV, TensorFlow.
+          </p>
+
+          {/* Project 2*/}
+          <ProjectItems
+            title="Project"
+            backgroundImg={projectTwoImg}
+            projectUrl="https://thousandmen.co/"
+            tech=""
+          />
+
+          {/* Description */}
+          <p>
+            Title: Thousandmen.co
+            <br></br>
+            <br></br>
+            This is a custom designed ecommerce webapp for Thousandmen using Shopify & JavaScript.
+          </p>
+
+          {/* Project 3*/}
+          <ProjectItems
+            title="Project"
+            backgroundImg={projectThreeImg}
+            projectUrl="https://amoseb.com/"
+            tech=""
+          />
+
+          {/*Description */}
+          <p>
+            Title: Amoseb.com
+            <br></br>
+            <br></br>
+            This is a custom designed drop shipping webapp for AmoseB using Shopify & JavaScript.
           </p>
 
           {/* Project 4*/}
@@ -88,17 +91,16 @@ const Projects = () => {
           <ProjectItems
             title="Project"
             backgroundImg={projectFourImg}
-            projectUrl="https://insitee.github.io/"
+            projectUrl="https://mbjllc.store/"
             tech=""
           />
 
           {/* Description */}
           <p>
-            Title: Insitee.github.io
+            Title: Mbjllc.store
             <br></br>
             <br></br>
-            This is an award-winning wesbite using JavaScript, HTML, and
-            Bootstrap.
+            This is a custom designed drop shipping web app for MBJ using Shopify & JavaScript.
           </p>
 
           {/* Project 5*/}
@@ -123,16 +125,17 @@ const Projects = () => {
           <ProjectItems
             title="Project"
             backgroundImg={projectSixImg}
-            projectUrl="https://guitto-eta.vercel.app/"
+            projectUrl="https://insitee.github.io/"
             tech=""
           />
 
           {/* Description */}
           <p>
-            Title: Guitto Transportation
+            Title: Insitee.github.io
             <br></br>
             <br></br>
-            This is a custom landing page using Next.js.
+            This is an award-winning wesbite for PlutoHacks 2022 using JavaScript, HTML, and
+            Bootstrap.
           </p>
         </div>
 
