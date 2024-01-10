@@ -21,8 +21,12 @@ const titleStyle = "text-4xl font-bold inline border-b-4 border-zinc-500";
 const just = "max-w-[1240px] m-auto px-2 py-16 w-full ";
 
 const skillsData = [
-  { image: NextJS, label: "NextJS", link: "https://nextjs.org/" },
-  { image: Node, label: "NodeJS", link: "https://nodejs.org/en/about" },
+  {
+    image: Java,
+    label: "Java",
+    link: "https://www.java.com/en/download/help/whatis_java.html",
+  },
+
   { image: Python, label: "Python", link: "https://www.python.org/" },
   ,
   {
@@ -31,13 +35,7 @@ const skillsData = [
     link: "https://www.javascript.com/",
   },
   { image: Html, label: "HTML", link: "https://www.w3schools.com/html/" },
-  { image: Css, label: "CSS", link: "https://www.w3schools.com/css/" },
-  { image: CPP, label: "C++", link: "https://cplusplus.com/" },
-  {
-    image: Java,
-    label: "Java",
-    link: "https://www.java.com/en/download/help/whatis_java.html",
-  },
+
 ];
 
 const Skills = () => {
