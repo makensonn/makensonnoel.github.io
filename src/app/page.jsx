@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import TicTacToe from "./tic/page";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import { Analytics } from '@vercel/analytics/react';
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <TicTacToe />
       <Contact />
       <Footer />
+      <Analytics />
     </>
   );
 };
