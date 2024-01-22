@@ -8,7 +8,7 @@ const Footer = () => {
       <br></br>
       <br></br>
       <br></br>
-      Made with <span className={heartColor}>&#10084;</span> by{" "}
+      Made with Rizz by{" "}
       <a
         href="https://makenson.com/"
         target="_blank"

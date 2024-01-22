@@ -28,7 +28,7 @@ const Main = () => {
         <div>
           <p className={titleStyle}></p>
           <h1 className={headingStyle}>
-            <span>@MakJustCodes</span>
+            <span>CODE RIZZ</span>
           </h1>
           <p className={descriptionStyle}>Solving Problems with Code</p>
           <div className={socialIconsContainerStyle}>
@@ -59,7 +59,7 @@ const Main = () => {
           <div className={buttonContainerStyle}>
             <Link legacyBehavior href="/#projects">
               <a>
-                <div className={socialIconStyle}>View Experience</div>
+                <div className={socialIconStyle}>View Projects</div>
               </a>
             </Link>
           </div>
