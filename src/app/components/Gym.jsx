@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
-import Navbar from "../components/Navbar";
-import Chart from "../chart/page";
+import Navbar from "./Navbar";
+import Chart from "./Chart";
 
 function GymWorkoutTracker() {
   const [selectedDate, setSelectedDate] = useState("");

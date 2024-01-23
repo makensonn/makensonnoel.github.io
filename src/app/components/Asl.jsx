@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import aslImg from "../assets/projects/asl.svg"; //ASL Hand Tracker
-import YouTubePlayer from "../components/YouTubePlayer";
+import YouTubePlayer from "./YouTubePlayer";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import { HiOutlineChevronDoubleLeft } from "react-icons/hi";
@@ -12,23 +12,6 @@ const videoId = "q1tI7GO7d1A"; //ASL Video
 const asl = () => {
   return (
     <div className="w-full h-screen">
-      {/*Header*/}
-      <div className="w-full h-[50vh] relative">
-        <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10" />
-        <Image
-          className="absolute"
-          layout="fill"
-          objectFit="cover"
-          src={aslImg}
-          alt="/"
-        />
-        <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">American Sign Language Hand Tracker</h2>
-          <h3>Python / Jupyter Notebook / TensorFlow</h3>
-        </div>
-      </div>
-      {/*Header*/}
-
       {/* Project Overview */}
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
         <div className="col-span-4">
@@ -99,7 +82,7 @@ const asl = () => {
       </div>
       {/* Technologies */}
 
-      {/* Back Button */}
+      {/* Back Button 
       <div className="flex justify-center py-12">
         <Link legacyBehavior href="/#projects">
           <a>
@@ -109,7 +92,7 @@ const asl = () => {
           </a>
         </Link>
       </div>
-      {/* Back Button */}
+      /* Back Button */}
     </div>
   );
 };
