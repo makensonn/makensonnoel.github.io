@@ -5,11 +5,11 @@ import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 // Image Imports
 import projectOneImg from "../assets/projects/asl.gif";
-import projectTwoImg from "../assets/projects/thousand.gif";
-import projectThreeImg from "../assets/projects/mozy.gif";
-import projectFourImg from "../assets/projects/mbj.gif";
-import projectSixImg from "../assets/projects/insight.gif";
-import projectFiveImg from "../assets/projects/lulawn.gif";
+import projectTwoImg from "../assets/projects/thousand.jpg";
+import projectThreeImg from "../assets/projects/mozy.jpg";
+import projectFourImg from "../assets/projects/mbj.jpg";
+import projectSixImg from "../assets/projects/insight.png";
+import projectFiveImg from "../assets/projects/lulawn.png";
 
 
 // Source URLs
@@ -42,7 +42,7 @@ const Projects = () => {
           <ProjectItems
             title="Project"
             backgroundImg={projectOneImg}
-            projectUrl="/asl"
+            projectUrl="/#projects"
             tech=""
           />
 
