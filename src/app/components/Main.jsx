@@ -28,7 +28,7 @@ const Main = () => {
         <div>
           <p className={titleStyle}></p>
           <h1 className={headingStyle}>
-            <span>CODE RIZZ</span>
+            <span>Makenson N.</span>
           </h1>
           <p className={descriptionStyle}>Solving Problems with Code</p>
           <div className={socialIconsContainerStyle}>
@@ -42,7 +42,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href="https://github.com/makjustcodes"
+              href="https://github.com/makensonnoel"
               target="_blank"
               rel="noreferrer"
             >
