@@ -5,12 +5,11 @@ import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 // Image Imports
 import projectOneImg from "../assets/projects/asl.gif";
-import projectTwoImg from "../assets/projects/thousand.gif";
-import projectThreeImg from "../assets/projects/mozy.gif";
-import projectFourImg from "../assets/projects/mbj.gif";
-import projectSixImg from "../assets/projects/insight.gif";
-import projectFiveImg from "../assets/projects/lulawn.gif";
-
+import projectTwoImg from "../assets/projects/thousand.jpg";
+import projectThreeImg from "../assets/projects/mozy.jpg";
+import projectFourImg from "../assets/projects/mbj.jpg";
+import projectSixImg from "../assets/projects/insight.png";
+import projectFiveImg from "../assets/projects/lulawn.png";
 
 // Source URLs
 import ProjectItems from "./ProjectItems";
@@ -36,13 +35,12 @@ const Projects = () => {
         </p>
         <p className="py-6"></p>
 
-
         <div className={gridStyle}>
           {/* Project 1*/}
           <ProjectItems
             title="Project"
             backgroundImg={projectOneImg}
-            projectUrl="/asl"
+            projectUrl="/#projects"
             tech=""
           />
 
@@ -51,7 +49,8 @@ const Projects = () => {
             Title: Hand Gesture Tracker
             <br></br>
             <br></br>
-            This is a Open Source American Sign Language hand tracker using Python, OpenCV, TensorFlow.
+            This is a Open Source American Sign Language hand tracker using
+            Python, OpenCV, TensorFlow.
           </p>
 
           {/* Project 2*/}
@@ -67,7 +66,8 @@ const Projects = () => {
             Title: Thousandmen.co
             <br></br>
             <br></br>
-            This is a custom designed ecommerce webapp for Thousandmen using Shopify & JavaScript.
+            This is a custom designed ecommerce webapp for Thousandmen using
+            Shopify & JavaScript.
           </p>
 
           {/* Project 3*/}
@@ -83,7 +83,8 @@ const Projects = () => {
             Title: Amoseb.com
             <br></br>
             <br></br>
-            This is a custom designed drop shipping webapp for AmoseB using Shopify & JavaScript.
+            This is a custom designed drop shipping webapp for AmoseB using
+            Shopify & JavaScript.
           </p>
 
           {/* Project 4*/}
@@ -100,7 +101,8 @@ const Projects = () => {
             Title: Mbjllc.store
             <br></br>
             <br></br>
-            This is a custom designed drop shipping web app for MBJ using Shopify & JavaScript.
+            This is a custom designed drop shipping web app for MBJ using
+            Shopify & JavaScript.
           </p>
 
           {/* Project 5*/}
@@ -134,8 +136,8 @@ const Projects = () => {
             Title: Insitee.github.io
             <br></br>
             <br></br>
-            This is an award-winning wesbite for PlutoHacks 2022 using JavaScript, HTML, and
-            Bootstrap.
+            This is an award-winning wesbite for PlutoHacks 2022 using
+            JavaScript, HTML, and Bootstrap.
           </p>
         </div>
 
