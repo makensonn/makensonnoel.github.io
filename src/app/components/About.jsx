@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { HiOutlineChevronDoubleLeft } from "react-icons/hi";
-import MakImg from "../assets/mak.svg";
+import MakImg from "../assets/mak.png";
 
 // Define Tailwind CSS classes
 const titleStyle = "text-4xl font-bold inline border-b-4  border-zinc-500";
@@ -24,14 +24,14 @@ const About = () => {
           </p>
           <p className="py-2"></p>
           <p className="py-2">
-            Hello! 👋🏾 I&apos;m Makenson, a highly motivated and detail-oriented
+            Hello! I&apos;m Makenson, a highly motivated and detail-oriented
             Full-Stack Software Engineer with a passion for crafting robust and
             user-friendly solutions.
             <br></br>
             <br></br>My journey in the tech world began repairing computers in
             High School, then got an A.A. On the STEM path at Broward College, I
             then transferred to Florida Atlantic University, where I declared my
-            major and earned a Bachelor of Science in Computer Science 🎓.
+            major and earned a Bachelor of Science in Computer Science.
             <br></br>
             <br></br>
             I&apos;ve been actively involved in delivering custom websites using
@@ -39,11 +39,11 @@ const About = () => {
             seamless, engaging web experiences
             <br></br>
             <br></br>
-            🏆 Awards & Certifications: Awarded Best Accessibility App at
+            Awards & Certifications: Awarded Best Accessibility App at
             PlutoHacks 2022.<br></br>
-            🎓 Bachelor of Science in Computer Science from Florida Atlantic
+            Bachelor of Science in Computer Science from Florida Atlantic
             University. <br></br>
-            📃 Certified in Deep Learning Onramp and Machine Learning Onramp by
+            Certified in Deep Learning Onramp and Machine Learning Onramp by
             MathWorks.
           </p>
           <br></br>

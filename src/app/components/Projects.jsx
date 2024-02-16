@@ -144,13 +144,13 @@ const Projects = () => {
         <br></br>
         <br></br>
 
-        <div className={buttonContainerStyle}>
+        {/*<div className={buttonContainerStyle}>
           <Link legacyBehavior href="/more">
             <a>
               <div className={socialIconStyle}>View More</div>
             </a>
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );

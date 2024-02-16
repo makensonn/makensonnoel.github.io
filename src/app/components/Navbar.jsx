@@ -172,7 +172,7 @@ const Navbar = () => {
                 </a>
 
                 <a
-                  href="https://github.com/makjustcodes"
+                  href="https://github.com/makensonnoel"
                   target="_blank"
                   rel="noreferrer"
                 >

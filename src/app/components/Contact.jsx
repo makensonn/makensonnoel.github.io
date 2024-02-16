@@ -7,7 +7,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLink, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineHome, HiOutlineChevronDoubleUp } from "react-icons/hi";
-import MakImg from "../assets/mak.svg";
+import MakImg from "../assets/mak.png";
 
 // Tailwind CSS Classes
 const titleStyle = "text-4xl font-bold inline border-b-4 border-zinc-500";
@@ -63,7 +63,7 @@ const Contact = () => {
                     </div>
                   </a>
                   <a
-                    href="https://github.com/makjustcodes"
+                    href="https://github.com/makensonnoel"
                     target="_blank"
                     rel="noreferrer"
                   >
