@@ -8,7 +8,7 @@ const Footer = () => {
       <br></br>
       <br></br>
       <br></br>
-      Made with Rizz by{" "}
+      Made by{" "}
       <a
         href="https://makenson.com/"
         target="_blank"
