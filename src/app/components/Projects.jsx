@@ -49,7 +49,7 @@ const Projects = () => {
             Title: Hand Gesture Tracker
             <br></br>
             <br></br>
-            This is a Open Source American Sign Language hand tracker using
+            This is a Open Source hand gesture tracker using
             Python, OpenCV, TensorFlow.
           </p>
 
@@ -66,7 +66,7 @@ const Projects = () => {
             Title: Thousandmen.co
             <br></br>
             <br></br>
-            This is a custom designed ecommerce webapp for Thousandmen using
+            This is a custom designed webapp an E-Commerce business using
             Shopify & JavaScript.
           </p>
 
@@ -83,7 +83,7 @@ const Projects = () => {
             Title: Amoseb.com
             <br></br>
             <br></br>
-            This is a custom designed drop shipping webapp for AmoseB using
+            This is a custom designed drop shipping webapp for an E-Commerce business using
             Shopify & JavaScript.
           </p>
 
@@ -101,7 +101,7 @@ const Projects = () => {
             Title: Mbjllc.store
             <br></br>
             <br></br>
-            This is a custom designed drop shipping web app for MBJ using
+            This is a custom designed drop shipping web app for an E-Commerce business using
             Shopify & JavaScript.
           </p>
 
@@ -136,8 +136,8 @@ const Projects = () => {
             Title: Insitee.github.io
             <br></br>
             <br></br>
-            This is an award-winning wesbite for PlutoHacks 2022 using
-            JavaScript, HTML, and Bootstrap.
+            This is an award-winning wesbite for a hackathon using
+            JavaScript, HTML, and CSS.
           </p>
         </div>
 
