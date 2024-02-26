@@ -28,9 +28,9 @@ const About = () => {
             Full-Stack Software Engineer with a passion for crafting robust and
             user-friendly solutions.
             <br></br>
-            <br></br>My journey in the tech world began repairing computers in
-            High School, then got an A.A. On the STEM path at Broward College, I
-            then transferred to Florida Atlantic University, where I declared my
+            <br></br>My journey in the tech world began while pursuing an
+            Associate in Arts On the STEM path at Broward College, I then
+            transferred to Florida Atlantic University, where I declared my
             major and earned a Bachelor of Science in Computer Science.
             <br></br>
             <br></br>
@@ -40,7 +40,7 @@ const About = () => {
             <br></br>
             <br></br>
             Awards & Certifications: Awarded Best Accessibility App at
-            PlutoHacks 2022.<br></br>
+            PlutoHacks.<br></br>
             Bachelor of Science in Computer Science from Florida Atlantic
             University. <br></br>
             Certified in Deep Learning Onramp and Machine Learning Onramp by
