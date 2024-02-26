@@ -28,9 +28,9 @@ const About = () => {
             Full-Stack Software Engineer with a passion for crafting robust and
             user-friendly solutions.
             <br></br>
-            <br></br>My journey in the tech world began while pursuing
-             an Associate in Arts On the STEM path at Broward College, I
-            then transferred to Florida Atlantic University, where I declared my
+            <br></br>My journey in the tech world began while pursuing an
+            Associate in Arts On the STEM path at Broward College, I then
+            transferred to Florida Atlantic University, where I declared my
             major and earned a Bachelor of Science in Computer Science.
             <br></br>
             <br></br>
