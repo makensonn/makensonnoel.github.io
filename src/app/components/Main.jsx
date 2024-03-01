@@ -33,7 +33,7 @@ const Main = () => {
           <p className={descriptionStyle}>Solving Problems with Code</p>
           <div className={socialIconsContainerStyle}>
             <a
-              href="https://www.linkedin.com/in/makensonnoel/"
+              href="https://www.linkedin.com/"
               target="_blank"
               rel="noreferrer"
             >
