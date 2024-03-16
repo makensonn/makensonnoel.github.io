@@ -4,8 +4,6 @@ import React from "react";
 import aslImg from "../assets/projects/asl.svg"; //ASL Hand Tracker
 import YouTubePlayer from "./YouTubePlayer";
 import { RiRadioButtonFill } from "react-icons/ri";
-import Link from "next/link";
-import { HiOutlineChevronDoubleLeft } from "react-icons/hi";
 
 const videoId = "q1tI7GO7d1A"; //ASL Video
 
