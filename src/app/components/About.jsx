@@ -1,7 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
-import { HiOutlineChevronDoubleLeft } from "react-icons/hi";
 import MakImg from "../assets/mak.png";
 
 // Define Tailwind CSS classes

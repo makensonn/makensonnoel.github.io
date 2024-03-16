@@ -4,8 +4,6 @@ import React from "react";
 import aslImg from "../assets/projects/asl.svg"; //ASL Hand Tracker
 import YouTubePlayer from "./YouTubePlayer";
 import { RiRadioButtonFill } from "react-icons/ri";
-import Link from "next/link";
-import { HiOutlineChevronDoubleLeft } from "react-icons/hi";
 
 const videoId = "q1tI7GO7d1A"; //ASL Video
 
@@ -24,18 +22,18 @@ const asl = () => {
           <h2>Overview</h2>
           <p>
             I built this application in Python and it&apos;s source code is on
-            GitHub. The Hand Tracker project is a Python-based solution that utilizes 
-            TensorFlow, OpenCV, Mediapipe,
-            Matplotlib, and Scikit-Learn to recognize and interpret hand
-            gestures in real-time. By leveraging deep learning with TensorFlow,
-            the system accurately detects and classifies hand movements. OpenCV
-            and Mediapipe provide the necessary tools for hand tracking and pose
-            estimation. The project incorporates a graphical interface in
-            Jupyter Notebook, enabling interactive visualization of the
-            recognized gestures using Matplotlib. Hand Tracker serves as
-            an invaluable tool for learning and communicating in American Sign Language, while also
-            contributing to the fields of computer vision, gesture recognition,
-            and human-computer interaction.
+            GitHub. The Hand Tracker project is a Python-based solution that
+            utilizes TensorFlow, OpenCV, Mediapipe, Matplotlib, and Scikit-Learn
+            to recognize and interpret hand gestures in real-time. By leveraging
+            deep learning with TensorFlow, the system accurately detects and
+            classifies hand movements. OpenCV and Mediapipe provide the
+            necessary tools for hand tracking and pose estimation. The project
+            incorporates a graphical interface in Jupyter Notebook, enabling
+            interactive visualization of the recognized gestures using
+            Matplotlib. Hand Tracker serves as an invaluable tool for learning
+            and communicating in American Sign Language, while also contributing
+            to the fields of computer vision, gesture recognition, and
+            human-computer interaction.
           </p>
           <a
             href="https://github.com/makensonn/asl"
@@ -48,7 +46,6 @@ const asl = () => {
             <button className="px-8 py-2 mt-4">Demo</button>
           </a>
         </div>
-  
 
         {/*Technologies*/}
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-neutral-950 rounded-xl py-4">
@@ -79,11 +76,11 @@ const asl = () => {
             </div>
           </div>
         </div>
-           {/* Technologies */}
+        {/* Technologies */}
       </div>
       {/*Project Overview*/}
 
-      {/* Back Button 
+      {/* Back Button
       <div className="flex justify-center py-12">
         <Link legacyBehavior href="/#projects">
           <a>
