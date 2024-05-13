@@ -57,7 +57,7 @@ const Main = () => {
             </a>
           </div>
           <div className={buttonContainerStyle}>
-            <Link legacyBehavior href="/#projects">
+            <Link legacyBehavior href="/#asl">
               <a>
                 <div className={socialIconStyle}>View Projects</div>
               </a>
