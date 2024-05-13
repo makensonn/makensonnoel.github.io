@@ -73,6 +73,11 @@ const Navbar = () => {
               </Link>
             </li>
             <li className={navLinkStyle}>
+              <Link legacyBehavior href="/#projects">
+                Projects
+              </Link>
+            </li>
+           {/*} <li className={navLinkStyle}>
               <Link legacyBehavior href="/#skills">
                 Skills
               </Link>
@@ -83,15 +88,10 @@ const Navbar = () => {
               </Link>
             </li>
             <li className={navLinkStyle}>
-              <Link legacyBehavior href="/#projects">
-                Projects
-              </Link>
-            </li>
-            <li className={navLinkStyle}>
               <Link legacyBehavior href="/#contact">
                 Contact
               </Link>
-            </li>
+            </li> */}
           </ul>
           {/* Hamburger Icon */}
           <div

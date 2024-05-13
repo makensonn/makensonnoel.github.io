@@ -28,12 +28,12 @@ const Main = () => {
         <div>
           <p className={titleStyle}></p>
           <h1 className={headingStyle}>
-            <span>Makenson N.</span>
+            <span>Makenson Noel</span>
           </h1>
           <p className={descriptionStyle}>Solving Problems with Code</p>
           <div className={socialIconsContainerStyle}>
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/makensonnoel/"
               target="_blank"
               rel="noreferrer"
             >

@@ -1,8 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import About from "./components/About";
 import Main from "./components/Main";
-import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import TicTacToe from "./components/Tic";
 import Asl from "./components/Asl";
@@ -18,15 +16,12 @@ const Home = () => {
     <>
       <Navbar />
       <Main />
-      <Skills />
-      <About />
       <Projects />
       <TicTacToe />
       <Asl/>
       <ToDoList />
       <GymWorkoutTracker />
       <Sudoku />
-      <Contact />
       <Footer />
       <Analytics />
     </>
