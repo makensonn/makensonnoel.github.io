@@ -9,6 +9,7 @@ This applications is my portfolio website showing my skills, achievements, and p
 
 First, run the development server:
 
+
 ```bash
 npm run dev
 ```
