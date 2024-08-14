@@ -91,7 +91,7 @@ const Navbar = () => {
               <Link legacyBehavior href="/#">
                 Contact
               </Link>
-            </li> 
+            </li>
           </ul>
           {/* Hamburger Icon */}
           <div
