@@ -84,7 +84,7 @@ const Navbar = () => {
             </li>
             <li className={navLinkStyle}>
               <Link legacyBehavior href="/#projects">
-                Projects
+                Exerience
               </Link>
             </li>
             <li className={navLinkStyle}>
@@ -149,7 +149,7 @@ const Navbar = () => {
               </Link>
               <Link legacyBehavior href="/#projects">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Projects
+                  Experience
                 </li>
               </Link>
               <Link legacyBehavior href="/#">
