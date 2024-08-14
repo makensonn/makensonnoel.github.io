@@ -49,8 +49,8 @@ const Projects = () => {
             Title: Hand Gesture Tracker
             <br></br>
             <br></br>
-            This is a Open Source hand gesture tracker using
-            Python, OpenCV, TensorFlow.
+            This is a Open Source hand gesture tracker using Python, OpenCV,
+            TensorFlow.
           </p>
 
           {/* Project 2*/}
@@ -83,8 +83,8 @@ const Projects = () => {
             Title: Amoseb.com
             <br></br>
             <br></br>
-            This is a custom designed drop shipping webapp for an E-Commerce business using
-            Shopify & JavaScript.
+            This is a custom designed drop shipping webapp for an E-Commerce
+            business using Shopify & JavaScript.
           </p>
 
           {/* Project 4*/}
@@ -101,8 +101,8 @@ const Projects = () => {
             Title: Mbjllc.store
             <br></br>
             <br></br>
-            This is a custom designed drop shipping web app for an E-Commerce business using
-            Shopify & JavaScript.
+            This is a custom designed drop shipping web app for an E-Commerce
+            business using Shopify & JavaScript.
           </p>
 
           {/* Project 5*/}
@@ -136,8 +136,8 @@ const Projects = () => {
             Title: Insitee.github.io
             <br></br>
             <br></br>
-            This is an award-winning wesbite for a hackathon using
-            JavaScript, HTML, and CSS.
+            This is an award-winning wesbite for a hackathon using JavaScript,
+            HTML, and CSS.
           </p>
         </div>
 
@@ -145,7 +145,10 @@ const Projects = () => {
         <br></br>
 
         <div className={buttonContainerStyle}>
-          <Link legacyBehavior href="https://github.com/MakensonNoel?tab=repositories">
+          <Link
+            legacyBehavior
+            href="https://github.com/MakensonNoel?tab=repositories"
+          >
             <a>
               <div className={socialIconStyle}>View More</div>
             </a>
