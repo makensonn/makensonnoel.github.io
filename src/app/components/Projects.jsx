@@ -31,7 +31,7 @@ const Projects = () => {
         <p className={titleStyle}>
           <br></br>
           <br></br>
-          Projects
+          Experience
         </p>
         <p className="py-6"></p>
 
@@ -40,7 +40,7 @@ const Projects = () => {
           <ProjectItems
             title="Project"
             backgroundImg={projectOneImg}
-            projectUrl="/#projects"
+            projectUrl="https://www.youtube.com/watch?v=q1tI7GO7d1A"
             tech=""
           />
 
@@ -66,7 +66,7 @@ const Projects = () => {
             Title: Thousandmen.co
             <br></br>
             <br></br>
-            This is a custom designed webapp an E-Commerce business using
+            This is a custom designed webapp for an E-Commerce business using
             Shopify & JavaScript.
           </p>
 
@@ -144,13 +144,13 @@ const Projects = () => {
         <br></br>
         <br></br>
 
-        {/*<div className={buttonContainerStyle}>
-          <Link legacyBehavior href="/more">
+        <div className={buttonContainerStyle}>
+          <Link legacyBehavior href="https://github.com/MakensonNoel?tab=repositories">
             <a>
               <div className={socialIconStyle}>View More</div>
             </a>
           </Link>
-        </div> */}
+        </div>
       </div>
     </div>
   );

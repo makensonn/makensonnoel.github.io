@@ -73,25 +73,25 @@ const Navbar = () => {
               </Link>
             </li>
             <li className={navLinkStyle}>
-              <Link legacyBehavior href="/#projects">
-                Projects
-              </Link>
-            </li>
-           {/*} <li className={navLinkStyle}>
-              <Link legacyBehavior href="/#skills">
-                Skills
-              </Link>
-            </li>
-            <li className={navLinkStyle}>
               <Link legacyBehavior href="/#about">
                 About
               </Link>
             </li>
             <li className={navLinkStyle}>
-              <Link legacyBehavior href="/#contact">
+              <Link legacyBehavior href="/#skills">
+                Skills
+              </Link>
+            </li>
+            <li className={navLinkStyle}>
+              <Link legacyBehavior href="/#projects">
+                Projects
+              </Link>
+            </li>
+            <li className={navLinkStyle}>
+              <Link legacyBehavior href="/#">
                 Contact
               </Link>
-            </li> */}
+            </li> 
           </ul>
           {/* Hamburger Icon */}
           <div
@@ -137,14 +137,14 @@ const Navbar = () => {
                   Home
                 </li>
               </Link>
-              <Link legacyBehavior href="/#skills">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Skills
-                </li>
-              </Link>
               <Link legacyBehavior href="/#about">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   About
+                </li>
+              </Link>
+              <Link legacyBehavior href="/#skills">
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Skills
                 </li>
               </Link>
               <Link legacyBehavior href="/#projects">
@@ -152,7 +152,7 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link legacyBehavior href="/#contact">
+              <Link legacyBehavior href="/#">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Contact
                 </li>
@@ -162,7 +162,7 @@ const Navbar = () => {
               <p className="uppercase tracking-widest">Let&#39;s Connect</p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <a
-                  href="https://www.linkedin.com/"
+                  href="https://www.linkedin.com/in/makensonnoel/"
                   target="_blank"
                   rel="noreferrer"
                 >

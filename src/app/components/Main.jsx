@@ -30,7 +30,7 @@ const Main = () => {
           <h1 className={headingStyle}>
             <span>Makenson Noel</span>
           </h1>
-          <p className={descriptionStyle}>Solving Problems with Code</p>
+          <p className={descriptionStyle}>Full-Stack Software Engineer</p>
           <div className={socialIconsContainerStyle}>
             <a
               href="https://www.linkedin.com/in/makensonnoel/"
@@ -57,9 +57,9 @@ const Main = () => {
             </a>
           </div>
           <div className={buttonContainerStyle}>
-            <Link legacyBehavior href="/#asl">
+            <Link legacyBehavior href="/#projects">
               <a>
-                <div className={socialIconStyle}>View Projects</div>
+                <div className={socialIconStyle}>View Experience</div>
               </a>
             </Link>
           </div>

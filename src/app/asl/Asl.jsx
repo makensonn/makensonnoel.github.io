@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import aslImg from "../assets/projects/asl.svg"; //ASL Hand Tracker
-import YouTubePlayer from "./YouTubePlayer";
+import YouTubePlayer from "../components/YouTubePlayer";
 import { RiRadioButtonFill } from "react-icons/ri";
 
 const videoId = "q1tI7GO7d1A"; //ASL Video

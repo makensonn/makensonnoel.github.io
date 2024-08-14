@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import MakImg from "../assets/mak.png";
+import MakImg from "../assets/profile.jpg";
 
 // Define Tailwind CSS classes
 const titleStyle = "text-4xl font-bold inline border-b-4  border-zinc-500";
