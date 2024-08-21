@@ -84,7 +84,7 @@ const Navbar = () => {
             </li>
             <li className={navLinkStyle}>
               <Link legacyBehavior href="/#projects">
-                Exerience
+                Experience
               </Link>
             </li>
             <li className={navLinkStyle}>
