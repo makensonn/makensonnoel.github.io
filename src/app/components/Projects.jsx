@@ -31,7 +31,7 @@ const Projects = () => {
         <p className={titleStyle}>
           <br></br>
           <br></br>
-          Experience
+          Projects
         </p>
         <p className="py-6"></p>
 
