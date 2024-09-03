@@ -49,7 +49,7 @@ const Skills = () => {
         <p className={titleStyle}>
           <br />
           <br />
-          Skills
+          SKILLS
         </p>
         <p className="py-4">
           <br />

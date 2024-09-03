@@ -18,12 +18,12 @@ const About = () => {
         <div className={textContainerStyle}>
           <p className={titleStyle}>
             <br></br>
-            <br></br>About
+            <br></br>ABOUT
           </p>
           <p className="py-2"></p>
           <p className="py-2">
-            Hello! I&apos;m Makenson, a highly motivated and detail-oriented
-            Full-Stack Software Engineer with a passion for crafting robust and
+            Hello! I&apos;m Makenson, a highly motivated and detail-oriented 
+            Software Engineer with a passion for crafting robust and
             user-friendly solutions.
             <br></br>
             <br></br>My journey in the tech world began while pursuing an
@@ -32,12 +32,12 @@ const About = () => {
             major and earned a Bachelor of Science in Computer Science.
             <br></br>
             <br></br>
-            I&apos;ve been actively involved in delivering custom websites using
-            Next.js, React, JavaScript, HTML, and CSS. I specialize in creating
-            seamless, engaging web experiences
+            I&apos;ve been actively involved in delivering custom software using
+            Python, Java, Next.js, React, JavaScript, HTML, and CSS. I specialize in creating
+            seamless, engaging software experiences.
             <br></br>
             <br></br>
-            Awards & Certifications: Awarded Best Accessibility App at
+            Awards: Awarded "Best Accessibility Hack" at
             PlutoHacks.<br></br>
             Bachelor of Science in Computer Science from Florida Atlantic
             University. <br></br>

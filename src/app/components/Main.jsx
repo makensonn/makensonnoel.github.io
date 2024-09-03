@@ -28,9 +28,9 @@ const Main = () => {
         <div>
           <p className={titleStyle}></p>
           <h1 className={headingStyle}>
-            <span>Makenson Noel</span>
+            <span>MAKENSON NOEL</span>
           </h1>
-          <p className={descriptionStyle}>Full-Stack Software Engineer</p>
+          <p className={descriptionStyle}>Software Engineer</p>
           <div className={socialIconsContainerStyle}>
             <a
               href="https://www.linkedin.com/in/makensonnoel/"
