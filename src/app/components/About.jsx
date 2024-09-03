@@ -22,7 +22,7 @@ const About = () => {
           </p>
           <p className="py-2"></p>
           <p className="py-2">
-            Hello! I&apos;m Makenson, a highly motivated and detail-oriented 
+            Hello! I&apos;m Makenson, a highly motivated and detail-oriented
             Software Engineer with a passion for crafting robust and
             user-friendly solutions.
             <br></br>
@@ -33,8 +33,8 @@ const About = () => {
             <br></br>
             <br></br>
             I&apos;ve been actively involved in delivering custom software using
-            Python, Java, Next.js, React, JavaScript, HTML, and CSS. I specialize in creating
-            seamless, engaging software experiences.
+            Python, Java, Next.js, React, JavaScript, HTML, and CSS. I
+            specialize in creating seamless, engaging software experiences.
             <br></br>
             <br></br>
             Awards: Awarded Best Accessibility Hack at PlutoHacks.<br></br>
