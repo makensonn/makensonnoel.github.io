@@ -31,7 +31,7 @@ const Projects = () => {
         <p className={titleStyle}>
           <br></br>
           <br></br>
-          Projects
+          PROJECTS
         </p>
         <p className="py-6"></p>
 
@@ -49,8 +49,7 @@ const Projects = () => {
             Title: Hand Gesture Tracker
             <br></br>
             <br></br>
-            This is a Open Source hand gesture tracker using Python, OpenCV,
-            TensorFlow.
+            This is a American Sign Language Hand Tracker.
           </p>
 
           {/* Project 2*/}
@@ -66,8 +65,7 @@ const Projects = () => {
             Title: Thousandmen.co
             <br></br>
             <br></br>
-            This is a custom designed webapp for an E-Commerce business using
-            Shopify & JavaScript.
+            This is a custom designed wesbite for Thousand Men.
           </p>
 
           {/* Project 3*/}
@@ -83,8 +81,7 @@ const Projects = () => {
             Title: Amoseb.com
             <br></br>
             <br></br>
-            This is a custom designed drop shipping webapp for an E-Commerce
-            business using Shopify & JavaScript.
+            This is a custom designed drop shipping website for Mozy.
           </p>
 
           {/* Project 4*/}
@@ -101,8 +98,7 @@ const Projects = () => {
             Title: Mbjllc.store
             <br></br>
             <br></br>
-            This is a custom designed drop shipping web app for an E-Commerce
-            business using Shopify & JavaScript.
+            This is a custom designed drop shipping website for MBJ.
           </p>
 
           {/* Project 5*/}
@@ -119,7 +115,7 @@ const Projects = () => {
             Title: Lucien Lawn Services
             <br></br>
             <br></br>
-            This is a custom landing page using Next.js.
+            This is a custom website for Lucien Lawn Service.
           </p>
 
           {/* Project 6*/}
@@ -136,8 +132,7 @@ const Projects = () => {
             Title: Insitee.github.io
             <br></br>
             <br></br>
-            This is an award-winning wesbite for a hackathon using JavaScript,
-            HTML, and CSS.
+            This is an award-winning wesbite for a hackathon.
           </p>
         </div>
 
