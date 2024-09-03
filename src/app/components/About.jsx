@@ -37,8 +37,7 @@ const About = () => {
             seamless, engaging software experiences.
             <br></br>
             <br></br>
-            Awards: Awarded "Best Accessibility Hack" at
-            PlutoHacks.<br></br>
+            Awards: Awarded Best Accessibility Hack at PlutoHacks.<br></br>
             Bachelor of Science in Computer Science from Florida Atlantic
             University. <br></br>
             Certified in Deep Learning Onramp and Machine Learning Onramp by
