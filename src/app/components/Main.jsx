@@ -28,9 +28,9 @@ const Main = () => {
         <div>
           <p className={titleStyle}></p>
           <h1 className={headingStyle}>
-            <span>MAKENSON NOEL</span>
+            <span>Makenson Noel</span>
           </h1>
-          <p className={descriptionStyle}>Software Engineer</p>
+          <p className={descriptionStyle}>Full-Stack Software Engineer</p>
           <div className={socialIconsContainerStyle}>
             <a
               href="https://www.linkedin.com/in/makensonnoel/"
@@ -42,7 +42,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href="https://github.com/makensonnoel"
+              href="https://github.com/makensonn"
               target="_blank"
               rel="noreferrer"
             >
@@ -59,7 +59,7 @@ const Main = () => {
           <div className={buttonContainerStyle}>
             <Link legacyBehavior href="/#projects">
               <a>
-                <div className={socialIconStyle}>View Experience</div>
+                <div className={socialIconStyle}>View Projects</div>
               </a>
             </Link>
           </div>
