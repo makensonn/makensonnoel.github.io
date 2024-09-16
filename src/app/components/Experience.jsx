@@ -5,13 +5,11 @@ import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 // Image Imports
 import projectOneImg from "../assets/projects/asl.gif";
-import projecttTwoImg from "../assets/projects/thousand.jpg";
-import projectThreeImg from "../assets/projects/shellhacks.png";
-import projectFourImg from "../assets/projects/robot.png";
-import projectTwoImg from "../assets/projects/insight.png";
+import projectTwoImg from "../assets/projects/thousand.jpg";
+import projectThreeImg from "../assets/projects/mozy.jpg";
+import projectFourImg from "../assets/projects/mbj.jpg";
+import projectSixImg from "../assets/projects/insight.png";
 import projectFiveImg from "../assets/projects/lulawn.png";
-import projectSixImg from "../assets/projects/pyradise.png";
-import projectSevenImg from "../assets/projects/motion.png";
 
 // Source URLs
 import ProjectItems from "./ProjectItems";
@@ -51,41 +49,39 @@ const Projects = () => {
             Title: Hand Gesture Tracker
             <br></br>
             <br></br>
-            Developed a Python script that converted ASL gestures into text using webcams. 
+            This is a American Sign Language Hand Tracker.
           </p>
 
           {/* Project 2*/}
-
           <ProjectItems
             title="Project"
             backgroundImg={projectTwoImg}
-            projectUrl="https://insitee.github.io/"
+            projectUrl="https://thousandmen.co/"
             tech=""
           />
 
           {/* Description */}
           <p>
-            Title: PlutoHacks
+            Title: Thousandmen.co
             <br></br>
             <br></br>
-            Awarded 1st Place for developing an accessibility website using HTML, JavaScript, and Bootstrap.  
+            This is a custom designed wesbite for Thousand Men.
           </p>
 
           {/* Project 3*/}
-
           <ProjectItems
             title="Project"
             backgroundImg={projectThreeImg}
-            projectUrl="https://www.youtube.com/watch?v=9ZVfR7dmDA8"
+            projectUrl="https://amoseb.com/"
             tech=""
           />
 
-          {/* Description */}
+          {/*Description */}
           <p>
-            Title: ShellHacks
+            Title: Amoseb.com
             <br></br>
             <br></br>
-            Authenticated an interactive earth sustainers website with a team of four using Auth0 and React. 
+            This is a custom designed drop shipping website for Mozy.
           </p>
 
           {/* Project 4*/}
@@ -93,50 +89,50 @@ const Projects = () => {
           <ProjectItems
             title="Project"
             backgroundImg={projectFourImg}
-            projectUrl="https://youtu.be/CdM2Otm6FBI?si=i552BxmbNthXZWsl"
+            projectUrl="https://mbjllc.store/"
             tech=""
           />
 
           {/* Description */}
           <p>
-            Title: Robot App
+            Title: Mbjllc.store
             <br></br>
             <br></br>
-            Automated Florida Power and Lights robot by building a mobile app with a team of five using Java. 
+            This is a custom designed drop shipping website for MBJ.
           </p>
 
           {/* Project 5*/}
 
           <ProjectItems
             title="Project"
-            backgroundImg={projectSevenImg}
-            projectUrl="https://www.youtube.com/watch?v=1iIxOdu2hoY&t=4s"
+            backgroundImg={projectFiveImg}
+            projectUrl="https://lulawn.vercel.app/"
             tech=""
           />
 
           {/* Description */}
           <p>
-            Title: Motion Occurence App
+            Title: Lucien Lawn Services
             <br></br>
             <br></br>
-            Built a portable surveillance system with a team of two using Python and Microcontroller.   
+            This is a custom website for Lucien Lawn Service.
           </p>
 
-          {/* Pyradise*/}
+          {/* Project 5*/}
 
           <ProjectItems
             title="Project"
             backgroundImg={projectSixImg}
-            projectUrl="https://www.youtube.com/watch?v=Xo44kXOb8-4"
+            projectUrl="https://insitee.github.io/"
             tech=""
           />
 
           {/* Description */}
           <p>
-            Title: Pyradise
+            Title: Insitee.github.io
             <br></br>
             <br></br>
-            Led a team of six in developing a website for coding tutorials using HTML, JavaScript, and Bootstrap. 
+            This is an award-winning wesbite for a hackathon.
           </p>
         </div>
 
@@ -146,7 +142,7 @@ const Projects = () => {
         <div className={buttonContainerStyle}>
           <Link
             legacyBehavior
-            href="https://github.com/makensonn?tab=repositories"
+            href="https://github.com/MakensonNoel?tab=repositories"
           >
             <a>
               <div className={socialIconStyle}>View More</div>
