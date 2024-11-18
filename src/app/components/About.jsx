@@ -39,8 +39,8 @@ const About = () => {
           </p>
           <p className="py-2"></p>
           <p className="py-2">
-            Hello! I&apos;m Makenson, a highly motivated and detail-oriented
-            Software Engineer with a passion for crafting robust and
+            Hello! I&apos;m Mak, a highly motivated and detail-oriented
+            Web Developer with a passion for crafting robust and
             user-friendly solutions.
             <br />
             <br />
