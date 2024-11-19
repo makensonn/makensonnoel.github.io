@@ -1,7 +1,8 @@
 "use client";
 import React, { useState } from "react";
-import Navbar from "./Navbar";
-import Chart from "./Chart";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import Chart from "./components/Chart";
 
 function GymWorkoutTracker() {
   const [selectedDate, setSelectedDate] = useState("");
@@ -261,6 +262,7 @@ function GymWorkoutTracker() {
         </div>
       </div>
       <Chart />
+      <Footer />
     </>
   );
 }

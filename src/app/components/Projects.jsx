@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Navbar from "./Navbar";
+import Tic from "./Tic";
 import Footer from "./Footer";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
@@ -144,6 +145,8 @@ const Projects = () => {
 
         <br></br>
         <br></br>
+        <br></br>
+        <Tic />
 
         <div className={buttonContainerStyle}>
           <Link legacyBehavior href="/more">
@@ -154,7 +157,6 @@ const Projects = () => {
         </div>
       </div>
     </div>
-    <Footer/>
     </>
   );
 };

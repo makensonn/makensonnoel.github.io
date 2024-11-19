@@ -42,8 +42,8 @@ const asl = () => {
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
-          <a href="/asl" target="_blank" rel="noreferrer">
-            <button className="px-8 py-2 mt-4">Demo</button>
+          <a href="/" target="" rel="noreferrer">
+            <button className="px-8 py-2 mt-4">Home</button>
           </a>
         </div>
 

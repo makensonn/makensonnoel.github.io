@@ -1,5 +1,7 @@
 "use client";
 import React, { useState } from "react";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const SudokuGame = () => {
   // Define initial Sudoku board state
@@ -135,6 +137,8 @@ const SudokuGame = () => {
   };
 
   return (
+    <>
+    <Navbar/>
     <div className="flex justify-center items-center min-h-screen">
       <div className="p-4">
         <h1 className="text-3xl font-bold mb-4">Sudoku Game</h1>
@@ -149,6 +153,8 @@ const SudokuGame = () => {
         </div>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 

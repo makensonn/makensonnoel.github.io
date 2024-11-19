@@ -1,5 +1,7 @@
 "use client";
 import React, { useState } from "react";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const TodoList = () => {
   const [tasks, setTasks] = useState([]);
@@ -18,6 +20,8 @@ const TodoList = () => {
   };
 
   return (
+    <>
+    <Navbar/>
     <div className="flex items-center justify-center h-screen">
       <div className="max-w-md p-4">
         <h1 className="text-2xl font-bold mb-4">To-Do List</h1>
@@ -48,6 +52,8 @@ const TodoList = () => {
         </ul>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 
