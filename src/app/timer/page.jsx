@@ -3,6 +3,8 @@
 const centerText = "text-center";
 const textStyle = "text-4xl font-bold mb-2";
 const timeStyle = "text-2xl font-medium";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 import React, { useState, useEffect } from "react";
 import {
@@ -43,10 +45,14 @@ const Countdown = () => {
   }, []);
 
   return (
+    <>
+    <Navbar/>
     <div className={centerText}>
       <h2 className={textStyle}>Get Your Coding Skills Up 😎</h2>
       <div className={timeStyle}>{timeLeft}</div>
     </div>
+    <Footer/>
+    </>
   );
 };
 

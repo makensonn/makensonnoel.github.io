@@ -115,7 +115,7 @@ const Projects = () => {
         <div className={buttonContainerStyle}>
           <Link
             legacyBehavior
-            href="https://www.makenson.com/"
+            href="/"
           >
             <a>
               <div className={socialIconStyle}>Home</div>

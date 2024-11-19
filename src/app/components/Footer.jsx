@@ -15,7 +15,7 @@ const Footer = () => {
         rel="noopener noreferrer"
         className="hover:underline"
       >
-        Makenson Noel
+        Mak Noel
       </a>
     </footer>
   );
