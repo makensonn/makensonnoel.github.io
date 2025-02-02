@@ -141,7 +141,7 @@ const Projects = () => {
             This is an award-winning wesbite for PlutoHacks 2022 using JavaScript, HTML, and
             Bootstrap.
           </p>
-        </div> */}
+        </div>
 
         <br></br>
         <br></br>
@@ -156,7 +156,6 @@ const Projects = () => {
           </Link>
         </div>
       </div>
-    </div>
     </>
   );
 };

@@ -42,9 +42,9 @@ const Projects = () => {
 
 
         <div className={gridStyle}>
-     
+          {/* Project 1*/}
+          
         </div>
-
         <br></br>
         <br></br>
         <br></br>
